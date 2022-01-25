@@ -1,0 +1,408 @@
+2021-12-17 00:00:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:00:00 12/17/2021
+2021-12-17 00:00:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00029--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:00:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00029--耗时 : 27
+2021-12-17 00:00:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:00:00 12/17/2021 and reports: null
+2021-12-17 00:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:00:01 12/17/2021
+2021-12-17 00:00:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:00:01 12/17/2021 and reports: null
+2021-12-17 00:01:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:01:01 12/17/2021
+2021-12-17 00:01:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:01:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:01:01 12/17/2021 and reports: null
+2021-12-17 00:02:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:02:01 12/17/2021
+2021-12-17 00:02:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:02:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:02:01 12/17/2021 and reports: null
+2021-12-17 00:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:03:01 12/17/2021
+2021-12-17 00:03:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:03:01 12/17/2021 and reports: null
+2021-12-17 00:04:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:04:01 12/17/2021
+2021-12-17 00:04:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:04:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:04:01 12/17/2021 and reports: null
+2021-12-17 00:05:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:05:00 12/17/2021
+2021-12-17 00:05:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:05:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 22
+2021-12-17 00:05:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:05:00 12/17/2021 and reports: null
+2021-12-17 00:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:05:01 12/17/2021
+2021-12-17 00:05:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:05:01 12/17/2021 and reports: null
+2021-12-17 00:06:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:06:01 12/17/2021
+2021-12-17 00:06:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:06:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:06:01 12/17/2021 and reports: null
+2021-12-17 00:07:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:07:01 12/17/2021
+2021-12-17 00:07:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:07:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:07:01 12/17/2021 and reports: null
+2021-12-17 00:08:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:08:01 12/17/2021
+2021-12-17 00:08:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:08:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:08:01 12/17/2021 and reports: null
+2021-12-17 00:09:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:09:01 12/17/2021
+2021-12-17 00:09:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:09:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:09:01 12/17/2021 and reports: null
+2021-12-17 00:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:10:00 12/17/2021
+2021-12-17 00:10:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:10:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 21
+2021-12-17 00:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:10:00 12/17/2021 and reports: null
+2021-12-17 00:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:10:01 12/17/2021
+2021-12-17 00:10:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:10:01 12/17/2021 and reports: null
+2021-12-17 00:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:11:01 12/17/2021
+2021-12-17 00:11:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:11:01 12/17/2021 and reports: null
+2021-12-17 00:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:12:01 12/17/2021
+2021-12-17 00:12:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:12:01 12/17/2021 and reports: null
+2021-12-17 00:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:13:01 12/17/2021
+2021-12-17 00:13:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:13:01 12/17/2021 and reports: null
+2021-12-17 00:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:14:01 12/17/2021
+2021-12-17 00:14:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:14:01 12/17/2021 and reports: null
+2021-12-17 00:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:15:00 12/17/2021
+2021-12-17 00:15:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:15:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--耗时 : 21
+2021-12-17 00:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:15:00 12/17/2021 and reports: null
+2021-12-17 00:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:15:01 12/17/2021
+2021-12-17 00:15:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:15:01 12/17/2021 and reports: null
+2021-12-17 00:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:16:01 12/17/2021
+2021-12-17 00:16:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:16:01 12/17/2021 and reports: null
+2021-12-17 00:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:17:01 12/17/2021
+2021-12-17 00:17:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:17:01 12/17/2021 and reports: null
+2021-12-17 00:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:18:01 12/17/2021
+2021-12-17 00:18:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:18:01 12/17/2021 and reports: null
+2021-12-17 00:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:19:01 12/17/2021
+2021-12-17 00:19:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:19:01 12/17/2021 and reports: null
+2021-12-17 00:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:20:00 12/17/2021
+2021-12-17 00:20:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:20:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--耗时 : 21
+2021-12-17 00:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:20:00 12/17/2021 and reports: null
+2021-12-17 00:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:20:01 12/17/2021
+2021-12-17 00:20:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:20:01 12/17/2021 and reports: null
+2021-12-17 00:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:21:01 12/17/2021
+2021-12-17 00:21:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:21:01 12/17/2021 and reports: null
+2021-12-17 00:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:22:01 12/17/2021
+2021-12-17 00:22:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:22:01 12/17/2021 and reports: null
+2021-12-17 00:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:23:01 12/17/2021
+2021-12-17 00:23:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:23:01 12/17/2021 and reports: null
+2021-12-17 00:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:24:01 12/17/2021
+2021-12-17 00:24:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:24:01 12/17/2021 and reports: null
+2021-12-17 00:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:25:00 12/17/2021
+2021-12-17 00:25:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00023--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:25:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00023--耗时 : 20
+2021-12-17 00:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:25:00 12/17/2021 and reports: null
+2021-12-17 00:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:25:01 12/17/2021
+2021-12-17 00:25:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:25:01 12/17/2021 and reports: null
+2021-12-17 00:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:26:01 12/17/2021
+2021-12-17 00:26:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:26:01 12/17/2021 and reports: null
+2021-12-17 00:27:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:27:01 12/17/2021
+2021-12-17 00:27:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:27:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:27:01 12/17/2021 and reports: null
+2021-12-17 00:28:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:28:01 12/17/2021
+2021-12-17 00:28:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:28:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:28:01 12/17/2021 and reports: null
+2021-12-17 00:29:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:29:01 12/17/2021
+2021-12-17 00:29:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:29:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:29:01 12/17/2021 and reports: null
+2021-12-17 00:30:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:30:00 12/17/2021
+2021-12-17 00:30:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:30:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 22
+2021-12-17 00:30:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:30:00 12/17/2021 and reports: null
+2021-12-17 00:30:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:30:01 12/17/2021
+2021-12-17 00:30:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:30:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:30:01 12/17/2021 and reports: null
+2021-12-17 00:31:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:31:01 12/17/2021
+2021-12-17 00:31:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:31:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:31:01 12/17/2021 and reports: null
+2021-12-17 00:32:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:32:01 12/17/2021
+2021-12-17 00:32:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:32:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:32:01 12/17/2021 and reports: null
+2021-12-17 00:33:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:33:01 12/17/2021
+2021-12-17 00:33:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:33:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:33:01 12/17/2021 and reports: null
+2021-12-17 00:34:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:34:01 12/17/2021
+2021-12-17 00:34:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:34:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:34:01 12/17/2021 and reports: null
+2021-12-17 00:35:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:35:00 12/17/2021
+2021-12-17 00:35:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00023--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:35:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00023--耗时 : 21
+2021-12-17 00:35:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:35:00 12/17/2021 and reports: null
+2021-12-17 00:35:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:35:01 12/17/2021
+2021-12-17 00:35:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:35:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:35:01 12/17/2021 and reports: null
+2021-12-17 00:36:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:36:01 12/17/2021
+2021-12-17 00:36:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:36:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:36:01 12/17/2021 and reports: null
+2021-12-17 00:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:37:01 12/17/2021
+2021-12-17 00:37:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:37:01 12/17/2021 and reports: null
+2021-12-17 00:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:38:01 12/17/2021
+2021-12-17 00:38:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:38:01 12/17/2021 and reports: null
+2021-12-17 00:39:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:39:01 12/17/2021
+2021-12-17 00:39:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:39:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:39:01 12/17/2021 and reports: null
+2021-12-17 00:40:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:40:00 12/17/2021
+2021-12-17 00:40:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:40:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--耗时 : 24
+2021-12-17 00:40:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:40:00 12/17/2021 and reports: null
+2021-12-17 00:40:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:40:01 12/17/2021
+2021-12-17 00:40:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:40:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:40:01 12/17/2021 and reports: null
+2021-12-17 00:41:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:41:01 12/17/2021
+2021-12-17 00:41:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:41:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:41:01 12/17/2021 and reports: null
+2021-12-17 00:42:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:42:01 12/17/2021
+2021-12-17 00:42:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:42:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:42:01 12/17/2021 and reports: null
+2021-12-17 00:43:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:43:01 12/17/2021
+2021-12-17 00:43:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:43:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:43:01 12/17/2021 and reports: null
+2021-12-17 00:44:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:44:01 12/17/2021
+2021-12-17 00:44:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:44:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:44:01 12/17/2021 and reports: null
+2021-12-17 00:45:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:45:00 12/17/2021
+2021-12-17 00:45:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:45:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--耗时 : 22
+2021-12-17 00:45:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:45:00 12/17/2021 and reports: null
+2021-12-17 00:45:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:45:01 12/17/2021
+2021-12-17 00:45:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:45:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:45:01 12/17/2021 and reports: null
+2021-12-17 00:46:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:46:01 12/17/2021
+2021-12-17 00:46:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:46:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:46:01 12/17/2021 and reports: null
+2021-12-17 00:47:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:47:01 12/17/2021
+2021-12-17 00:47:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:47:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:47:01 12/17/2021 and reports: null
+2021-12-17 00:48:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:48:01 12/17/2021
+2021-12-17 00:48:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:48:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:48:01 12/17/2021 and reports: null
+2021-12-17 00:49:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:49:01 12/17/2021
+2021-12-17 00:49:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:49:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:49:01 12/17/2021 and reports: null
+2021-12-17 00:50:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:50:00 12/17/2021
+2021-12-17 00:50:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:50:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--耗时 : 24
+2021-12-17 00:50:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:50:00 12/17/2021 and reports: null
+2021-12-17 00:50:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:50:01 12/17/2021
+2021-12-17 00:50:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:50:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:50:01 12/17/2021 and reports: null
+2021-12-17 00:51:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:51:01 12/17/2021
+2021-12-17 00:51:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:51:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:51:01 12/17/2021 and reports: null
+2021-12-17 00:52:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:52:01 12/17/2021
+2021-12-17 00:52:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:52:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:52:01 12/17/2021 and reports: null
+2021-12-17 00:53:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:53:01 12/17/2021
+2021-12-17 00:53:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:53:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:53:01 12/17/2021 and reports: null
+2021-12-17 00:54:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:54:01 12/17/2021
+2021-12-17 00:54:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:54:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:54:01 12/17/2021 and reports: null
+2021-12-17 00:55:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  00:55:00 12/17/2021
+2021-12-17 00:55:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 00:55:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--耗时 : 22
+2021-12-17 00:55:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  00:55:00 12/17/2021 and reports: null
+2021-12-17 00:55:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:55:01 12/17/2021
+2021-12-17 00:55:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:55:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:55:01 12/17/2021 and reports: null
+2021-12-17 00:56:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:56:01 12/17/2021
+2021-12-17 00:56:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:56:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:56:01 12/17/2021 and reports: null
+2021-12-17 00:57:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:57:01 12/17/2021
+2021-12-17 00:57:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:57:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:57:01 12/17/2021 and reports: null
+2021-12-17 00:58:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:58:01 12/17/2021
+2021-12-17 00:58:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:58:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:58:01 12/17/2021 and reports: null
+2021-12-17 00:59:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  00:59:01 12/17/2021
+2021-12-17 00:59:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 00:59:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  00:59:01 12/17/2021 and reports: null
+2021-12-17 01:00:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:00:00 12/17/2021
+2021-12-17 01:00:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:00:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--耗时 : 18
+2021-12-17 01:00:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:00:00 12/17/2021 and reports: null
+2021-12-17 01:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:00:01 12/17/2021
+2021-12-17 01:00:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:00:01 12/17/2021 and reports: null
+2021-12-17 01:01:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:01:01 12/17/2021
+2021-12-17 01:01:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:01:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:01:01 12/17/2021 and reports: null
+2021-12-17 01:02:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:02:01 12/17/2021
+2021-12-17 01:02:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:02:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:02:01 12/17/2021 and reports: null
+2021-12-17 01:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:03:01 12/17/2021
+2021-12-17 01:03:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:03:01 12/17/2021 and reports: null
+2021-12-17 01:04:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:04:01 12/17/2021
+2021-12-17 01:04:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:04:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:04:01 12/17/2021 and reports: null
+2021-12-17 01:05:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:05:00 12/17/2021
+2021-12-17 01:05:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:05:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--耗时 : 21
+2021-12-17 01:05:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:05:00 12/17/2021 and reports: null
+2021-12-17 01:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:05:01 12/17/2021
+2021-12-17 01:05:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:05:01 12/17/2021 and reports: null
+2021-12-17 01:06:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:06:01 12/17/2021
+2021-12-17 01:06:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:06:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:06:01 12/17/2021 and reports: null
+2021-12-17 01:07:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:07:01 12/17/2021
+2021-12-17 01:07:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:07:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:07:01 12/17/2021 and reports: null
+2021-12-17 01:08:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:08:01 12/17/2021
+2021-12-17 01:08:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:08:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:08:01 12/17/2021 and reports: null
+2021-12-17 01:09:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:09:01 12/17/2021
+2021-12-17 01:09:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:09:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:09:01 12/17/2021 and reports: null
+2021-12-17 01:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:10:00 12/17/2021
+2021-12-17 01:10:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:10:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--耗时 : 25
+2021-12-17 01:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:10:00 12/17/2021 and reports: null
+2021-12-17 01:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:10:01 12/17/2021
+2021-12-17 01:10:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:10:01 12/17/2021 and reports: null
+2021-12-17 01:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:11:01 12/17/2021
+2021-12-17 01:11:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:11:01 12/17/2021 and reports: null
+2021-12-17 01:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:12:01 12/17/2021
+2021-12-17 01:12:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:12:01 12/17/2021 and reports: null
+2021-12-17 01:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:13:01 12/17/2021
+2021-12-17 01:13:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:13:01 12/17/2021 and reports: null
+2021-12-17 01:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:14:01 12/17/2021
+2021-12-17 01:14:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:14:01 12/17/2021 and reports: null
+2021-12-17 01:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:15:00 12/17/2021
+2021-12-17 01:15:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:15:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 20
+2021-12-17 01:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:15:00 12/17/2021 and reports: null
+2021-12-17 01:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:15:01 12/17/2021
+2021-12-17 01:15:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:15:01 12/17/2021 and reports: null
+2021-12-17 01:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:16:01 12/17/2021
+2021-12-17 01:16:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:16:01 12/17/2021 and reports: null
+2021-12-17 01:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:17:01 12/17/2021
+2021-12-17 01:17:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:17:01 12/17/2021 and reports: null
+2021-12-17 01:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:18:01 12/17/2021
+2021-12-17 01:18:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:18:01 12/17/2021 and reports: null
+2021-12-17 01:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:19:01 12/17/2021
+2021-12-17 01:19:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:19:01 12/17/2021 and reports: null
+2021-12-17 01:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:20:00 12/17/2021
+2021-12-17 01:20:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:20:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--耗时 : 21
+2021-12-17 01:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:20:00 12/17/2021 and reports: null
+2021-12-17 01:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:20:01 12/17/2021
+2021-12-17 01:20:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:20:01 12/17/2021 and reports: null
+2021-12-17 01:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:21:01 12/17/2021
+2021-12-17 01:21:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:21:01 12/17/2021 and reports: null
+2021-12-17 01:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:22:01 12/17/2021
+2021-12-17 01:22:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:22:01 12/17/2021 and reports: null
+2021-12-17 01:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:23:01 12/17/2021
+2021-12-17 01:23:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:23:01 12/17/2021 and reports: null
+2021-12-17 01:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:24:01 12/17/2021
+2021-12-17 01:24:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:24:01 12/17/2021 and reports: null
+2021-12-17 01:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:25:00 12/17/2021
+2021-12-17 01:25:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:25:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 23
+2021-12-17 01:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:25:00 12/17/2021 and reports: null
+2021-12-17 01:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:25:01 12/17/2021
+2021-12-17 01:25:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:25:01 12/17/2021 and reports: null
+2021-12-17 01:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:26:01 12/17/2021
+2021-12-17 01:26:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:26:01 12/17/2021 and reports: null
+2021-12-17 01:27:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:27:01 12/17/2021
+2021-12-17 01:27:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:27:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:27:01 12/17/2021 and reports: null
+2021-12-17 01:28:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:28:01 12/17/2021
+2021-12-17 01:28:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:28:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:28:01 12/17/2021 and reports: null
+2021-12-17 01:29:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:29:01 12/17/2021
+2021-12-17 01:29:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:29:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:29:01 12/17/2021 and reports: null
+2021-12-17 01:30:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:30:00 12/17/2021
+2021-12-17 01:30:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:30:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00024--耗时 : 21
+2021-12-17 01:30:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:30:00 12/17/2021 and reports: null
+2021-12-17 01:30:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:30:01 12/17/2021
+2021-12-17 01:30:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:30:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:30:01 12/17/2021 and reports: null
+2021-12-17 01:31:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:31:01 12/17/2021
+2021-12-17 01:31:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:31:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:31:01 12/17/2021 and reports: null
+2021-12-17 01:32:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:32:01 12/17/2021
+2021-12-17 01:32:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:32:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:32:01 12/17/2021 and reports: null
+2021-12-17 01:33:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:33:01 12/17/2021
+2021-12-17 01:33:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:33:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:33:01 12/17/2021 and reports: null
+2021-12-17 01:34:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:34:01 12/17/2021
+2021-12-17 01:34:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:34:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:34:01 12/17/2021 and reports: null
+2021-12-17 01:35:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:35:00 12/17/2021
+2021-12-17 01:35:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:35:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00026--耗时 : 21
+2021-12-17 01:35:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:35:00 12/17/2021 and reports: null
+2021-12-17 01:35:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:35:01 12/17/2021
+2021-12-17 01:35:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:35:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:35:01 12/17/2021 and reports: null
+2021-12-17 01:36:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:36:01 12/17/2021
+2021-12-17 01:36:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:36:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:36:01 12/17/2021 and reports: null
+2021-12-17 01:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:37:01 12/17/2021
+2021-12-17 01:37:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:37:01 12/17/2021 and reports: null
+2021-12-17 01:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:38:01 12/17/2021
+2021-12-17 01:38:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:38:01 12/17/2021 and reports: null
+2021-12-17 01:39:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:39:01 12/17/2021
+2021-12-17 01:39:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:39:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:39:01 12/17/2021 and reports: null
+2021-12-17 01:40:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  01:40:00 12/17/2021
+2021-12-17 01:40:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-17 01:40:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00025--耗时 : 18
+2021-12-17 01:40:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  01:40:00 12/17/2021 and reports: null
+2021-12-17 01:40:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  01:40:01 12/17/2021
+2021-12-17 01:40:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 01:40:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  01:40:01 12/17/2021 and reports: null
+2021-12-17 01:40:02 [ERROR] com.csicit.ace.zuul.config.ZuulClientConfig : 授权异常，请检查License服务器或授权信息！
+2021-12-17 01:40:02 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639669188131 paused.
+2021-12-17 01:40:02 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Stopping filter initializer
+2021-12-17 01:40:02 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-17 01:40:02 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+2021-12-17 01:40:02 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639669188131 shutting down.
+2021-12-17 01:40:02 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639669188131 paused.
+2021-12-17 01:40:02 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639669188131 shutdown complete.
+2021-12-17 01:40:02 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : channel inactive: [id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : channel inactive: [id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : return to pool, rm channel:[id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : return to pool, rm channel:[id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : channel valid false,channel:[id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : channel valid false,channel:[id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : will destroy channel:[id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : will destroy channel:[id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]) will closed
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]) will closed
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfed1cd4d, L:/127.0.0.1:63190 ! R:/127.0.0.1:8091]) will closed
+2021-12-17 01:40:02 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x3b8a06dd, L:/127.0.0.1:63191 ! R:/127.0.0.1:8091]) will closed

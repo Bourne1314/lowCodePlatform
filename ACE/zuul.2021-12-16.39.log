@@ -1,0 +1,1424 @@
+2021-12-16 14:44:04 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-16 14:44:06 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-12-16 14:44:06 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=952da1a9-509e-3e85-a672-e802a0d563cf
+2021-12-16 14:44:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.alibaba.seata-com.alibaba.cloud.seata.SeataProperties' of type [com.alibaba.cloud.seata.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration' of type [com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration$$EnhancerBySpringCGLIB$$da589cd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:06 [INFO] io.seata.config.FileConfiguration : The file name of the operation is registry
+2021-12-16 14:44:06 [INFO] io.seata.config.FileConfiguration : The configuration file used is /E:/%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83for%e5%b7%a5%e4%bd%9c%e6%b5%81/ace-server/ace-zuul/target/classes/registry.conf
+2021-12-16 14:44:06 [INFO] io.seata.config.FileConfiguration : The file name of the operation is file.conf
+2021-12-16 14:44:06 [INFO] io.seata.config.FileConfiguration : The configuration file used is file.conf
+2021-12-16 14:44:06 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Initializing Global Transaction Clients ... 
+2021-12-16 14:44:06 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-16 14:44:06 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Transaction Manager Client is initialized. applicationId[ace-zuul] txServiceGroup[JARIACEPLAT]
+2021-12-16 14:44:06 [INFO] io.seata.rm.datasource.AsyncWorker : Async Commit Buffer Limit: 10000
+2021-12-16 14:44:06 [INFO] io.seata.rm.datasource.xa.ResourceManagerXA : ResourceManagerXA init ...
+2021-12-16 14:44:06 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-16 14:44:06 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Resource Manager is initialized. applicationId[ace-zuul] txServiceGroup[JARIACEPLAT]
+2021-12-16 14:44:06 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Global Transaction Clients are initialized. 
+2021-12-16 14:44:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d2c935e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$d97fc8a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.springframework.beans.factory.support.NullBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6946965b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-16 14:44:07 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-12-16 14:44:07 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-12-16 14:44:07 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-12-16 14:44:07 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-16 14:44:07 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-12-16 14:44:07 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3273 ms
+2021-12-16 14:44:07 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-16 14:44:07 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-16 14:44:07 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4d75c604
+2021-12-16 14:44:08 [WARN] net.sf.ehcache.config.ConfigurationFactory : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/MavenRepository/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2021-12-16 14:44:08 [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-12-16 14:44:08 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2021-12-16 14:44:08 [INFO] io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator : Auto proxy of [dataSource]
+2021-12-16 14:44:08 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : will connect to 127.0.0.1:8091
+2021-12-16 14:44:08 [INFO] io.seata.core.rpc.netty.RmNettyRemotingClient : RM will register :jdbc:dm://192.168.19.9:5236:JARIACEPLAT
+2021-12-16 14:44:08 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:dm://192.168.19.9:5236:JARIACEPLAT', applicationId='ace-zuul', transactionServiceGroup='JARIACEPLAT'} >
+2021-12-16 14:44:11 [ERROR] io.seata.core.rpc.netty.NettyClientChannelManager : 0304 register RM failed.
+io.seata.common.exception.FrameworkException: can not connect to services-server.
+	at io.seata.core.rpc.netty.NettyClientBootstrap.getNewChannel(NettyClientBootstrap.java:182)
+	at io.seata.core.rpc.netty.NettyPoolableFactory.makeObject(NettyPoolableFactory.java:58)
+	at io.seata.core.rpc.netty.NettyPoolableFactory.makeObject(NettyPoolableFactory.java:34)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at io.seata.core.rpc.netty.NettyClientChannelManager.doConnect(NettyClientChannelManager.java:221)
+	at io.seata.core.rpc.netty.NettyClientChannelManager.acquireChannel(NettyClientChannelManager.java:107)
+	at io.seata.core.rpc.netty.NettyClientChannelManager.reconnect(NettyClientChannelManager.java:189)
+	at io.seata.core.rpc.netty.RmNettyRemotingClient.registerResource(RmNettyRemotingClient.java:194)
+	at io.seata.rm.AbstractResourceManager.registerResource(AbstractResourceManager.java:121)
+	at io.seata.rm.datasource.DataSourceManager.registerResource(DataSourceManager.java:90)
+	at io.seata.rm.DefaultResourceManager.registerResource(DefaultResourceManager.java:114)
+	at io.seata.rm.datasource.DataSourceProxy.init(DataSourceProxy.java:110)
+	at io.seata.rm.datasource.DataSourceProxy.<init>(DataSourceProxy.java:96)
+	at io.seata.rm.datasource.DataSourceProxy.<init>(DataSourceProxy.java:81)
+	at io.seata.spring.annotation.datasource.DataSourceProxyHolder.createDsProxyByMode(DataSourceProxyHolder.java:97)
+	at io.seata.spring.annotation.datasource.DataSourceProxyHolder.putDataSource(DataSourceProxyHolder.java:88)
+	at io.seata.spring.annotation.datasource.SeataDataSourceBeanPostProcessor.postProcessAfterInitialization(SeataDataSourceBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:594)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorRegistryBeans.get(HealthIndicatorRegistryBeans.java:42)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration.healthIndicatorRegistry(HealthIndicatorAutoConfiguration.java:77)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e.CGLIB$healthIndicatorRegistry$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e$$FastClassBySpringCGLIB$$a78340dc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e.healthIndicatorRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:141)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:131)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:120)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:114)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:72)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39.CGLIB$servletEndpointRegistrar$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39$$FastClassBySpringCGLIB$$f0e863cd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39.servletEndpointRegistrar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:252)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1372)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:907)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1372)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:907)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:933)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:398)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.csicit.ace.zuul.ZuulStartApp.main(ZuulStartApp.java:28)
+Caused by: io.seata.common.exception.FrameworkException: connect failed, can not connect to services-server.
+	at io.seata.core.rpc.netty.NettyClientBootstrap.getNewChannel(NettyClientBootstrap.java:177)
+	... 159 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8091
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 12 common frames omitted
+2021-12-16 14:44:11 [INFO] io.seata.core.rpc.netty.AbstractNettyRemotingClient : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x76d7061f]) will closed
+2021-12-16 14:44:11 [ERROR] io.seata.core.rpc.netty.NettyClientChannelManager : 0101 can not connect to 127.0.0.1:8091 cause:can not register RM,err:can not connect to services-server.
+io.seata.common.exception.FrameworkException: can not register RM,err:can not connect to services-server.
+	at io.seata.core.rpc.netty.NettyClientChannelManager.doConnect(NettyClientChannelManager.java:225)
+	at io.seata.core.rpc.netty.NettyClientChannelManager.acquireChannel(NettyClientChannelManager.java:107)
+	at io.seata.core.rpc.netty.NettyClientChannelManager.reconnect(NettyClientChannelManager.java:189)
+	at io.seata.core.rpc.netty.RmNettyRemotingClient.registerResource(RmNettyRemotingClient.java:194)
+	at io.seata.rm.AbstractResourceManager.registerResource(AbstractResourceManager.java:121)
+	at io.seata.rm.datasource.DataSourceManager.registerResource(DataSourceManager.java:90)
+	at io.seata.rm.DefaultResourceManager.registerResource(DefaultResourceManager.java:114)
+	at io.seata.rm.datasource.DataSourceProxy.init(DataSourceProxy.java:110)
+	at io.seata.rm.datasource.DataSourceProxy.<init>(DataSourceProxy.java:96)
+	at io.seata.rm.datasource.DataSourceProxy.<init>(DataSourceProxy.java:81)
+	at io.seata.spring.annotation.datasource.DataSourceProxyHolder.createDsProxyByMode(DataSourceProxyHolder.java:97)
+	at io.seata.spring.annotation.datasource.DataSourceProxyHolder.putDataSource(DataSourceProxyHolder.java:88)
+	at io.seata.spring.annotation.datasource.SeataDataSourceBeanPostProcessor.postProcessAfterInitialization(SeataDataSourceBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:594)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorRegistryBeans.get(HealthIndicatorRegistryBeans.java:42)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration.healthIndicatorRegistry(HealthIndicatorAutoConfiguration.java:77)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e.CGLIB$healthIndicatorRegistry$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e$$FastClassBySpringCGLIB$$a78340dc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$56aeaf1e.healthIndicatorRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:141)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:131)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:120)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:114)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:72)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39.CGLIB$servletEndpointRegistrar$0(<generated>)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39$$FastClassBySpringCGLIB$$f0e863cd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration$$EnhancerBySpringCGLIB$$360eb39.servletEndpointRegistrar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:252)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1372)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:907)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1372)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:907)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:933)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:398)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.csicit.ace.zuul.ZuulStartApp.main(ZuulStartApp.java:28)
+2021-12-16 14:44:19 [INFO] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-12-16 14:44:19 [INFO] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-16 14:44:19 [INFO] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.1 created.
+2021-12-16 14:44:19 [INFO] com.csicit.ace.quartz.core.plugins.AceJobConfigLoaderPlugin : Registering Quartz Job Initialization Plug-in.
+2021-12-16 14:44:19 [INFO] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'JariScheduler' with instanceId 'DESKTOP-A03RJ151639637059185'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-12-16 14:44:19 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'JariScheduler' initialized from an externally provided properties instance.
+2021-12-16 14:44:19 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.1
+2021-12-16 14:44:19 [INFO] org.quartz.core.QuartzScheduler : JobFactory set to: com.csicit.ace.quartz.core.factory.MyJobFactory@6cb759d5
+2021-12-16 14:44:19 [WARN] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper : Warn: Could not find @TableId in Class: com.csicit.ace.common.pojo.vo.GrantAuthReciveVO.
+2021-12-16 14:44:20 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+2021-12-16 14:44:20 [INFO] liquibase.integration.spring.SpringLiquibase : Liquibase did not run because 'shouldRun' property was set to false on liquibase Liquibase Spring bean.
+2021-12-16 14:44:20 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-16 14:44:20 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-16 14:44:20 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-16 14:44:21 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2021-12-16 14:44:21 [WARN] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-12-16 14:44:21 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Starting filter initializer
+2021-12-16 14:44:21 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 测试任务组.711HM
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 16 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 2 jobs, 0 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: urgeTask.催办提醒
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 催办提醒任务组.催办提醒
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-16 14:44:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 业务平台内部定时任务.大屏消息推送
+2021-12-16 14:44:22 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639637059185 started.
+2021-12-16 14:44:22 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 2100 (http) with context path ''
+2021-12-16 14:44:22 [INFO] com.csicit.ace.zuul.ZuulStartApp : Started ZuulStartApp in 20.397 seconds (JVM running for 21.145)
+2021-12-16 14:44:23 [INFO] org.reflections.Reflections : Reflections took 40 ms to scan 1 urls, producing 20 keys and 30 values 
+2021-12-16 14:44:23 [INFO] com.corundumstudio.socketio.SocketIOServer : Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2021-12-16 14:44:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_消息服务已启动!
+2021-12-16 14:44:24 [INFO] com.corundumstudio.socketio.SocketIOServer : SocketIO server started at port: 5070
+2021-12-16 14:44:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:dv-testapp-platform
+2021-12-16 14:44:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:ei-service
+2021-12-16 14:44:24 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 14:44:24 [INFO] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-12-16 14:44:24 [INFO] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 19 ms
+2021-12-16 14:45:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  14:45:00 12/16/2021
+2021-12-16 14:45:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00180--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-16 14:45:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00180--耗时 : 41
+2021-12-16 14:45:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  14:45:00 12/16/2021 and reports: null
+2021-12-16 14:45:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:45:01 12/16/2021
+2021-12-16 14:45:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:45:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:45:01 12/16/2021 and reports: null
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : will connect to 127.0.0.1:8091
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='ace-zuul', transactionServiceGroup='JARIACEPLAT'} >
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : will connect to 127.0.0.1:8091
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.RmNettyRemotingClient : RM will register :jdbc:dm://192.168.19.9:5236:JARIACEPLAT
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='jdbc:dm://192.168.19.9:5236:JARIACEPLAT', applicationId='ace-zuul', transactionServiceGroup='JARIACEPLAT'} >
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.TmNettyRemotingClient : register TM success. client version:1.5.0-SNAPSHOT, server version:1.4.2,channel:[id: 0x65dc031e, L:/127.0.0.1:64731 - R:/127.0.0.1:8091]
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : register success, cost 84 ms, version:1.4.2,role:TMROLE,channel:[id: 0x65dc031e, L:/127.0.0.1:64731 - R:/127.0.0.1:8091]
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.RmNettyRemotingClient : register RM success. client version:1.5.0-SNAPSHOT, server version:1.4.2,channel:[id: 0x98cf5b2e, L:/127.0.0.1:64732 - R:/127.0.0.1:8091]
+2021-12-16 14:45:06 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : register success, cost 67 ms, version:1.4.2,role:RMROLE,channel:[id: 0x98cf5b2e, L:/127.0.0.1:64732 - R:/127.0.0.1:8091]
+2021-12-16 14:46:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:46:01 12/16/2021
+2021-12-16 14:46:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:46:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:46:01 12/16/2021 and reports: null
+2021-12-16 14:47:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:47:01 12/16/2021
+2021-12-16 14:47:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:47:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:47:01 12/16/2021 and reports: null
+2021-12-16 14:47:46 [INFO] io.seata.core.rpc.processor.client.RmUndoLogProcessor : rm handle undo log process:UndoLogDeleteRequest{resourceId='jdbc:dm://192.168.19.9:5236:JARIACEPLAT', saveDays=7, branchType=AT}
+2021-12-16 14:47:46 [ERROR] io.seata.rm.RMHandlerAT : Failed to delete expired undo_log, error:not found service provider for : io.seata.rm.datasource.undo.UndoLogManager
+io.seata.common.loader.EnhancedServiceNotFoundException: not found service provider for : io.seata.rm.datasource.undo.UndoLogManager
+2021-12-16 14:48:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:48:01 12/16/2021
+2021-12-16 14:48:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:48:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:48:01 12/16/2021 and reports: null
+2021-12-16 14:49:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:49:01 12/16/2021
+2021-12-16 14:49:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:49:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:49:01 12/16/2021 and reports: null
+2021-12-16 14:50:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  14:50:00 12/16/2021
+2021-12-16 14:50:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--请求地址: http://127.0.0.1:2100/bladeVisualMsgs/bladeVisual/msg/push ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.BladeVisualMsgController.bladeVisualMsgPush ,请求参数: {}
+2021-12-16 14:50:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  00027--耗时 : 29
+2021-12-16 14:50:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  14:50:00 12/16/2021 and reports: null
+2021-12-16 14:50:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:50:01 12/16/2021
+2021-12-16 14:50:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:50:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:50:01 12/16/2021 and reports: null
+2021-12-16 14:51:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:51:01 12/16/2021
+2021-12-16 14:51:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:51:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:51:01 12/16/2021 and reports: null
+2021-12-16 14:52:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:52:01 12/16/2021
+2021-12-16 14:52:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:52:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:52:01 12/16/2021 and reports: null
+2021-12-16 14:55:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  14:55:01 12/16/2021
+2021-12-16 14:55:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 14:55:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  14:55:01 12/16/2021 and reports: null
+2021-12-16 15:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  15:00:01 12/16/2021
+2021-12-16 15:00:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 15:00:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  15:00:01 12/16/2021 and reports: null
+2021-12-16 15:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  15:03:01 12/16/2021
+2021-12-16 15:03:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 15:03:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  15:03:01 12/16/2021 and reports: null
+2021-12-16 15:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  15:05:01 12/16/2021
+2021-12-16 15:05:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 15:05:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  15:05:01 12/16/2021 and reports: null
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23721--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm4_key"]}
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23721--耗时 : 2
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23738--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_key_pair"]}
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23738--耗时 : 0
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23742--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_private_key"]}
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23742--耗时 : 0
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23744--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_public_key"]}
+2021-12-16 15:08:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  23744--耗时 : 0
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24065--请求地址: http://127.0.0.1:2100/orgauth/initHandler ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.InitScanDataHandlerController.saveInitScanData ,请求参数: {}
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24065--耗时 : 51
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24125--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji_2fvCsuSdOBVda6SOi_77dWyWHL5MoyLXpnxIlSZzUCN11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24125--耗时 : 0
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24138--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600000"],"key":["2ucy_1-1CIKoDcOa_Ioji_2fvCsuSdOBVda6SOi_77dWyWHL5MoyLXpnxIlSZzUCN11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-12-16 15:08:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  24138--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42039--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm4_key"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42039--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42049--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_key_pair"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42049--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42053--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_private_key"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42053--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42057--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_public_key"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42057--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42361--请求地址: http://127.0.0.1:2100/orgauth/initHandler ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.InitScanDataHandlerController.saveInitScanData ,请求参数: {}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42361--耗时 : 49
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42418--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["2ucy_1-1CIKoDcOa_IojizDyog3FKZOLb6jo7_C-k-IHbzbnEcrCMw6rg1d2HtM6N11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42418--耗时 : 0
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42437--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600000"],"key":["2ucy_1-1CIKoDcOa_IojizDyog3FKZOLb6jo7_C-k-IHbzbnEcrCMw6rg1d2HtM6N11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-12-16 15:09:02 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42437--耗时 : 1
+2021-12-16 15:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/books/list/paramJson, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji43HJeUvT4EJ_jeaO4TFK3J2bGRK-LOgv46MxpVH0XsBnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:null
+2021-12-16 15:09:21 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Filter threw Exception
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:227)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.preRoute(FilterProcessor.java:133)
+	at com.netflix.zuul.ZuulRunner.preRoute(ZuulRunner.java:105)
+	at com.netflix.zuul.http.ZuulServlet.preRoute(ZuulServlet.java:125)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:74)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.csicit.ace.zuul.filter.FirstFilter.run(FirstFilter.java:311)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	... 65 common frames omitted
+2021-12-16 15:09:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByCode, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji43HJeUvT4EJ_jeaO4TFK3J2bGRK-LOgv46MxpVH0XsBnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:null
+2021-12-16 15:09:22 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Filter threw Exception
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:227)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.preRoute(FilterProcessor.java:133)
+	at com.netflix.zuul.ZuulRunner.preRoute(ZuulRunner.java:105)
+	at com.netflix.zuul.http.ZuulServlet.preRoute(ZuulServlet.java:125)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:74)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.csicit.ace.zuul.filter.FirstFilter.run(FirstFilter.java:311)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	... 65 common frames omitted
+2021-12-16 15:09:27 [INFO] com.csicit.ace.common.log.AceLocalLogger :  67973--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639638567945"]}
+2021-12-16 15:09:27 [INFO] com.csicit.ace.common.log.AceLocalLogger :  67976--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-16 15:09:27 [INFO] com.csicit.ace.common.log.AceLocalLogger :  67977--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639638567945"]}
+2021-12-16 15:09:27 [INFO] com.csicit.ace.common.log.AceLocalLogger :  67976--耗时 : 2
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  67977--耗时 : 26
+2021-12-16 15:09:28 [ERROR] com.csicit.ace.platform.core.controller.SysConfigController : java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-16 15:09:28 [ERROR] com.csicit.ace.common.log.AceLocalLogger : 未知异常，请联系管理员或查看异常日志。
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.GeneratedMethodAccessor200.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$f29e1c1e.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-16 15:09:28 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler public com.csicit.ace.common.utils.server.R com.csicit.ace.common.exception.RExceptionHandler.handleRException(com.csicit.ace.common.exception.RException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-16 15:09:28 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] threw exception
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.GeneratedMethodAccessor200.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$f29e1c1e.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-16 15:09:28 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。] with root cause
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.GeneratedMethodAccessor200.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$f29e1c1e.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68350--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639638568318"]}
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68357--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68357--耗时 : 0
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68358--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639638568318"]}
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68358--耗时 : 6
+2021-12-16 15:09:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  68350--耗时 : 18
+2021-12-16 15:09:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  69613--请求地址: http://192.168.20.136:2100/login ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.LoginController.login ,参数: zzjtestflow
+2021-12-16 15:09:29 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  415 results.
+2021-12-16 15:09:29 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-16 15:09:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  69613--耗时 : 488
+2021-12-16 15:09:30 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:30 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:30 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:30 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73992--请求地址: http://192.168.20.136:2100/sysMenus/action/tree/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysMenuController.listSideTree ,请求参数: {}
+2021-12-16 15:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73992--耗时 : 820
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75190--请求地址: http://192.168.20.136:2100/sysUsers/action/info ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysUserController.info ,请求参数: {}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75190--耗时 : 21
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75220--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75220--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75220--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75220--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75237--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75237--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75237--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75237--耗时 : 1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75345--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"f5d6d37948d3414e938343cb5ac96f21\"]"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75345--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"f5d6d37948d3414e938343cb5ac96f21\"]"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75345--耗时 : 13
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75345--耗时 : 13
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75407--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75407--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75407--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75407--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskDelegate, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listFocusedWorks, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75508--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75508--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75513--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75513--耗时 : 1
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75528--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"f5d6d37948d3414e938343cb5ac96f21\"]"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75533--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75533--耗时 : 0
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75528--耗时 : 6
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75541--请求地址: http://192.168.20.136:2100/orgauth/sysMsgs/query/noReadMsg/f5d6d37948d3414e938343cb5ac96f21/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysMessageController.listUserNoReadMsg ,请求参数: {"token":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75541--耗时 : 26
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75594--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75594--耗时 : 0
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks/list/paramJson, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81506--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81506--耗时 : 0
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81511--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:41 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81511--耗时 : 0
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByCode, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82097--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82097--耗时 : 1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfo, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82470--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82470--耗时 : 0
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82480--请求地址: http://127.0.0.1:2100/orgauth/sysAuths/action/hasAuthorityWithUserId/f5d6d37948d3414e938343cb5ac96f21/852af9da68384365b5a0253cf2fbfd69 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysAuthControllerO.hasAuthorityWithUserId ,请求参数: {}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82480--耗时 : 6
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82495--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82495--耗时 : 0
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/interfaces/getManageDepName/f5d6d37948d3414e938343cb5ac96f21, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82722--请求地址: http://127.0.0.1:2100/orgauth/orgDepartments/action/getMainDeptByUserId/f5d6d37948d3414e938343cb5ac96f21 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.OrgDepartmentControllerO.getMainDeptByUserId ,请求参数: {}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82722--耗时 : 7
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82736--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82736--耗时 : 0
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/borrowBookApplication, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82983--请求地址: http://192.168.20.136:2100/fileConfiguration/load ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileConfigurationController.load ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82985--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82985--耗时 : 1
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82997--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82997--耗时 : 0
+2021-12-16 15:09:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82983--耗时 : 181
+2021-12-16 15:09:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86935--请求地址: http://192.168.20.136:2100/fileRepository/allocateSpace ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileRepositoryController.allocateSpace ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="]}
+2021-12-16 15:09:47 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-16 15:09:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86935--耗时 : 194
+2021-12-16 15:09:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  87210--请求地址: http://192.168.20.136:2100/fileUpload/uploadReview ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileUploadController.uploadReview ,请求参数: {"appName":["dv-testapp-platform","dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="],"configurationKey":["test-file"],"id":["WU_FILE_0"],"name":["pom.xml"],"type":["text/xml"],"lastModifiedDate":["Thu Dec 16 2021 14:50:35 GMT+0800 (中国标准时间)"],"size":["34887"],"yfId":["dc0620c42ca44d2aa2b21421313e2ac9"]}
+2021-12-16 15:09:47 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-16 15:09:47 [INFO] org.slf4j.Logger : file upload: pom.xml
+2021-12-16 15:09:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  87210--耗时 : 176
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89292--请求地址: http://192.168.20.136:2100/fileUpload/reviewFile ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileUploadController.reviewFile ,请求参数: {"uploadFormId":["c33b8ff2-d9c4-4385-92cc-d380332351cc"]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89292--耗时 : 39
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/createReviewFile, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-16T13:29:29.661, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89721--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89721--耗时 : 0
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89723--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==userid"]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89723--耗时 : 0
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89850--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji80WTYI8pcbq_Sfd9I0vMO7yWhMnigi8pH-SSL3K5zCmnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg=="]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89850--耗时 : 1
+2021-12-16 15:09:49 [INFO] io.seata.core.context.RootContext : bind 192.168.20.136:8091:3224787056123285505
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89874--请求地址: http://127.0.0.1:2100/orgauth/sysAuths/action/hasAuthorityWithUserId/f5d6d37948d3414e938343cb5ac96f21/de482dd67d034e47821f1cf11b4d2cb7 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysAuthControllerO.hasAuthorityWithUserId ,请求参数: {}
+2021-12-16 15:09:49 [INFO] io.seata.core.rpc.netty.RmNettyRemotingClient : will register resourceId:jdbc:dm://192.168.19.9:5236:JARIACEPLAT
+2021-12-16 15:09:49 [INFO] io.seata.rm.AbstractRMHandler : the rm client received response msg [version=1.4.2,extraData=null,identified=true,resultCode=null,msg=null] from tc server.
+2021-12-16 15:09:49 [ERROR] com.csicit.ace.common.log.AceLocalLogger : nested exception is org.apache.ibatis.executor.ExecutorException: Error preparing statement.  Cause: io.seata.common.loader.EnhancedServiceNotFoundException: not found service provider for : io.seata.sqlparser.druid.SQLOperateRecognizerHolder
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: Error preparing statement.  Cause: io.seata.common.loader.EnhancedServiceNotFoundException: not found service provider for : io.seata.sqlparser.druid.SQLOperateRecognizerHolder
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy150.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:101)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy166.selectCount(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.count(ServiceImpl.java:287)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.csicit.ace.data.persistent.service.impl.SysAuthMixServiceImpl$$EnhancerBySpringCGLIB$$f6e9160d.count(<generated>)
+	at com.csicit.ace.orgauth.core.service.impl.SysAuthServiceImpl.hasAuthorityWithUserId(SysAuthServiceImpl.java:59)
+	at com.csicit.ace.orgauth.core.service.impl.SysAuthServiceImpl$$FastClassBySpringCGLIB$$43336a1f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.orgauth.core.service.impl.SysAuthServiceImpl$$EnhancerBySpringCGLIB$$fe586721.hasAuthorityWithUserId(<generated>)
+	at com.csicit.ace.orgauth.core.controller.SysAuthControllerO.hasAuthorityWithUserId(SysAuthControllerO.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.GeneratedMethodAccessor200.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.orgauth.core.controller.SysAuthControllerO$$EnhancerBySpringCGLIB$$d52303c0.hasAuthorityWithUserId(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.executor.ExecutorException: Error preparing statement.  Cause: io.seata.common.loader.EnhancedServiceNotFoundException: not found service provider for : io.seata.sqlparser.druid.SQLOperateRecognizerHolder
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:97)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at sun.reflect.GeneratedMethodAccessor151.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor.intercept(PaginationInterceptor.java:166)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy273.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy272.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.GeneratedMethodAccessor199.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 113 common frames omitted
+Caused by: io.seata.common.loader.EnhancedServiceNotFoundException: not found service provider for : io.seata.sqlparser.druid.SQLOperateRecognizerHolder
+2021-12-16 15:09:49 [INFO] io.seata.core.context.RootContext : unbind 192.168.20.136:8091:3224787056123285505 
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89933--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89933--耗时 : 0
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89936--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-16 15:09:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89936--耗时 : 0
+2021-12-16 15:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  15:10:01 12/16/2021
+2021-12-16 15:10:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-16 15:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  15:10:01 12/16/2021 and reports: null

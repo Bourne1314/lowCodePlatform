@@ -1,0 +1,261 @@
+2021-11-30 15:01:42 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-11-30 15:01:44 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-11-30 15:01:44 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=5bde780a-911a-3ece-8356-ae4b252c9797
+2021-11-30 15:01:45 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d1f36f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-30 15:01:45 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$9726c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-30 15:01:45 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.springframework.beans.factory.support.NullBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-30 15:01:45 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-30 15:01:45 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$993939f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-30 15:01:45 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-11-30 15:01:45 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-11-30 15:01:45 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-11-30 15:01:45 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-11-30 15:01:45 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-11-30 15:01:45 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2753 ms
+2021-11-30 15:01:45 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-11-30 15:01:45 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-30 15:01:45 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3a80c534
+2021-11-30 15:01:45 [WARN] net.sf.ehcache.config.ConfigurationFactory : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/mavenRepo/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2021-11-30 15:01:46 [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-11-30 15:01:46 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2021-11-30 15:01:53 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrtzConfigController': Unsatisfied dependency expressed through field 'qrtzConfigService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrtzConfigService': Unsatisfied dependency expressed through field 'schedulerFactoryBean'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'schedulerFactoryBean' defined in class path resource [com/csicit/ace/quartz/core/config/ScheduleConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.quartz.SchedulerFactoryBean]: Factory method 'schedulerFactoryBean' threw exception; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+2021-11-30 15:01:53 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2021-11-30 15:01:53 [INFO] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2021-11-30 15:01:53 [WARN] org.apache.catalina.loader.WebappClassLoaderBase : The web application [ROOT] appears to have started a thread named [__DEFAULT__] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+2021-11-30 15:01:53 [WARN] org.apache.catalina.loader.WebappClassLoaderBase : The web application [ROOT] appears to have started a thread named [%0041%0043%0045_%0043%0041%0043%0048%0045.data] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2021-11-30 15:01:53 [WARN] org.apache.catalina.loader.WebappClassLoaderBase : The web application [ROOT] appears to have started a thread named [Statistics Thread-__DEFAULT__-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2021-11-30 15:01:53 [WARN] org.apache.catalina.loader.WebappClassLoaderBase : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2021-11-30 15:01:53 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-30 15:01:53 [ERROR] org.springframework.boot.SpringApplication : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrtzConfigController': Unsatisfied dependency expressed through field 'qrtzConfigService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrtzConfigService': Unsatisfied dependency expressed through field 'schedulerFactoryBean'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'schedulerFactoryBean' defined in class path resource [com/csicit/ace/quartz/core/config/ScheduleConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.quartz.SchedulerFactoryBean]: Factory method 'schedulerFactoryBean' threw exception; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.csicit.ace.zuul.ZuulStartApp.main(ZuulStartApp.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'qrtzConfigService': Unsatisfied dependency expressed through field 'schedulerFactoryBean'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'schedulerFactoryBean' defined in class path resource [com/csicit/ace/quartz/core/config/ScheduleConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.quartz.SchedulerFactoryBean]: Factory method 'schedulerFactoryBean' threw exception; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'schedulerFactoryBean' defined in class path resource [com/csicit/ace/quartz/core/config/ScheduleConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.quartz.SchedulerFactoryBean]: Factory method 'schedulerFactoryBean' threw exception; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.scheduling.quartz.SchedulerFactoryBean]: Factory method 'schedulerFactoryBean' threw exception; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 45 common frames omitted
+Caused by: org.springframework.dao.DataIntegrityViolationException: 
+### Error querying database.  Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+### The error may exist in com/csicit/ace/data/persistent/mapper/SysGroupAppMapper.java (best guess)
+### The error may involve com.csicit.ace.data.persistent.mapper.SysGroupAppMapper.selectList
+### The error occurred while executing a query
+### SQL: SELECT   id   FROM SYS_GROUP_APP
+### Cause: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+; 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]; nested exception is java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy143.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.executeForMany(PageMapperMethod.java:173)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:86)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy160.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.list(ServiceImpl.java:292)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.csicit.ace.data.persistent.service.impl.SysGroupAppServiceDImpl$$EnhancerBySpringCGLIB$$15bb45fb.list(<generated>)
+	at com.csicit.ace.quartz.core.config.ScheduleConfig.getConfig(ScheduleConfig.java:49)
+	at com.csicit.ace.quartz.core.config.ScheduleConfig.schedulerFactoryBean(ScheduleConfig.java:73)
+	at com.csicit.ace.quartz.core.config.ScheduleConfig$$EnhancerBySpringCGLIB$$38e51b70.CGLIB$schedulerFactoryBean$0(<generated>)
+	at com.csicit.ace.quartz.core.config.ScheduleConfig$$EnhancerBySpringCGLIB$$38e51b70$$FastClassBySpringCGLIB$$685165a6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.csicit.ace.quartz.core.config.ScheduleConfig$$EnhancerBySpringCGLIB$$38e51b70.schedulerFactoryBean(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+Caused by: java.sql.SQLException: 第3 行附近出现错误:
+无效的表或视图名[SYS_GROUP_APP]
+	at dm.jdbc.dbaccess.DBError.throwSQLException(DBError.java:44)
+	at dm.jdbc.dbaccess.Request_Response.resp_checkErr(Request_Response.java:2502)
+	at dm.jdbc.dbaccess.Request_Response.resp_prepare(Request_Response.java:699)
+	at dm.jdbc.dbaccess.DmdbCSI.prepareSQL(DmdbCSI.java:381)
+	at dm.jdbc.driver.DmdbStatement_bs.directExec(DmdbStatement_bs.java:1745)
+	at dm.jdbc.driver.DmdbPreparedStatement_bs.initialize(DmdbPreparedStatement_bs.java:251)
+	at dm.jdbc.driver.DmdbPreparedStatement_bs.<init>(DmdbPreparedStatement_bs.java:172)
+	at dm.jdbc.driver.DmdbConnection_bs.prepareStatement(DmdbConnection_bs.java:1904)
+	at dm.jdbc.driver.DmdbConnection_bs.prepareStatement(DmdbConnection_bs.java:676)
+	at dm.jdbc.driver.DmdbConnection.do_prepareStatement(DmdbConnection.java:1687)
+	at dm.jdbc.filter.FilterChain.Connection_prepareStatement(FilterChain.java:537)
+	at dm.jdbc.driver.DmdbConnection.prepareStatement(DmdbConnection.java:198)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:348)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:87)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor.intercept(PaginationInterceptor.java:166)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy266.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy265.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 69 common frames omitted

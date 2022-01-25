@@ -1,0 +1,669 @@
+2021-12-17 11:35:49 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-17 11:35:51 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-12-17 11:35:51 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=bfbaf868-82eb-3352-b7d1-a6a6f7a9bb85
+2021-12-17 11:35:51 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.alibaba.seata-com.alibaba.cloud.seata.SeataProperties' of type [com.alibaba.cloud.seata.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:51 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration' of type [com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration$$EnhancerBySpringCGLIB$$866718c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:51 [INFO] io.seata.config.FileConfiguration : The file name of the operation is registry
+2021-12-17 11:35:51 [INFO] io.seata.config.FileConfiguration : The configuration file used is /E:/%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83for%e5%b7%a5%e4%bd%9c%e6%b5%81/ace-server/ace-zuul/target/classes/registry.conf
+2021-12-17 11:35:51 [INFO] io.seata.config.FileConfiguration : The file name of the operation is file.conf
+2021-12-17 11:35:51 [INFO] io.seata.config.FileConfiguration : The configuration file used is file.conf
+2021-12-17 11:35:51 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Initializing Global Transaction Clients ... 
+2021-12-17 11:35:51 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-17 11:35:51 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Transaction Manager Client is initialized. applicationId[ace-zuul] txServiceGroup[JARIACEPLAT]
+2021-12-17 11:35:51 [INFO] io.seata.rm.datasource.AsyncWorker : Async Commit Buffer Limit: 10000
+2021-12-17 11:35:51 [INFO] io.seata.rm.datasource.xa.ResourceManagerXA : ResourceManagerXA init ...
+2021-12-17 11:35:51 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-17 11:35:51 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Resource Manager is initialized. applicationId[ace-zuul] txServiceGroup[JARIACEPLAT]
+2021-12-17 11:35:51 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Global Transaction Clients are initialized. 
+2021-12-17 11:35:52 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f93b0f46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:52 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$858e448d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:52 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.springframework.beans.factory.support.NullBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:52 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:52 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$15551243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 11:35:52 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-12-17 11:35:52 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-12-17 11:35:52 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-12-17 11:35:52 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-17 11:35:52 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-12-17 11:35:52 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3043 ms
+2021-12-17 11:35:52 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-17 11:35:52 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 11:35:52 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@54f25b42
+2021-12-17 11:35:53 [WARN] net.sf.ehcache.config.ConfigurationFactory : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/mavenRepo/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2021-12-17 11:35:54 [WARN] com.alibaba.druid.pool.DruidDataSource : removeAbandoned is true, not use in productiion.
+2021-12-17 11:35:54 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2021-12-17 11:36:02 [INFO] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-12-17 11:36:02 [INFO] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-17 11:36:02 [INFO] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.1 created.
+2021-12-17 11:36:02 [INFO] com.csicit.ace.quartz.core.plugins.AceJobConfigLoaderPlugin : Registering Quartz Job Initialization Plug-in.
+2021-12-17 11:36:02 [INFO] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'JariScheduler' with instanceId 'DESKTOP-A03RJ151639712162366'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-12-17 11:36:02 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'JariScheduler' initialized from an externally provided properties instance.
+2021-12-17 11:36:02 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.1
+2021-12-17 11:36:02 [INFO] org.quartz.core.QuartzScheduler : JobFactory set to: com.csicit.ace.quartz.core.factory.MyJobFactory@4244e477
+2021-12-17 11:36:02 [WARN] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper : Warn: Could not find @TableId in Class: com.csicit.ace.common.pojo.vo.GrantAuthReciveVO.
+2021-12-17 11:36:03 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+2021-12-17 11:36:03 [INFO] liquibase.integration.spring.SpringLiquibase : Liquibase did not run because 'shouldRun' property was set to false on liquibase Liquibase Spring bean.
+2021-12-17 11:36:03 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-17 11:36:03 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-17 11:36:04 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-17 11:36:04 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2021-12-17 11:36:04 [WARN] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-12-17 11:36:05 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Starting filter initializer
+2021-12-17 11:36:05 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 测试任务组.711HM
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 16 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 2 jobs, 0 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: urgeTask.催办提醒
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 催办提醒任务组.催办提醒
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-17 11:36:05 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 业务平台内部定时任务.大屏消息推送
+2021-12-17 11:36:05 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151639712162366 started.
+2021-12-17 11:36:06 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 2100 (http) with context path ''
+2021-12-17 11:36:06 [INFO] com.csicit.ace.zuul.ZuulStartApp : Started ZuulStartApp in 18.292 seconds (JVM running for 19.017)
+2021-12-17 11:36:06 [INFO] org.reflections.Reflections : Reflections took 36 ms to scan 1 urls, producing 19 keys and 29 values 
+2021-12-17 11:36:07 [INFO] com.corundumstudio.socketio.SocketIOServer : Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2021-12-17 11:36:07 [INFO] com.corundumstudio.socketio.SocketIOServer : SocketIO server started at port: 5070
+2021-12-17 11:36:07 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_消息服务已启动!
+2021-12-17 11:36:07 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:dv-testapp-platform
+2021-12-17 11:36:07 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:ei-service
+2021-12-17 11:36:07 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 11:36:07 [INFO] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-12-17 11:36:07 [INFO] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 17 ms
+2021-12-17 11:36:51 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : will connect to 127.0.0.1:8091
+2021-12-17 11:36:51 [INFO] io.seata.core.rpc.netty.NettyClientChannelManager : will connect to 127.0.0.1:8091
+2021-12-17 11:36:51 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : NettyPool create channel to transactionRole:TMROLE,address:127.0.0.1:8091,msg:< RegisterTMRequest{applicationId='ace-zuul', transactionServiceGroup='JARIACEPLAT'} >
+2021-12-17 11:36:51 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : NettyPool create channel to transactionRole:RMROLE,address:127.0.0.1:8091,msg:< RegisterRMRequest{resourceIds='null', applicationId='ace-zuul', transactionServiceGroup='JARIACEPLAT'} >
+2021-12-17 11:36:52 [INFO] io.seata.core.rpc.netty.TmNettyRemotingClient : register TM success. client version:1.5.0-SNAPSHOT, server version:1.5.0-SNAPSHOT,channel:[id: 0xa7d3bf5c, L:/127.0.0.1:53778 - R:/127.0.0.1:8091]
+2021-12-17 11:36:52 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : register success, cost 57 ms, version:1.5.0-SNAPSHOT,role:TMROLE,channel:[id: 0xa7d3bf5c, L:/127.0.0.1:53778 - R:/127.0.0.1:8091]
+2021-12-17 11:36:52 [INFO] io.seata.core.rpc.netty.RmNettyRemotingClient : register RM success. client version:1.5.0-SNAPSHOT, server version:1.5.0-SNAPSHOT,channel:[id: 0xdfcf02e4, L:/127.0.0.1:53777 - R:/127.0.0.1:8091]
+2021-12-17 11:36:52 [INFO] io.seata.core.rpc.netty.NettyPoolableFactory : register success, cost 56 ms, version:1.5.0-SNAPSHOT,role:RMROLE,channel:[id: 0xdfcf02e4, L:/127.0.0.1:53777 - R:/127.0.0.1:8091]
+2021-12-17 11:36:56 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/deliverWork, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-12-17 11:36:56 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji894ILzBlnZ391mKaMnQ2mkL7XYS7aCYkxmxcNRQhOk6nY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-17 11:36:56 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:null
+2021-12-17 11:36:56 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Filter threw Exception
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:227)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.preRoute(FilterProcessor.java:133)
+	at com.netflix.zuul.ZuulRunner.preRoute(ZuulRunner.java:105)
+	at com.netflix.zuul.http.ZuulServlet.preRoute(ZuulServlet.java:125)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:74)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.csicit.ace.zuul.filter.FirstFilter.run(FirstFilter.java:311)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	... 65 common frames omitted
+2021-12-17 11:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  11:37:01 12/17/2021
+2021-12-17 11:37:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 11:37:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  11:37:01 12/17/2021 and reports: null
+2021-12-17 11:37:06 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getInfoForDeliver, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-12-17 11:37:06 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji894ILzBlnZ391mKaMnQ2mkL7XYS7aCYkxmxcNRQhOk6nY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-17 11:37:06 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:null
+2021-12-17 11:37:06 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Filter threw Exception
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:227)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.preRoute(FilterProcessor.java:133)
+	at com.netflix.zuul.ZuulRunner.preRoute(ZuulRunner.java:105)
+	at com.netflix.zuul.http.ZuulServlet.preRoute(ZuulServlet.java:125)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:74)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.csicit.ace.zuul.filter.FirstFilter.run(FirstFilter.java:311)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	... 65 common frames omitted
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40195--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40195--耗时 : 6
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40199--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639712240013"]}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40199--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639712240013"]}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40199--耗时 : 14
+2021-12-17 11:37:20 [ERROR] com.csicit.ace.platform.core.controller.SysConfigController : java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-17 11:37:20 [INFO] com.csicit.ace.fileserver.core.utils.GlobalExceptionsHandler : 错误日志为：未知异常，请联系管理员或查看异常日志。
+2021-12-17 11:37:20 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler public java.lang.Object com.csicit.ace.fileserver.core.utils.GlobalExceptionsHandler.errorHandler(java.lang.Exception) throws java.lang.Exception
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:333)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:758)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:287)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:261)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:124)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:110)
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:144)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1225)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:513)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:451)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:530)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:189)
+	at org.apache.coyote.Response.doWrite(Response.java:599)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:328)
+	... 96 common frames omitted
+2021-12-17 11:37:20 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] threw exception
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$8df636a5.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 11:37:20 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。] with root cause
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$8df636a5.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40574--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639712240550"]}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40583--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1639712240551"]}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40574--耗时 : 12
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40583--耗时 : 4
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40598--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-17 11:37:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40598--耗时 : 0
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41512--请求地址: http://192.168.20.136:2100/login ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.LoginController.login ,参数: zzjtestflow
+2021-12-17 11:37:21 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  459 results.
+2021-12-17 11:37:21 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41512--耗时 : 348
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_IojizZ8CH5O6JIEhImIRE1ycvDyd_n0AuWBEYr81zD0a09mnY0U6g2NOxpfiNV6kjUcxprStp4dh_salMacpWmYYDRj7xMm71j7-QlL4Xm3x7V1hOoi9kp9iQB2fj_U6dEhKg==
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=null, userName=zzjtestflow, realName=zzjtestflow, email=null, phoneNumber=null, userType=3, startFlag=1, secretLevel=4, sortIndex=128190, userPost=null, password=null, passwordUpdateTime=2021-08-17T09:45:02.483, personDocId=null, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=zzjtestflow, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-17T09:57:21.574, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.20.136)
+2021-12-17 11:37:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: zzjtestflow(zzjtestflow), REQUEST_IP:   127.0.0.1
+2021-12-17 11:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  11:38:01 12/17/2021
+2021-12-17 11:38:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-17 11:38:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  11:38:01 12/17/2021 and reports: null

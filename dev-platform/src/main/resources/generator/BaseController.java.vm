@@ -1,0 +1,12 @@
+package ${package}.controller;
+
+/**
+ * 基础接口访问层
+ *
+ * @author ${author}
+ * @version V1.0
+ * @date ${datetime}
+ */
+
+public abstract class BaseController {
+}

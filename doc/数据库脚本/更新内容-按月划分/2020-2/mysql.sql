@@ -1,0 +1,30 @@
+/**
+2020/2/14
+ */
+ALTER TABLE `sys_auth_role_v` DROP FOREIGN KEY `FK_SYS_AUTH_ROLE_LV_ID`;
+
+ALTER TABLE `sys_auth_role_v` ADD CONSTRAINT `FK_SYS_AUTH_ROLE_LV_ID` FOREIGN KEY (`LV_ID`) REFERENCES `sys_auth_role_lv`(`ID`) ON DELETE CASCADE;
+
+ALTER TABLE `sys_auth_user_v` DROP FOREIGN KEY `FK_SYS_AUTH_USER_LV_ID`;
+
+ALTER TABLE `sys_auth_user_v` ADD CONSTRAINT `FK_SYS_AUTH_USER_LV_ID` FOREIGN KEY (`LV_ID`) REFERENCES `sys_auth_user_lv`(`ID`) ON DELETE CASCADE;
+
+/**
+2020/2/18
+ */
+ALTER TABLE `SYS_WAIT_GRANT_USER` COMMENT '角色分配—待激活的用户表';
+UPDATE SYS_MENU SET NAME='角色分配' WHERE ID='tyuub3ec3d6e483b86c4923ea64cfwe5';
+UPDATE SYS_AUTH SET NAME='角色分配' WHERE ID='tyuub3ec3d6e483b86c4923ea64cfwe5';
+
+INSERT  INTO `sys_auth`(`ID`,`NAME`,`APP_ID`,`REMARK`,`SORT_INDEX`,`PARENT_ID`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`SORT_PATH`,`IS_ORG_ADMIN`,`IS_USER_GROUP_ADMIN`,`CODE`,`DATA_VERSION`) VALUES ('werty3ec3d6e483b86c4923ea64ccvbn','分配角色激活','platform',NULL,8,'11erb3ec3d6e483b86c4923ea64cfdd0',NULL,NULL,NULL,'000200090008',0,0,'roleManage.roleActivate',0);
+INSERT  INTO `sys_menu`(`ID`,`NAME`,`PARENT_ID`,`APP_ID`,`PARENT_NAME`,`URL`,`TYPE`,`ICON`,`AUTH_ID`,`BTN_AUTH`,`IS_LEAF`,`SORT_INDEX`,`ALL_ORDER`,`SORT_PATH`,`OPEN_STYLE`,`CLOSE_NOTICE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`LEAF`,`MENU_AUTH`,`REMARK`,`DATA_VERSION`,`IS_IFRAME`) VALUES ('werty3ec3d6e483b86c4923ea64ccvbn','分配角色激活','11erb3ec3d6e483b86c4923ea64cfdd0','platform','授权管理','roleManage/views/RoleGrant',1,'iconfont icon-setting-permissions','werty3ec3d6e483b86c4923ea64ccvbn',NULL,NULL,8,NULL,'000200090008',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0);
+INSERT  INTO `sys_auth_role`(`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) VALUES ('3e4r5ec3d6e483b86c4923ea64cv67n','werty3ec3d6e483b86c4923ea64ccvbn','appadmin',NULL,0,NULL,NULL,NULL,NULL);
+INSERT  INTO `sys_auth_role_v`(`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) VALUES ('3e4r5ec3d6e483b86c4923ea64cv67n','werty3ec3d6e483b86c4923ea64ccvbn','appadmin',NULL,0,NULL,NULL,NULL,NULL,'appadmin');
+
+/**
+2020/2/26
+ */
+delete from `SYS_CONFIG` where `id` = 'ace-sql-version';
+insert into `SYS_CONFIG`(`ID`,`NAME`,`VALUE`,`SCOPE`) values('ace-sql-version', 'ace-sql-version', '1.0.0', 1);
+alter table `SYS_AUDIT_LOG_BACKUP` modify  `IP_ADDRESS` varchar(1000);
+alter table `SYS_AUDIT_LOG` modify  `IP_ADDRESS` varchar(1000);

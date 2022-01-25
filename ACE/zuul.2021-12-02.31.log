@@ -1,0 +1,1161 @@
+2021-12-02 15:00:06 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-02 15:00:08 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-12-02 15:00:08 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=e86bd7c9-85ee-3455-8ab1-85c264d5cd0c
+2021-12-02 15:00:08 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b126bacd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-02 15:00:08 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$3d79f014] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-02 15:00:08 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.springframework.beans.factory.support.NullBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-02 15:00:09 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-02 15:00:09 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cd40bdca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-02 15:00:09 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-12-02 15:00:09 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-12-02 15:00:09 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-12-02 15:00:09 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-02 15:00:09 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-12-02 15:00:09 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3042 ms
+2021-12-02 15:00:09 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-02 15:00:09 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-02 15:00:09 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4d90d91f
+2021-12-02 15:00:09 [WARN] net.sf.ehcache.config.ConfigurationFactory : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/D:/mavenRepo/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2021-12-02 15:00:10 [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-12-02 15:00:10 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2021-12-02 15:00:19 [INFO] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-12-02 15:00:19 [INFO] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-12-02 15:00:19 [INFO] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.1 created.
+2021-12-02 15:00:19 [INFO] com.csicit.ace.quartz.core.plugins.AceJobConfigLoaderPlugin : Registering Quartz Job Initialization Plug-in.
+2021-12-02 15:00:19 [INFO] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'JariScheduler' with instanceId 'DESKTOP-A03RJ151638428419100'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-12-02 15:00:19 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'JariScheduler' initialized from an externally provided properties instance.
+2021-12-02 15:00:19 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.1
+2021-12-02 15:00:19 [INFO] org.quartz.core.QuartzScheduler : JobFactory set to: com.csicit.ace.quartz.core.factory.MyJobFactory@7b6558aa
+2021-12-02 15:00:19 [WARN] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper : Warn: Could not find @TableId in Class: com.csicit.ace.common.pojo.vo.GrantAuthReciveVO.
+2021-12-02 15:00:20 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService 'taskScheduler'
+2021-12-02 15:00:20 [INFO] liquibase.integration.spring.SpringLiquibase : Liquibase did not run because 'shouldRun' property was set to false on liquibase Liquibase Spring bean.
+2021-12-02 15:00:20 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-12-02 15:00:20 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-12-02 15:00:20 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-02 15:00:21 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2021-12-02 15:00:21 [WARN] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-12-02 15:00:21 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Starting filter initializer
+2021-12-02 15:00:21 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 测试任务组.711HM
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 16 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 2 jobs, 0 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: urgeTask.催办提醒
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 催办提醒任务组.催办提醒
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-12-02 15:00:22 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 业务平台内部定时任务.大屏消息推送
+2021-12-02 15:00:22 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638428419100 started.
+2021-12-02 15:00:22 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 2100 (http) with context path ''
+2021-12-02 15:00:22 [INFO] com.csicit.ace.zuul.ZuulStartApp : Started ZuulStartApp in 18.139 seconds (JVM running for 18.793)
+2021-12-02 15:00:23 [INFO] org.reflections.Reflections : Reflections took 37 ms to scan 1 urls, producing 19 keys and 29 values 
+2021-12-02 15:00:23 [INFO] com.corundumstudio.socketio.SocketIOServer : Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2021-12-02 15:00:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_消息服务已启动!
+2021-12-02 15:00:24 [INFO] com.corundumstudio.socketio.SocketIOServer : SocketIO server started at port: 5070
+2021-12-02 15:00:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:dv-testapp-platform
+2021-12-02 15:00:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:cd-jari716oa
+2021-12-02 15:00:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:ei-service
+2021-12-02 15:00:28 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_建立连接：68e15b1c-3451-4c26-bbfa-19b07cfcc31a
+2021-12-02 15:00:29 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 15:00:29 [INFO] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-12-02 15:00:29 [INFO] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 20 ms
+2021-12-02 15:00:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  29630--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428429575"]}
+2021-12-02 15:00:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  29630--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428429575"]}
+2021-12-02 15:00:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  29630--耗时 : 24
+2021-12-02 15:00:29 [ERROR] com.csicit.ace.platform.core.controller.SysConfigController : java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-12-02 15:00:29 [ERROR] com.csicit.ace.common.log.AceLocalLogger : 未知异常，请联系管理员或查看异常日志。
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$8f21696f.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-02 15:00:29 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler public com.csicit.ace.common.utils.server.R com.csicit.ace.common.exception.RExceptionHandler.handleRException(com.csicit.ace.common.exception.RException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-02 15:00:29 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] threw exception
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$8f21696f.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-02 15:00:29 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。] with root cause
+com.csicit.ace.common.exception.RException: 未知异常，请联系管理员或查看异常日志。
+	at com.csicit.ace.platform.core.controller.SysConfigController.downloadImg(SysConfigController.java:330)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$FastClassBySpringCGLIB$$9b19b2e4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.csicit.ace.common.aspect.WebLogAspect.doAround(WebLogAspect.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.csicit.ace.platform.core.controller.SysConfigController$$EnhancerBySpringCGLIB$$8f21696f.downloadImg(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:68)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30722--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428430697"]}
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30735--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30736--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428430698"]}
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30735--耗时 : 3
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30736--耗时 : 6
+2021-12-02 15:00:30 [INFO] com.csicit.ace.common.log.AceLocalLogger :  30722--耗时 : 22
+2021-12-02 15:00:36 [INFO] com.csicit.ace.common.log.AceLocalLogger :  36084--请求地址: http://192.168.20.136:2100/login ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.LoginController.login ,参数: hu11
+2021-12-02 15:00:36 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  666 results.
+2021-12-02 15:00:36 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:00:36 [INFO] com.csicit.ace.common.log.AceLocalLogger :  36084--耗时 : 395
+2021-12-02 15:00:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42684--请求地址: http://192.168.20.136:2100/sysMenus/action/tree/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysMenuController.listSideTree ,请求参数: {}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  42684--耗时 : 840
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43869--请求地址: http://192.168.20.136:2100/sysUsers/action/info ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysUserController.info ,请求参数: {}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskDelegate, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listFocusedWorks, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43869--耗时 : 49
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43946--请求地址: http://192.168.20.136:2100/orgauth/sysMsgs/query/noReadMsg/46d0b4c6d26e462a9928f463f3378757/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysMessageController.listUserNoReadMsg ,请求参数: {"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43946--耗时 : 18
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--耗时 : 2
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--耗时 : 2
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--耗时 : 2
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43970--耗时 : 3
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43977--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43977--耗时 : 1
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43978--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43978--耗时 : 0
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43988--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43988--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43988--耗时 : 1
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44006--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  43988--耗时 : 22
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44006--耗时 : 11
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44021--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"8ae19f6869284437b3bb41b5b875e8cc\",\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44023--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44023--耗时 : 0
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44021--耗时 : 13
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44038--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44038--耗时 : 0
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44050--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:44 [INFO] com.csicit.ace.common.log.AceLocalLogger :  44050--耗时 : 0
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks/list/paramJson, REQUEST_METHOD:POST, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  47905--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  47905--耗时 : 0
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  47909--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  47909--耗时 : 0
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByCode, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48686--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48686--耗时 : 1
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfo, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48825--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48825--耗时 : 0
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48829--请求地址: http://127.0.0.1:2100/orgauth/sysAuths/action/hasAuthorityWithUserId/46d0b4c6d26e462a9928f463f3378757/852af9da68384365b5a0253cf2fbfd69 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysAuthControllerO.hasAuthorityWithUserId ,请求参数: {}
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48829--耗时 : 8
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48841--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  48841--耗时 : 0
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/interfaces/getManageDepName/46d0b4c6d26e462a9928f463f3378757, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/borrowBookApplication, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49013--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49013--耗时 : 0
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49016--请求地址: http://127.0.0.1:2100/orgauth/orgDepartments/action/getMainDeptByUserId/46d0b4c6d26e462a9928f463f3378757 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.OrgDepartmentControllerO.getMainDeptByUserId ,请求参数: {}
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49021--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49021--耗时 : 0
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49025--请求地址: http://192.168.20.136:2100/fileConfiguration/load ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileConfigurationController.load ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49016--耗时 : 12
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49033--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49033--耗时 : 0
+2021-12-02 15:00:49 [INFO] com.csicit.ace.common.log.AceLocalLogger :  49025--耗时 : 194
+2021-12-02 15:00:55 [INFO] com.csicit.ace.common.log.AceLocalLogger :  55037--请求地址: http://192.168.20.136:2100/fileRepository/allocateSpace ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileRepositoryController.allocateSpace ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:00:55 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:00:55 [INFO] com.csicit.ace.common.log.AceLocalLogger :  55037--耗时 : 219
+2021-12-02 15:00:55 [INFO] com.csicit.ace.common.log.AceLocalLogger :  55355--请求地址: http://192.168.20.136:2100/fileUpload/uploadReview ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileUploadController.uploadReview ,请求参数: {"appName":["dv-testapp-platform","dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="],"configurationKey":["test-file"],"id":["WU_FILE_0"],"name":["微信图片_20211103105948.png"],"type":["image/png"],"lastModifiedDate":["Wed Nov 03 2021 10:59:51 GMT+0800 (中国标准时间)"],"size":["1277254"],"yfId":["f805421299d842a4b1e974134a228013"]}
+2021-12-02 15:00:55 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:00:55 [INFO] org.slf4j.Logger : file upload: 微信图片_20211103105948.png
+2021-12-02 15:00:55 [INFO] com.csicit.ace.common.log.AceLocalLogger :  55355--耗时 : 426
+2021-12-02 15:01:17 [INFO] com.csicit.ace.common.log.AceLocalLogger :  77940--请求地址: http://192.168.20.136:2100/fileUpload/reviewFile ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileUploadController.reviewFile ,请求参数: {"uploadFormId":["a9097bd2-6eba-4578-876e-baacf5bf909b"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81782--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lglo ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428479642"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81782--请求地址: http://192.168.20.136:2100/sysConfigs/action/downloadImg/lgbg ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysConfigController.downloadImg ,请求参数: {"t":["1638428479641"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81783--请求地址: http://192.168.20.136:2100/init ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.InitController.getDefaultArgs ,请求参数: {}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81783--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81782--耗时 : 5
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81782--耗时 : 18
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  77940--耗时 : 3865
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/ReviewFile/addFileReview, REQUEST_METHOD:POST, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81815--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81815--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81817--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81817--耗时 : 1
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81820--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81820--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81822--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81822--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81827--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81827--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81841--请求地址: http://127.0.0.1:2100/orgauth/sysAuths/action/hasAuthorityWithUserId/46d0b4c6d26e462a9928f463f3378757/de482dd67d034e47821f1cf11b4d2cb7 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysAuthControllerO.hasAuthorityWithUserId ,请求参数: {}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81841--耗时 : 4
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81852--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/46d0b4c6d26e462a9928f463f3378757 ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.infoById ,请求参数: {}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81852--耗时 : 14
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81869--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81869--耗时 : 11
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81905--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81905--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81934--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81934--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81952--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81952--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81960--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81960--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81974--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600"],"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81974--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81981--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81981--耗时 : 1
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81984--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81984--耗时 : 0
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81986--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:21 [INFO] com.csicit.ace.common.log.AceLocalLogger :  81986--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82082--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82082--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82089--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82089--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82091--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82091--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82093--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82093--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82095--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82095--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82103--请求地址: http://127.0.0.1:2100/orgauth/sysAuditLogs ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysAuditLogControllerO.saveLog ,请求参数: {"title":["流程创建"],"opContent":["流程标识：fileReview，流程实例ID：5e0db1b6-3cff-411f-bc40-b69b420cb5d2"],"groupId":["0b810652d0e84269addf1f147a9c551d"],"appId":["dv-testapp-platform"]}
+2021-12-02 15:01:22 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82103--耗时 : 18
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82123--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82123--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82133--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82133--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82138--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82138--耗时 : 0
+2021-12-02 15:01:22 [ERROR] com.csicit.ace.common.log.AceLocalLogger : Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.csicit.ace.zuul.config.GlobalInterceptor.preHandle(GlobalInterceptor.java:123)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82153--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82153--耗时 : 1
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82155--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82155--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByCode, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82167--请求地址: http://192.168.20.136:2100/fileConfiguration/load ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileConfigurationController.load ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82176--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82176--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfoByBusinessKey, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82225--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82225--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82232--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82232--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82266--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82266--耗时 : 1
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/ReviewFile/d2e1c77e-636c-4111-98f2-5814cc3e7c06, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/fileReview, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiComment/listByBusinessKey, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getHandingProcessByBusinessKey, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82167--耗时 : 152
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:20:36.138, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82320--请求地址: http://192.168.20.136:2100/fileConfiguration/loadReviewFile ,HTTP_METHOD: POST ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.fileserver.core.controller.FileConfigurationController.loadReviewFile ,请求参数: {"appName":["dv-testapp-platform"],"token":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="],"formId":["d2e1c77e-636c-4111-98f2-5814cc3e7c06"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82321--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji4vm9wW4qIWVHHJAH0OsiHN3BdYc5oLoNB8Czrcv5L4KIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82321--耗时 : 0
+2021-12-02 15:01:22 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82326--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82326--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82327--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82327--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82332--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82332--耗时 : 1
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82345--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82345--耗时 : 0
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82351--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82351--耗时 : 8
+2021-12-02 15:01:22 [INFO] com.csicit.ace.common.log.AceLocalLogger :  82320--耗时 : 147
+2021-12-02 15:01:23 [INFO] com.csicit.ace.common.log.AceLocalLogger :  83214--请求地址: http://192.168.20.136:2100/login ,HTTP_METHOD: POST ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.LoginController.login ,参数: hu11
+2021-12-02 15:01:23 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  667 results.
+2021-12-02 15:01:23 [WARN] com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper : Warn: execute Method There are  2 results.
+2021-12-02 15:01:23 [INFO] com.csicit.ace.common.log.AceLocalLogger :  83214--耗时 : 106
+2021-12-02 15:01:28 [INFO] com.csicit.ace.common.log.AceLocalLogger :  88352--请求地址: http://192.168.20.136:2100/sysMenus/action/tree/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysMenuController.listSideTree ,请求参数: {}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  88352--耗时 : 834
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskDelegate, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listFocusedWorks, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89597--请求地址: http://192.168.20.136:2100/sysUsers/action/info ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysUserController.info ,请求参数: {}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89600--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89600--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89601--耗时 : 1
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89604--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89604--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89606--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89606--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89614--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89615--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89615--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89614--耗时 : 9
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89597--耗时 : 34
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89637--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89646--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"8ae19f6869284437b3bb41b5b875e8cc\",\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89637--耗时 : 11
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89652--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89652--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89646--耗时 : 15
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89661--请求地址: http://192.168.20.136:2100/orgauth/sysMsgs/query/noReadMsg/46d0b4c6d26e462a9928f463f3378757/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysMessageController.listUserNoReadMsg ,请求参数: {"token":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89662--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89662--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89666--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89666--耗时 : 0
+2021-12-02 15:01:29 [INFO] com.csicit.ace.common.log.AceLocalLogger :  89661--耗时 : 8
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByTaskId, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/updateFocusWorkReadTime, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94081--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94081--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94081--耗时 : 1
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94081--耗时 : 1
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94089--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94089--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94091--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94091--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94093--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94093--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94110--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600"],"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94110--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94113--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94113--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfoByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94274--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94274--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94279--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94279--耗时 : 1
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94285--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94285--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94314--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94314--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks/af24cb0b-cf16-4175-8bf2-a13ef8e8c7ac, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/fid-24dc11f6-5494-4761-8297-7c3b76ef88e6, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/isFocusWork, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94467--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94467--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94467--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94467--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94472--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94472--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getHandingProcessByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiComment/listByTaskId, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94473--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94473--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94473--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94473--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94476--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94476--耗时 : 1
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94481--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94481--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94481--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94481--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94494--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94494--耗时 : 0
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94503--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  94503--耗时 : 8
+2021-12-02 15:01:41 [INFO] com.csicit.ace.common.log.AceLocalLogger :  01810--请求地址: http://192.168.20.136:2100/sysMenus/action/tree/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysMenuController.listSideTree ,请求参数: {}
+2021-12-02 15:01:42 [INFO] com.csicit.ace.common.log.AceLocalLogger :  01810--耗时 : 844
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskMineByParams, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listTaskDelegate, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/listFocusedWorks, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03038--请求地址: http://192.168.20.136:2100/sysUsers/action/info ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.platform.core.controller.SysUserController.info ,请求参数: {}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03042--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03042--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03042--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03042--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03043--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03043--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03043--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03043--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03047--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03047--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03048--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03048--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03053--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03053--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03053--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03053--耗时 : 10
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03038--耗时 : 31
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03072--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03072--耗时 : 10
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03084--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"8ae19f6869284437b3bb41b5b875e8cc\",\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03085--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03085--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03084--耗时 : 11
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03096--请求地址: http://192.168.20.136:2100/orgauth/sysMsgs/query/noReadMsg/46d0b4c6d26e462a9928f463f3378757/dv-testapp-platform ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysMessageController.listUserNoReadMsg ,请求参数: {"token":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg=="]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03099--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03099--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03099--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03099--耗时 : 0
+2021-12-02 15:01:43 [INFO] com.csicit.ace.common.log.AceLocalLogger :  03096--耗时 : 8
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/updateFocusWorkReadTime, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getFlowModelByTaskId, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05280--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05280--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05280--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05280--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05286--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05286--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05289--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05289--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfoByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05354--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05354--耗时 : 1
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05359--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05359--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05364--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05364--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05395--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05395--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/isFocusWork, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/fid-24dc11f6-5494-4761-8297-7c3b76ef88e6, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks/af24cb0b-cf16-4175-8bf2-a13ef8e8c7ac, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05534--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05534--耗时 : 1
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getHandingProcessByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiComment/listByTaskId, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05539--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05539--耗时 : 1
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05542--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05542--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05544--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05544--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05544--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05544--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05545--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05545--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05546--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05546--耗时 : 0
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05549--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05549--耗时 : 1
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05559--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05559--耗时 : 1
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05575--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:45 [INFO] com.csicit.ace.common.log.AceLocalLogger :  05575--耗时 : 8
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getNodeInfoByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10014--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10014--耗时 : 1
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10020--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10020--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10025--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10025--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10053--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10053--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/isFocusWork, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/wfdUserPage/fid-24dc11f6-5494-4761-8297-7c3b76ef88e6, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks/af24cb0b-cf16-4175-8bf2-a13ef8e8c7ac, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10167--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10167--耗时 : 1
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10169--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10169--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10173--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10173--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10174--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10174--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10174--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==userid"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10174--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiComment/listByTaskId, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getHandingProcessByTaskId/58b0caf2-70e6-4775-8ed0-4089ede82b40, REQUEST_METHOD:GET, REQUEST_IP:192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----token:2ucy_1-1CIKoDcOa_Ioji65jTn_b7ML6PW-j9uiBR-NijNnQbvSGS-F75_OHvi7GIwLijH-uDjEETdM_asXscQ7FMfGWN6Cx_yeFfJNO7xj4mBqIov_PcNMQk2fVReVNfiTTunk2hioF-KRzxI_kJg==
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : -----sysUserDO:SysUserDO(staffNo=54353, userName=hu11, realName=胡11, email=null, phoneNumber=, userType=3, startFlag=1, secretLevel=4, sortIndex=128020, userPost=null, password=null, passwordUpdateTime=2021-06-29T09:21:22.279, personDocId=c01da1db324840f4a1e6fa1e5e4a2ae7, personDoc=null, bdPersonJobDO=null, baseDocType=null, pinyin=hu11, pswPolicyId=null, failLoginTimes=0, unlockTime=2021-12-02T13:21:23.245, organizationId=1447ac5ad4cd408ba55e2cb6f2ff6ee3, organizationName=null, departmentId=null, departmentCode=null, departmentName=null, departmentSortPath=null, groupId=0b810652d0e84269addf1f147a9c551d, groupName=null, firstLogin=0, beDeleted=0, organizes=null, groups=null, apps=null, userGroups=null, roleType=null, ipBind=0, ipAddress=192.168.19.73)
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.19.73
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10205--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10205--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10206--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10206--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10209--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10209--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10219--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10219--耗时 : 0
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10231--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.19.73 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-12-02 15:01:50 [INFO] com.csicit.ace.common.log.AceLocalLogger :  10231--耗时 : 8
+2021-12-02 15:02:18 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638428419100 paused.
+2021-12-02 15:02:18 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Stopping filter initializer
+2021-12-02 15:02:18 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-02 15:02:18 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+2021-12-02 15:02:18 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638428419100 shutting down.
+2021-12-02 15:02:18 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638428419100 paused.
+2021-12-02 15:02:18 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638428419100 shutdown complete.
+2021-12-02 15:02:18 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed

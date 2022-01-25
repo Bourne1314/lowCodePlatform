@@ -1,0 +1,34 @@
+package ${package}.service;
+
+import ${package}.pojo.${className};
+import com.csicit.ace.dbplus.service.IBaseService;
+import org.springframework.transaction.annotation.Transactional;
+import java.util.*;
+/**
+ * ${comments} 实例对象访问接口
+ *
+ * @author ${author}
+ * @date ${datetime}
+ * @version V1.0
+ */
+@Transactional
+public interface ${className}Service extends IBaseService<${className}> {
+
+    #if(${enableLog}==1)
+    /**
+     * 保存
+     */
+    boolean save${className}(${className} instance);
+
+    /**
+     * 更新
+     */
+    boolean update${className}(${className} instance);
+
+    /**
+     * 删除
+     */
+    boolean delete${className}s (List<String> ids);
+    #end
+
+}

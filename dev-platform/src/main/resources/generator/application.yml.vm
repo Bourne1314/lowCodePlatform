@@ -1,0 +1,51 @@
+server:
+  port: ${ipPort}
+
+spring:
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+      default-property-inclusion: non_null
+  profiles:
+    active: dev
+  application:
+    name: ${appId}
+  main:
+    allow-bean-definition-overriding: true
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.csicit.ace.common.pojo,${package}.pojo
+  global-config:
+    id-type: 0
+    field-strategy: 2
+    db-column-underline: true
+    refresh-mapper: true
+    capital-mode: true
+    logic-delete-value: -1
+    logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+#logging:
+#  config: classpath:logback-spring.xml
+#  level:
+#    root: info
+#    com.csicit.ace: info
+#logging:
+#  level:
+#    root: error
+#    com.csicit.ace: error
+ace:
+  config:
+    sso:
+      open: false
+      completedValidateUrl: ""

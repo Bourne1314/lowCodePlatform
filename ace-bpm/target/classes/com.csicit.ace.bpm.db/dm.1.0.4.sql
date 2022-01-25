@@ -1,0 +1,1 @@
+alter table WFI_DELIVER modify DELIVER_TIME DATETIME(6);

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{../css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{../images/favicon.ico}" type="image/x-icon"/>
+    <script type="text/javascript" src="../webuploader/uploader.js"></script>
+    <meta charset="UTF-8"/>
+    <title>书籍管理</title>
+</head>
+
+<body>
+<div class="contentDiv">
+
+    <h5>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 5 章《数据存储》Demo </h5>
+
+    <legend>
+        <strong>书籍管理</strong>
+    </legend>
+
+    <form th:action="@{/books/{action}(action=${action})}" method="post" class="form-horizontal">
+
+        <input type="hidden" name="id" th:value="${book.id}"/>
+
+        <div class="form-group">
+            <label for="book_name" class="col-sm-2 control-label">书名:</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" id="book_name" name="name" th:value="${book.name}"
+                       th:field="*{book.name}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="book_writer" class="col-sm-2 control-label">作者:</label>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" id="book_writer" name="writer" th:value="${book.author}"
+                       th:field="*{book.author}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="book_introduction" class="col-sm-2 control-label">简介:</label>
+            <div class="col-xs-4">
+                <textarea class="form-control" id="book_introduction" rows="3" name="introduction"
+                          th:value="${book.introduction}" th:field="*{book.introduction}"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="book_introduction" class="col-sm-2 control-label">附件:</label>
+            <div class="col-xs-4">
+                <div id="divFile"></div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input class="btn btn-primary" type="submit" value="提交"/>&nbsp;&nbsp;
+                <input class="btn" type="button" value="返回" onclick="history.back()"/>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var txtId = document.getElementsByName('id')[0];
+        // 表单id，'formId为附件控件必须字段，当前页面对应id，id不能为空！'
+        var formId = txtId.value;
+        // 用来渲染附件控件的divId
+        var targetId = 'divFile';
+        // 附件配置标识
+        var configurationKey = '1';
+        // 是否允许上传
+        var allowUpload = true;
+        // 是否允许删除
+        var allowDelete = true;
+        // 是否允许下载
+        var allowDownload = true;
+        // 文件服务地址
+        var fileServerUrl = 'http://192.168.16.83:2130';
+        new ace.uploader.FileUploader(targetId, configurationKey, formId, allowUpload, allowDelete, allowDownload, fileServerUrl);
+    });
+</script>
+</html>

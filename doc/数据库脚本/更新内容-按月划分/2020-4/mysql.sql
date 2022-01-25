@@ -1,0 +1,163 @@
+/**
+2020/04/02
+ */
+CREATE TABLE `SYS_COMPONENT_REGISTER`(
+  `ID` VARCHAR(50) NOT NULL COMMENT '主键',
+  `APP_ID` VARCHAR(50) COMMENT '应用ID',
+  `NAME` VARCHAR(50) COMMENT '组件名',
+  `COMPONENT_URL` VARCHAR(200) COMMENT '组件地址路径',
+  `AUTH_ID` VARCHAR(50) COMMENT '组件对应的权限ID',
+  `COLUMN_ONE` VARCHAR(50) COMMENT '字段1',
+  `COLUMN_TWO` VARCHAR(50) COMMENT '字段2',
+  `CREATE_TIME` DATETIME(6) DEFAULT NULL COMMENT '创建时间',
+  `COL_SPAN` INT(10) DEFAULT '0' COMMENT '在首页所占列数',
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_COMPONENT_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `sys_group_app`(`ID`) ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT `FK_COMPONENT_AUTH_ID` FOREIGN KEY (`AUTH_ID`) REFERENCES `sys_auth`(`ID`) ON UPDATE CASCADE ON DELETE SET NULL
+)
+COMMENT='应用组件注册表';
+
+CREATE TABLE `SYS_COMPONENT_USER`(
+  `ID` VARCHAR(50) NOT NULL COMMENT '主键',
+  `COMPONENT_INFO` LONGTEXT COMMENT '组件信息',
+  `APP_ID` VARCHAR(50) COMMENT '应用ID',
+  `USER_ID` VARCHAR(50) COMMENT '用户ID',
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_COMPONENT_USER_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `sys_group_app`(`ID`) ON DELETE CASCADE,
+  CONSTRAINT `FK_COMPONENT_USER_USER_ID` FOREIGN KEY (`USER_ID`) REFERENCES `sys_user`(`ID`) ON DELETE CASCADE
+)
+COMMENT='普通用户登录应用首页组件排版信息表';
+
+insert into `SYS_AUTH` (`ID`,`NAME`,`APP_ID`,`REMARK`,`SORT_INDEX`,`PARENT_ID`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`SORT_PATH`,`IS_ORG_ADMIN`,`IS_USER_GROUP_ADMIN`,`CODE`,`DATA_VERSION`) values ('19ea2ad7ea4a4e54acdaff4yhmzq8370', '组件注册', 'platform', null,12, '11316279a4a9416a8e20019821e640af', null, null, null, '00030012', 0, 0, 'platForm.componentRegisterManage.componentRegister', 0);
+
+insert into `SYS_MENU` (`ID`,`NAME`,`PARENT_ID`,`APP_ID`,`PARENT_NAME`,`URL`,`TYPE`,`ICON`,`AUTH_ID`,`BTN_AUTH`,`IS_LEAF`,`SORT_INDEX`,`ALL_ORDER`,`SORT_PATH`,`OPEN_STYLE`,`CLOSE_NOTICE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`LEAF`,`MENU_AUTH`,`REMARK`,`DATA_VERSION`,`IS_IFRAME`) values ('19ea2ad7ea4a4e54acdaff4yhmzq8370', '组件注册', '11316279a4a9416a8e20019821e640af', 'platform', '配置管理', 'componentRegisterManage/views/ComponentRegister', 1, 'fa fa-registered', '19ea2ad7ea4a4e54acdaff4yhmzq8370', null, null, 12, null, '00030012', null, null, null, null, null, null, null, null, 0, 0);
+
+insert into `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) values ('2qwctad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4yhmzq8370', 'appadmin', null, 0, null, null, null, null);
+
+insert into `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) values ('29ea2ad7eawdfe54acdafcbc84bb8370', '19ea2ad7ea4a4e54acdaff4yhmzq8370', 'appadmin', null, 0, null, null, null, null, 'appadmin');
+
+
+2020/4/7
+ */
+ALTER TABLE `ORG_DEPARTMENT` ADD COLUMN `IS_ENTITY` INT(1) DEFAULT 1 COMMENT '是否实体部门';
+
+/**
+ * 修改消息通道给应用管理员
+ * @author zuogang
+ * @date 2020/4/14 8:30
+ */
+delete from sys_menu where name in ('消息配置','通道扩展');
+
+delete from sys_auth where name in ('消息配置','消息拓展');
+
+delete from sys_auth_role_v where auth_id in ('34116279a4a9416a8e20019821e61341','yut76279a4a9416a8e20019821e6g45t');
+
+update sys_menu set parent_id='11316279a4a9416a8e20019821e640af',PARENT_NAME='配置管理',sort_index=9,sort_path='00030009'   where id='45676279a4a9416a8e20019821e6ghjk';
+
+update sys_auth set parent_id='11316279a4a9416a8e20019821e640af' , sort_index=9, sort_path='00030009' where id='45676279a4a9416a8e20019821e6ghjk';
+
+update sys_auth_role set role_id='appadmin' where role_id='admin' and auth_id='45676279a4a9416a8e20019821e6ghjk';
+
+update sys_auth_role_v set role_id='appadmin',lv_id='appadmin' where auth_id='45676279a4a9416a8e20019821e6ghjk' and lv_id='admin';
+/** 
+ * 消息通道添加APPID字段
+ * @author shanwj
+ * @date 2020/4/16 18:06
+ */
+ALTER TABLE `SYS_MSG_SEND_TYPE` ADD COLUMN `APP_ID` VARCHAR2(50) COMMENT '应用id';
+
+ALTER TABLE `SYS_MSG_SEND_TYPE`
+  ADD CONSTRAINT `FK_SYS_MSG_SEND_TYPE_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `SYS_GROUP_APP`(`ID`);
+
+/**
+ *  API关联表添加外键
+ * @return
+ * @author zuogang
+ * @date 2020/4/17 10:51
+ */
+ALTER TABLE `SYS_AUTH_API`
+  ADD CONSTRAINT `FK_AUTH_API_API_ID` FOREIGN KEY (`API_ID`) REFERENCES `SYS_API_RESOURCE`(`ID`);
+
+ALTER TABLE `SYS_API_MIX`
+  ADD CONSTRAINT `FK_API_MIX_API_ID` FOREIGN KEY (`API_ID`) REFERENCES `SYS_API_RESOURCE`(`ID`);
+
+/**
+ *  API关联表添加外键
+ * @return
+ * @author 单文金
+ * @date 2020/4/24 10:51
+ */
+
+ CREATE TABLE `SYS_MICRO_APP`(
+  `ID` VARCHAR(50) NOT NULL COMMENT '主键',
+  `APP_ID` VARCHAR(100) COMMENT '小程序appId',
+  `NAME` VARCHAR(500) COMMENT '名称',
+  `APP_SECRET` VARCHAR(200) COMMENT '密钥',
+  `ACCESS_TOKEN` VARCHAR(500) COMMENT '组件对应的权限ID',
+  `TYPE` VARCHAR(50) COMMENT '小程序类型',
+  `CURRENT_VERSION` VARCHAR(50) COMMENT '上线版本',
+  `AUDIT_VERSION` VARCHAR(50)  COMMENT '审核版本',
+  `DATA_VERSION` INT(10) DEFAULT 0 COMMENT '数据版本',
+  PRIMARY KEY (`ID`))
+COMMENT='平台小程序';
+
+/**
+ *  消息模板
+ * @return
+ * @author 单文金
+ * @date 2020/4/27 10:51
+ */
+CREATE TABLE 'SYS_MSG_TEMPLATE'
+(
+'ID' VARCHAR2(50) NOT NULL COMMENT '主键',
+'TEMPLATE_TITLE' VARCHAR2(1000) COMMENT '模板标题',
+'AUTH' VARCHAR2(500) COMMENT '调用权限',
+'TEMPLATE_CONTENT' VARCHAR2(2000) COMMENT '模板',
+'TEMPLATE_ID' VARCHAR2(200) COMMENT '模板id',
+'URL' VARCHAR2(200) COMMENT '消息链接',
+'CREATE_TIME' DATETIME(6) COMMENT '创建时间',
+'CREATE_USER' VARCHAR2(50) COMMENT '创建人',
+'DATA_VERSION' INT(10) DEFAULT 0 COMMENT '数据版本',
+'APP_ID' VARCHAR2(50) COMMENT '应用ID',
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_SYS_MSG_TEMPLATE_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `SYS_GROUP_APP`(`ID`) ON UPDATE CASCADE ON DELETE CASCADE);
+COMMENT='消息模板';
+
+CREATE TABLE 'SYS_MSG_TEMPLATE_CONFIG'
+(
+'ID' VARCHAR2(50) NOT NULL COMMENT '主键',
+'TEMPLATE_ID' VARCHAR2(200) COMMENT '小程序消息模板ID',
+'IS_OPEN' INT(1) DEFAULT 0 COMMENT '是否启用0不启用1启用',
+'URL' VARCHAR2(200) COMMENT '链接路径',
+'TID' VARCHAR2(50) COMMENT '平台消息模板id',
+'TITLE' VARCHAR2(1000) COMMENT '小程序消息模板标题',
+'CONTENT' DATETIME(2000) COMMENT '小程序消息模板内容',
+'TYPE' VARCHAR2(100) COMMENT '消息信使类型',
+'MICRO_APP_ID' VARCHAR2(200)  COMMENT '小程序标识',
+'MICRO_APP_NAME' VARCHAR2(500) COMMENT '小程序名称',
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_SYS_MSG_TEMPLATE_CONFIG_TID` FOREIGN KEY (`TID`) REFERENCES `SYS_MSG_TEMPLATE`(`ID`) ON UPDATE CASCADE ON DELETE CASCADE);
+COMMENT='消息模板';
+
+
+/**
+ * 小程序和消息模板菜单分配管理员
+ * @author zuogang
+ * @date 2020/4/30 10:43
+ */
+INSERT INTO `SYS_AUTH` (`ID`,`NAME`,`APP_ID`,`REMARK`,`SORT_INDEX`,`PARENT_ID`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`SORT_PATH`,`IS_ORG_ADMIN`,`IS_USER_GROUP_ADMIN`,`CODE`,`DATA_VERSION`) VALUES ('vbnmhd7ea4a4e54acdaff4yhmzq8370', '小程序管理', 'platform', NULL,13, '11316279a4a9416a8e20019821e640af', NULL, NULL, NULL, '00030013', 0, 0, 'platForm.microAppManag.MicroApp', 0);
+
+INSERT INTO `SYS_MENU` (`ID`,`NAME`,`PARENT_ID`,`APP_ID`,`PARENT_NAME`,`URL`,`TYPE`,`ICON`,`AUTH_ID`,`BTN_AUTH`,`IS_LEAF`,`SORT_INDEX`,`ALL_ORDER`,`SORT_PATH`,`OPEN_STYLE`,`CLOSE_NOTICE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`LEAF`,`MENU_AUTH`,`REMARK`,`DATA_VERSION`,`IS_IFRAME`) VALUES ('vbnmhd7ea4a4e54acdaff4yhmzq8370', '小程序管理', '11316279a4a9416a8e20019821e640af', 'platform', '配置管理', 'microAppManage/views/MicroApp', 1, 'fa fa-cubes', 'vbnmhd7ea4a4e54acdaff4yhmzq8370', NULL, NULL, 13, NULL, '00030013', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0);
+
+INSERT INTO `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) VALUES ('vrtyhd7ea4a4e54acdaff4yhmzq8370', 'vbnmhd7ea4a4e54acdaff4yhmzq8370', 'groupadmin', NULL, 0, NULL, NULL, NULL, NULL);
+
+INSERT INTO `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) VALUES ('vrtyhd7ea4a4e54acdaff4yhmzq8370', 'vbnmhd7ea4a4e54acdaff4yhmzq8370', 'groupadmin', NULL, 0, NULL, NULL, NULL, NULL, 'groupadmin');
+
+
+INSERT INTO `SYS_AUTH` (`ID`,`NAME`,`APP_ID`,`REMARK`,`SORT_INDEX`,`PARENT_ID`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`SORT_PATH`,`IS_ORG_ADMIN`,`IS_USER_GROUP_ADMIN`,`CODE`,`DATA_VERSION`) VALUES ('bnuimd7ea4a4e54acdaff4yhmzq8370', '消息模板', 'platform', NULL,14, '11316279a4a9416a8e20019821e640af', NULL, NULL, NULL, '00030014', 0, 0, 'platForm.msgTemplateManage.MsgTemplate', 0);
+
+INSERT INTO `SYS_MENU` (`ID`,`NAME`,`PARENT_ID`,`APP_ID`,`PARENT_NAME`,`URL`,`TYPE`,`ICON`,`AUTH_ID`,`BTN_AUTH`,`IS_LEAF`,`SORT_INDEX`,`ALL_ORDER`,`SORT_PATH`,`OPEN_STYLE`,`CLOSE_NOTICE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`LEAF`,`MENU_AUTH`,`REMARK`,`DATA_VERSION`,`IS_IFRAME`) VALUES ('bnuimd7ea4a4e54acdaff4yhmzq8370', '消息模板', '11316279a4a9416a8e20019821e640af', 'platform', '配置管理', 'msgTemplateManage/views/MsgTemplate', 1, 'fa fa-comments-o', 'bnuimd7ea4a4e54acdaff4yhmzq8370', NULL, NULL, 14, NULL, '00030014', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0);
+
+INSERT INTO `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) VALUES ('qwtyhdwea4a4e54acdaff4yhmzq8370', 'bnuimd7ea4a4e54acdaff4yhmzq8370', 'appadmin', NULL, 0, NULL, NULL, NULL, NULL);
+
+INSERT INTO `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) VALUES ('qwtyhdwea4a4e54acdaff4yhmzq8370', 'bnuimd7ea4a4e54acdaff4yhmzq8370', 'appadmin', NULL, 0, NULL, NULL, NULL, NULL, 'appadmin');

@@ -1,0 +1,85 @@
+server:
+  port: 2110
+
+spring:
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+      default-property-inclusion: non_null
+  profiles:
+    active: dev
+  application:
+    name: platform
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.csicit.ace.common.pojo.domain
+  global-config:
+    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+    id-type: 0
+    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+    field-strategy: 2
+    #驼峰下划线转换
+    db-column-underline: true
+    #刷新mapper 调试神器
+    refresh-mapper: true
+    #数据库大写下划线转换
+    capital-mode: true
+    #序列接口实现类配置
+    #key-generator: com.baomidou.springboot.xxx
+    #逻辑删除配置
+    logic-delete-value: -1
+    logic-not-delete-value: 0
+    #自定义填充策略接口实现
+    #meta-object-handler: com.baomidou.springboot.xxx
+    #自定义SQL注入器
+    #sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
+#logging:
+#  level:
+#    root: error
+#    com.csicit.ace: info
+#  file: app.log
+ace:
+  config:
+    isDevState: 1
+    openMongoDB: false
+    localRecord: true
+    sso:
+      open: false
+      completedValidateUrl: ""
+  objects:
+      personIdTypes:
+      - id: cardno
+        name: 身份证
+        code: cardno
+        description: 身份证
+        numberLength: 12
+      - id: junguanzheng
+        name: 军官证
+        code: junguanzheng
+        description: 军官证
+        numberLength: 12
+
+open-block-chain: true # 区块链开启，true为开

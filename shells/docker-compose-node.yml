@@ -1,0 +1,22 @@
+version: '2'
+services:
+  bff:
+    image: bff
+    environment:
+      NODE_NACOS_ADDRESS: "{NacosAddress}"
+      NODE_GATEWAY_URL: "{GatewayOrNginxUrl}"
+    expose:
+      - "2060"
+    volumes:
+      - "/etc/localtime:/etc/localtime"
+      - "/opt/logs/bff/:/tmp/bff/"
+  push:
+    image: push
+    environment:
+      NODE_NACOS_ADDRESS: "{NacosAddress}"
+      NODE_REDIS_HOST: "{RedisHost}"
+    expose:
+      - "2070"
+    volumes:
+      - "/etc/localtime:/etc/localtime"
+      - "/opt/logs/push/:/tmp/push/"

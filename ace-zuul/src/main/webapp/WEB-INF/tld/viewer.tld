@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="2.1">
+
+    <description>A tag library exercising work with stimulsoft Webviewer.</description>
+    <display-name>Stimulsoft webviewer library</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>acestiwebviewer</short-name>
+    <uri>http://stimulsoft.com/acewebviewer</uri>
+    <tag>
+        <description>The resources of webviewer.</description>
+        <name>resources</name>
+        <tag-class>com.csicit.ace.report.core.h5.AceStiWebViewerResourceTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <description>The Stimulsoft webviewer</description>
+        <name>acewebviewer</name>
+        <tag-class>com.csicit.ace.report.core.h5.AceStiWebViewerTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>A displayed report</description>
+            <name>report</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.stimulsoft.report.StiReport</type>
+        </attribute>
+        <attribute>
+            <description>A webviewer opitions</description>
+            <name>options</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.stimulsoft.webviewer.StiWebViewerOptions</type>
+        </attribute>
+        <attribute>
+            <description>A mail properties (need to be configured mail sender parameters)</description>
+            <name>mailProperties</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.stimulsoft.base.mail.StiMailProperties</type>
+        </attribute>
+        <attribute>
+            <description>A webviewer ID</description>
+            <name>viewerID</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+
+</taglib>

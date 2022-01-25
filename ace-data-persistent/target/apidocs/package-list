@@ -1,0 +1,9 @@
+com.csicit.ace.data.persistent.config
+com.csicit.ace.data.persistent.mapper
+com.csicit.ace.data.persistent.messenger
+com.csicit.ace.data.persistent.messenger.config
+com.csicit.ace.data.persistent.messenger.impl
+com.csicit.ace.data.persistent.qrtzUtils
+com.csicit.ace.data.persistent.service
+com.csicit.ace.data.persistent.service.impl
+com.csicit.ace.data.persistent.utils

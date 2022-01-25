@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{images/favicon.ico}" type="image/x-icon"/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/public.js"></script>
+    <script type="text/javascript" src="js/socket.io.js"></script>
+    <meta charset="UTF-8"/>
+    <title>菜单列表</title>
+</head>
+
+<body>
+
+<div class="contentDiv">
+    <a class="btn btn-danger" onclick="sendMsg()">发送消息</a>
+    <a class="btn btn-danger" onclick="sendEvent()">发送执行事件</a>
+    <a class="btn btn-danger" onclick="updateOne()">更新消息</a>
+    <a class="btn btn-danger" onclick="updateMsgs()">更新全部消息</a>
+    <!--<a class="btn btn-danger" onclick="delOne()">删除某条消息</a>-->
+    <!--<a class="btn btn-danger" onclick="delMsgs()">删除消息集合</a>-->
+    <!--<a class="btn btn-danger" onclick="delAllReadMsgs()">删除全部已读消息</a>-->
+    <!--<a class="btn btn-danger" onclick="delAllMsgs()">删除全部消息</a>-->
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <a class="btn btn-danger" onclick="getAllMsg()">获取全部消息</a>
+    <a class="btn btn-danger" onclick="getReadMsg()">获取已读消息</a>
+    <a class="btn btn-danger" onclick="getUnMsg()">获取未读消息</a>
+
+    <br>
+    <br>
+    <h1>带分页</h1>
+    <a class="btn btn-danger" onclick="getPageMsg()">获取全部消息</a>
+    <a class="btn btn-danger" onclick="getPageReadMsg()">获取已读消息</a>
+    <a class="btn btn-danger" onclick="getPageUnMsg()">获取未读消息</a>
+    <br>
+    <br>
+    <br>
+    <h1>Demo展示页面</h1>
+    <h2 id="show"></h2>
+    <!--<table class="table table-hover table-condensed">-->
+    <!--<legend>-->
+    <!--<strong>菜单列表</strong>-->
+    <!--</legend>-->
+    <!--<thead>-->
+    <!--<tr>-->
+    <!--<th>菜单名称</th>-->
+    <!--<th>菜单路径</th>-->
+    <!--<th>应用名称</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<tr th:each="menu : ${menus}">-->
+    <!--<th scope="row" th:text="${menu.id}"></th>-->
+    <!--<td th:text="${menu.name}"></td>-->
+    <!--<td th:text="${menu.url}"></td>-->
+    <!--<td th:text="${menu.appId}"></td>-->
+    <!--&lt;!&ndash;<td><a th:href="@{/{name}/{url}(name=${name},url=${menu.url})" th:text="${menu.name}"></a></td>&ndash;&gt;-->
+    <!--<td><a class="btn btn-danger" onclick="jump()">跳转</a></td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+    <!--</table>-->
+</div>
+
+</body>
+<script>
+    var appId = getCookie("appName");
+    var socket = initSocketConnect(appId);
+    socket.on('aceSocketEvent', function (msg) {
+        console.log(msg);
+        var eventName = msg.eventName;
+        if (eventName==="aceNotifyEvent") {
+            console.log("1111111111111111");
+        }else{
+            console.log("2222222222222222");
+        }
+    });
+
+    function sendMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/sendMsg',
+            success:function(msg) {
+                console.log(msg);
+            }
+        })
+    }
+
+    function sendEvent() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/sendEvent',
+            success:function(msg) {
+                console.log(msg);
+            }
+        })
+    }
+    
+    function updateOne() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/updateOne',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+    function updateMsgs() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/delAllMsgs',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+    function delOne() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/delOne',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+    function delMsgs() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/delMsgs',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+    function delAllReadMsgs() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/delAllReadMsgs',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+    function delAllMsgs() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'POST',
+            url   :window.location.origin+'/'+appId+'/delAllMsgs',
+            success:function(msg) {
+                console.log("----------------------sendSuccess");
+            }
+        })
+    }
+
+    function getUnMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/listUn',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+
+    function getReadMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/listRead',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+
+    function getAllMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/listAll',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+
+
+
+
+
+
+    function getPageUnMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/pageUn',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+    function getPageReadMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/pageRead',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+    function getPageMsg() {
+        var appId = getCookie("appName");
+        $.ajax({
+            type  : 'get',
+            url   :window.location.origin+'/'+appId+'/pageAll',
+            success:function(data) {
+                console.log("----------------------sendSuccess"+data);
+            }
+        })
+    }
+
+
+
+    function jump() {
+
+        window.location.href= getRequestProjectUrl()+"/borrows";
+    }
+
+    function getRequestProjectUrl() {
+        var host = self.location.host;//路径（域名）
+        var http = self.location.protocol;
+        var allHost =http+'//'+host+'/';
+        var url =  self.location.href;
+        url = url.replace(allHost,"");
+        var appName = "";
+        if (url.indexOf("/")){
+            appName = url.split("/")[0];
+        }else{
+            appName = url;
+        }
+        return allHost+appName;
+    }
+</script>
+</html>

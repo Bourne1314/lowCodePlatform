@@ -1,0 +1,215 @@
+<template>
+    <article style="padding: 16px">
+#if(${flowExist}==0)
+        <!-- 弹窗，新增/修改-->
+        <add-or-update ref="addOrUpdate" @refreshDataList="getDataList"></add-or-update>
+#end
+        <div class="${classname}-head">
+            <el-row slot="header" :gutter="10">
+                <el-col :span="17">
+                    <el-input
+                            placeholder="通过名称/型号/专业查询"
+                            v-model.trim="dataForm.key"
+                            style="width: 400px"
+                            size="small"
+                            clearable
+                    >
+                        <el-button
+                                @click="searchHandler"
+                                slot="append"
+                                icon="el-icon-search"
+                        ></el-button>
+                    </el-input>
+                </el-col>
+                <el-col :span="7" class="text-align-right">
+                    <el-button-group>
+                        <el-button title="刷新列表" type="primary" size="small" @click="getDataList">刷新
+                        </el-button>
+                        <el-button type="primary" size="small" title="新增" @click="addOrUpdateHandle()">新增
+                        </el-button>
+                        <el-button type="primary" title="批量删除" size="small" :disabled="dataListSelections.length <= 0"
+                                   @click="deleteHandle()">删除
+                        </el-button>
+                    </el-button-group>
+                </el-col>
+            </el-row>
+        </div>
+        <div class="trialPlan-body">
+            <vxe-table show-overflow highlight-hover-row highlight-hover-column resizable size="small" row-key
+                       :loading="dataListLoading" @checkbox-change="selectionChangeHandle"
+                       @checkbox-all="selectionChangeHandle" :data="dataList">
+                <vxe-table-column type="checkbox" field="checkbox" width="50" fixed="left" align="left">
+                </vxe-table-column>
+#foreach ($column in $columns)
+    <vxe-table-column
+            title="#if(!$null.isNull($column.comments))$column.comments #end"
+            field="$column.attrname"
+            sortable width="300px"
+        #if($column.columnName=='ID')
+                      v-if="false"
+        #end
+    >
+    </vxe-table-column>
+#end
+                <vxe-table-column fixed="right" width="260px" title="操作" v-if="${flowExist}==0">
+                    <template slot-scope="scope">
+                        <el-link title="修改" class="custom-link-small" type="primary"
+                                 @click="addOrUpdateHandle(scope.row.id)">修改
+                        </el-link>
+                        <el-divider direction="vertical"></el-divider>
+                        <el-link type="primary" class="custom-link-small"
+                                 @click="deleteHandle(scope.row.id)">删除
+                        </el-link>
+                    </template>
+                </vxe-table-column>
+            </vxe-table>
+            <vxe-pager perfect :current-page="current" :page-size="size" :total="total" :layouts="[
+          'PrevPage',
+          'JumpNumber',
+          'NextPage',
+          'FullJump',
+          'Sizes',
+          'Total',
+        ]" @page-change="currentChangeHandle"></vxe-pager>
+        </div>
+    </article>
+</template>
+
+<script>
+#if(${flowExist}==0)
+    import addOrUpdate from '../components/add-or-update'
+#end
+    import { Message } from 'element-ui';
+    export default {
+        name: '${className}',
+        data() {
+            return {
+                dataForm: {
+                    key: "",
+                },
+                dataList: [],
+                dataListSelections: [],
+                dataListLoading: false,
+                current: 1,
+                size: 10,
+                total: 0,
+                //message实例容器  用于关闭上一个message
+                messageBox: null
+            }
+        },
+        components: {
+#if(${flowExist}==0)
+            addOrUpdate
+#end
+        },
+        created() {
+            this.getDataList()
+        },
+        methods: {
+            searchHandler() {
+                this.pageIndex = 1;
+                this.getDataList();
+            },
+            selectionChangeHandle(val) {
+                this.dataListSelections = val.selection;
+            },
+            // 每页数
+            sizeChangeHandle(val) {
+                this.size = val;
+                this.current = 1;
+                this.getDataList();
+            },
+            // 当前页
+            currentChangeHandle({type, currentPage, pageSize}) {
+                if (type === "current") {
+                    this.current = currentPage;
+                    this.getDataList();
+                } else {
+                    this.sizeChangeHandle(pageSize);
+                }
+            },
+            getDataList() {
+                this.dataList = []
+                this.dataListSelections = []
+                this.dataListLoading = true
+                let params = {
+                    'current': this.current,
+                    'size': this.size,
+                    //'key': this.dataForm.key
+                }
+                let url = '/${classname}'
+                this.$appHttp({
+                    url: this.$appHttp.adornAppRequestUrl(url),
+                    method: 'get',
+                    params: this.$appHttp.adornParams(params)
+                }).then(({data}) => {
+                    if (data && data.code === 40000) {
+                    if (data.page.records.length > 0) {
+                        this.dataList = data.page.records
+                        this.total = data.page.total
+                    } else {
+                        this.dataList = []
+                        if (this.current > 1) {
+                            this.current--
+                            this.getDataList()
+                        }
+                    }
+                } else {
+                    this.dataList = []
+                }
+                this.dataListLoading = false
+            })
+            },
+            // 新增 / 修改
+            addOrUpdateHandle(id) {
+#if(${flowExist}==0)
+                this.$nextTick(() => {
+                    this.$refs.addOrUpdate.init(id)})
+#else
+    this.$router.openTaskWindow({flowCode: 'borrowBookApplication'})
+#end
+            },
+            // 删除
+            deleteHandle(id) {
+
+                let ids =
+                        id != undefined ? [id] :
+                                this.dataListSelections.map((item) => {
+                                    return item.id;
+            });
+                let url = '/${classname}'
+                this.$confirm('确定对['+ids.join(',')+']进行['+(id ? '删除' : '批量删除')+']操作?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    this.$appHttp({
+                    url: this.$appHttp.adornAppRequestUrl(url),
+                    method: 'delete',
+                    data: this.$appHttp.adornData(ids)
+                }).then(({data}) => {
+                    if (data && data.code === 40000) {
+                    this.messageBox && this.messageBox.close();
+                    this.messageBox = Message.success(data.msg)
+                    this.getDataList()
+                } else {
+                    this.messageBox && this.messageBox.close();
+                    this.messageBox = Message.error(data.msg)
+                }
+            })
+            })
+            }
+        }
+    }
+</script>
+
+<style lang="scss" scoped>
+    .${classname}-head {
+        background: #fff;
+        padding: 8px 8px;
+    }
+
+    .${classname}-body {
+        margin-top: 8px;
+    }
+</style>

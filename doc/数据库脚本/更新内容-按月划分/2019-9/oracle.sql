@@ -1,0 +1,332 @@
+/**
+  2019/09/27:修改集团三员管理
+ */
+COMMENT ON COLUMN SYS_USER.USER_TYPE IS '用户类型（0租户管理员,1集团管理员,11待激活的集团管理员,111未分配的集团管理员,2应用管理员,22待激活的应用管理员,222未分配的应用管理员,3普通用户）';
+
+ALTER TABLE SYS_USER_ADMIN_ORG ADD (IS_ACTIVATED  NUMBER(1)  DEFAULT 0);
+ALTER TABLE SYS_USER_ADMIN_ORG ADD (ROLE_TYPE  NUMBER(10) );
+comment on column SYS_USER_ADMIN_ORG.IS_ACTIVATED is '是否被激活，0没有，1是';
+comment on column SYS_USER_ADMIN_ORG.ROLE_TYPE is '角色类型（11集团系统管理员,22集团安全保密员,33集团安全审计员）';
+
+delete from SYS_AUTH where ID in('5fc1b8842fa04faea8f39beb866fd111','5fc1b8842fa04faea8f39beb866fd112');
+delete from SYS_AUTH_ROLE_V where AUTH_ID in ('5fc1b8842fa04faea8f39beb866fd111','5fc1b8842fa04faea8f39beb866fd112');
+
+insert all
+ into "SYS_AUTH_ROLE" ("ID","AUTH_ID","ROLE_ID","SIGN","IS_REVOKE","CREATE_USER","CREATE_TIME","UPDATE_TIME","REMARK") values ('12323fe2ef32403dbf9dc989d0651231', '5fc1b8842fa04faea8f39beb866fd511', 'sec', null, 0, null, null, null, null)
+ into "SYS_AUTH_ROLE_V" ("ID","AUTH_ID","ROLE_ID","SIGN","IS_REVOKE","CREATE_USER","CREATE_TIME","UPDATE_TIME","REMARK","LV_ID") values ('67870485-0733-0000-B229-5ED50026EA82', '5fc1b8842fa04faea8f39beb866fd511', 'sec', null, 0, null, null, null, null, 'sec')
+select 1 from dual;
+
+
+/**
+  2019/09/28:修改应用三员管理
+ */
+ALTER TABLE SYS_AUTH_SCOPE_ORG ADD (IS_ACTIVATED  NUMBER(1)  DEFAULT 0);
+ALTER TABLE SYS_AUTH_SCOPE_ORG ADD (ROLE_TYPE  NUMBER(10) );
+comment on column SYS_AUTH_SCOPE_ORG.IS_ACTIVATED is '是否被激活，0没有，1是';
+comment on column SYS_AUTH_SCOPE_ORG.ROLE_TYPE is '角色类型（111应用系统管理员,222应用安全保密员,333应用安全审计员）';
+
+ALTER TABLE SYS_AUTH_SCOPE_APP ADD (IS_ACTIVATED  NUMBER(1)  DEFAULT 0);
+ALTER TABLE SYS_AUTH_SCOPE_APP ADD (ROLE_TYPE  NUMBER(10) );
+comment on column SYS_AUTH_SCOPE_APP.IS_ACTIVATED is '是否被激活，0没有，1是';
+comment on column SYS_AUTH_SCOPE_APP.ROLE_TYPE is '角色类型（111应用系统管理员,222应用安全保密员,333应用安全审计员）';
+
+ALTER TABLE SYS_AUTH_SCOPE_USER_GROUP ADD (IS_ACTIVATED  NUMBER(1)  DEFAULT 0);
+ALTER TABLE SYS_AUTH_SCOPE_USER_GROUP ADD (ROLE_TYPE  NUMBER(10) );
+comment on column SYS_AUTH_SCOPE_USER_GROUP.IS_ACTIVATED is '是否被激活，0没有，1是';
+comment on column SYS_AUTH_SCOPE_USER_GROUP.ROLE_TYPE is '角色类型（111应用系统管理员,222应用安全保密员,333应用安全审计员）';
+
+delete from SYS_AUTH where ID in('67e1114e83214aeb8a3ec0a6822fd111','67e1114e83214aeb8a3ec0a6822fd112');
+delete from SYS_AUTH_ROLE_V where AUTH_ID in ('67e1114e83214aeb8a3ec0a6822fd111','67e1114e83214aeb8a3ec0a6822fd112');
+
+insert all
+ into "SYS_AUTH_ROLE" ("ID","AUTH_ID","ROLE_ID","SIGN","IS_REVOKE","CREATE_USER","CREATE_TIME","UPDATE_TIME","REMARK") values ('12323fe2ef32403dbf9dc989d065rt78', '67e1114e83214aeb8a3ec0a6822fdd30', 'groupsec', null, 0, null, null, null, null)
+ into "SYS_AUTH_ROLE_V" ("ID","AUTH_ID","ROLE_ID","SIGN","IS_REVOKE","CREATE_USER","CREATE_TIME","UPDATE_TIME","REMARK","LV_ID") values ('67870485-0733-0000-ghuy-5ED50026EA82', '67e1114e83214aeb8a3ec0a6822fdd30', 'groupsec', null, 0, null, null, null, null, 'groupsec')
+select 1 from dual;
+
+
+ALTER TABLE SYS_AUDIT_LOG ADD (GROUP_ID  VARCHAR2(50 CHAR) );
+comment on column SYS_AUDIT_LOG.GROUP_ID is '操作针对的集团';
+
+ALTER TABLE SYS_AUDIT_LOG ADD (APP_ID  VARCHAR2(50 CHAR) );
+comment on column SYS_AUDIT_LOG.APP_ID is '操作针对的应用';
+
+--
+-- SYS_USER_ROLE_LV  (Table)
+--
+CREATE TABLE SYS_USER_ROLE_LV
+(
+  ID           VARCHAR2(50 BYTE)                NOT NULL,
+  USER_ID      VARCHAR2(50 BYTE),
+  VERSION      INTEGER,
+  CREATE_USER  VARCHAR2(50 BYTE),
+  CREATE_TIME  DATE,
+  IS_LATEST    NUMBER(1)
+);
+
+COMMENT ON TABLE SYS_USER_ROLE_LV IS '用户角色历史数据主表';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.ID IS '主键';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.USER_ID IS '用户ID';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.VERSION IS '版本号';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.CREATE_USER IS '创建用户';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.CREATE_TIME IS '创建时间';
+
+COMMENT ON COLUMN SYS_USER_ROLE_LV.IS_LATEST IS '是否最新';
+
+
+
+--
+-- SYS_USER_ROLE_V  (Table)
+--
+CREATE TABLE SYS_USER_ROLE_V
+(
+  ID       VARCHAR2(50 BYTE)                    NOT NULL,
+  ROLE_ID  VARCHAR2(50 BYTE),
+  LV_ID    VARCHAR2(50 BYTE)
+);
+
+
+--
+-- SYS_USER_ROLE_LV_PK  (Index)
+--
+CREATE UNIQUE INDEX SYS_USER_ROLE_LV_PK ON SYS_USER_ROLE_LV (ID);
+
+
+--
+-- SYS_USER_ROLE_V_PK  (Index)
+--
+CREATE UNIQUE INDEX SYS_USER_ROLE_V_PK ON SYS_USER_ROLE_V (ID);
+
+
+--
+-- Non Foreign Key Constraints for Table SYS_USER_ROLE_LV
+--
+ALTER TABLE SYS_USER_ROLE_LV ADD (
+  CONSTRAINT SYS_USER_ROLE_LV_PK
+  PRIMARY KEY
+  (ID)
+  USING INDEX SYS_USER_ROLE_LV_PK
+  ENABLE VALIDATE);
+
+--
+-- Non Foreign Key Constraints for Table SYS_USER_ROLE_V
+--
+ALTER TABLE SYS_USER_ROLE_V ADD (
+  CONSTRAINT SYS_USER_ROLE_V_PK
+  PRIMARY KEY
+  (ID)
+  USING INDEX SYS_USER_ROLE_V_PK
+  ENABLE VALIDATE);
+
+--
+-- Foreign Key Constraints for Table SYS_USER_ROLE_LV
+--
+ALTER TABLE SYS_USER_ROLE_LV ADD (
+  CONSTRAINT FK_SYS_USER_ROLE_LV_USER
+  FOREIGN KEY (USER_ID)
+  REFERENCES SYS_USER (ID)
+  ON DELETE SET NULL
+  ENABLE VALIDATE);
+
+--
+-- Foreign Key Constraints for Table SYS_USER_ROLE_V
+--
+ALTER TABLE SYS_USER_ROLE_V ADD (
+  CONSTRAINT FK_SYS_USER_ROLE_V_LV
+  FOREIGN KEY (LV_ID)
+  REFERENCES SYS_USER_ROLE_LV (ID)
+  ON DELETE SET NULL
+  ENABLE VALIDATE);
+
+
+--
+-- BD_JOB  (Table)
+--
+CREATE TABLE BD_JOB
+(
+  ID            VARCHAR2(50 BYTE)               NOT NULL,
+  NAME          VARCHAR2(50 BYTE),
+  SORT_INDEX    INTEGER,
+  DATA_VERSION  VARCHAR2(50 BYTE)               DEFAULT 0,
+  GROUP_ID      VARCHAR2(50 BYTE)
+)
+TABLESPACE JARIACEPLAT
+RESULT_CACHE (MODE DEFAULT)
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            NEXT             1M
+            MAXSIZE          UNLIMITED
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+LOGGING
+NOCOMPRESS
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+COMMENT ON TABLE BD_JOB IS '职务表';
+
+COMMENT ON COLUMN BD_JOB.ID IS '主键';
+
+COMMENT ON COLUMN BD_JOB.NAME IS '职务名称';
+
+COMMENT ON COLUMN BD_JOB.SORT_INDEX IS '排序号';
+
+COMMENT ON COLUMN BD_JOB.DATA_VERSION IS '数据版本';
+
+COMMENT ON COLUMN BD_JOB.GROUP_ID IS '集团ID';
+
+
+
+--
+-- BD_POST  (Table)
+--
+CREATE TABLE BD_POST
+(
+  ID               VARCHAR2(50 BYTE)            NOT NULL,
+  NAME             VARCHAR2(50 BYTE),
+  DEPARTMENT_ID    VARCHAR2(50 BYTE),
+  GROUP_ID         VARCHAR2(50 BYTE),
+  ORGANIZATION_ID  VARCHAR2(50 BYTE),
+  DATA_VERSION     VARCHAR2(50 BYTE)            DEFAULT 0,
+  SORT_INDEX       INTEGER                      DEFAULT 0
+)
+TABLESPACE JARIACEPLAT
+RESULT_CACHE (MODE DEFAULT)
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            NEXT             1M
+            MAXSIZE          UNLIMITED
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+LOGGING
+NOCOMPRESS
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+COMMENT ON TABLE BD_POST IS '部门岗位表';
+
+COMMENT ON COLUMN BD_POST.ID IS '主键';
+
+COMMENT ON COLUMN BD_POST.NAME IS '岗位名称';
+
+COMMENT ON COLUMN BD_POST.DEPARTMENT_ID IS '所属部门主键';
+
+COMMENT ON COLUMN BD_POST.GROUP_ID IS '所属集团主键';
+
+COMMENT ON COLUMN BD_POST.ORGANIZATION_ID IS '所属业务单元主键';
+
+COMMENT ON COLUMN BD_POST.DATA_VERSION IS '数据版本';
+
+COMMENT ON COLUMN BD_POST.SORT_INDEX IS '排序号';
+
+
+
+--  There is no statement for index JARIACEPLAT.SYS_C00287117.
+--  The object is created when the parent object is created.
+
+--  There is no statement for index JARIACEPLAT.SYS_C00287122.
+--  The object is created when the parent object is created.
+
+--
+-- Non Foreign Key Constraints for Table BD_JOB
+--
+ALTER TABLE BD_JOB ADD (
+  PRIMARY KEY
+  (ID)
+  USING INDEX
+    TABLESPACE JARIACEPLAT
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64K
+                NEXT             1M
+                MAXSIZE          UNLIMITED
+                MINEXTENTS       1
+                MAXEXTENTS       UNLIMITED
+                PCTINCREASE      0
+                BUFFER_POOL      DEFAULT
+                FLASH_CACHE      DEFAULT
+                CELL_FLASH_CACHE DEFAULT
+               )
+  ENABLE VALIDATE);
+
+--
+-- Non Foreign Key Constraints for Table BD_POST
+--
+ALTER TABLE BD_POST ADD (
+  PRIMARY KEY
+  (ID)
+  USING INDEX
+    TABLESPACE JARIACEPLAT
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64K
+                NEXT             1M
+                MAXSIZE          UNLIMITED
+                MINEXTENTS       1
+                MAXEXTENTS       UNLIMITED
+                PCTINCREASE      0
+                BUFFER_POOL      DEFAULT
+                FLASH_CACHE      DEFAULT
+                CELL_FLASH_CACHE DEFAULT
+               )
+  ENABLE VALIDATE);
+
+--
+-- Foreign Key Constraints for Table BD_JOB
+--
+ALTER TABLE BD_JOB ADD (
+  CONSTRAINT FK_BD_JOB_GROUP_ID
+  FOREIGN KEY (GROUP_ID)
+  REFERENCES ORG_GROUP (ID)
+  ON DELETE CASCADE
+  ENABLE VALIDATE);
+
+--
+-- Foreign Key Constraints for Table BD_POST
+--
+ALTER TABLE BD_POST ADD (
+  CONSTRAINT FK_BD_POST_DEP_ID
+  FOREIGN KEY (DEPARTMENT_ID)
+  REFERENCES ORG_DEPARTMENT (ID)
+  ON DELETE CASCADE
+  ENABLE VALIDATE,
+  CONSTRAINT FK_BD_POST_GROUP_ID
+  FOREIGN KEY (GROUP_ID)
+  REFERENCES ORG_GROUP (ID)
+  ON DELETE CASCADE
+  ENABLE VALIDATE,
+  CONSTRAINT FK_BD_POST_ORG_ID
+  FOREIGN KEY (ORGANIZATION_ID)
+  REFERENCES ORG_ORGANIZATION (ID)
+  ON DELETE CASCADE
+  ENABLE VALIDATE);
+
+

@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: ${nacosServerAddr}
+        shared-dataids: redis.yaml

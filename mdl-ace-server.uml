@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MODULES</ID>
+  <OriginalElement>mdl-ace-server</OriginalElement>
+  <nodes>
+    <node x="106.00000000000011" y="276.0">mdl-fileserver-core</node>
+    <node x="888.9745332792207" y="439.0">mdl-cloud-impl</node>
+    <node x="251.33333333333337" y="276.0">mdl-dashboards</node>
+    <node x="367.33333333333337" y="276.0">mdl-platform-core</node>
+    <node x="555.5108901515151" y="143.0">mdl-dbplus</node>
+    <node x="868.8621820887445" y="276.0">mdl-interfaces</node>
+    <node x="744.2453666125541" y="276.0">mdl-report</node>
+    <node x="368.99536661255405" y="439.0">mdl-mono-impl</node>
+    <node x="686.7453666125541" y="439.0">mdl-orgauth</node>
+    <node x="127.3442234848485" y="143.0">mdl-file</node>
+    <node x="0.0" y="143.0">mdl-gateway</node>
+    <node x="560.7453666125541" y="439.0">mdl-platform</node>
+    <node x="496.4605654761906" y="0.0">mdl-common</node>
+    <node x="815.9745332792207" y="439.0">mdl-bpm</node>
+    <node x="589.3333333333334" y="276.0">mdl-orgauth-core</node>
+    <node x="494.33333333333337" y="276.0">mdl-quartz</node>
+    <node x="94.91203327922074" y="439.0">mdl-fileserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mdl-fileserver" target="mdl-fileserver-core">
+      <point x="9.875" y="-11.5" />
+      <point x="144.28703327922074" y="419.0" />
+      <point x="133.5000000000001" y="419.0" />
+      <point x="-27.5" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver-core" target="mdl-common">
+      <point x="-36.66666666666663" y="-11.5" />
+      <point x="124.33333333333348" y="246.0" />
+      <point x="116.8442234848485" y="246.0" />
+      <point x="116.8442234848485" y="73.0" />
+      <point x="508.4918154761906" y="73.0" />
+      <point x="-26.46875" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver" target="mdl-dbplus">
+      <point x="29.625" y="-11.5" />
+      <point x="164.03703327922074" y="359.0" />
+      <point x="567.8333333333334" y="359.0" />
+      <point x="567.8333333333334" y="236.0" />
+      <point x="580.2608901515151" y="236.0" />
+      <point x="-8.25" y="11.5" />
+    </edge>
+    <edge source="mdl-interfaces" target="mdl-common">
+      <point x="0.0" y="-11.5" />
+      <point x="909.8621820887445" y="63.0" />
+      <point x="561.4293154761906" y="63.0" />
+      <point x="26.46875" y="11.5" />
+    </edge>
+    <edge source="mdl-orgauth-core" target="mdl-dbplus">
+      <point x="-25.75" y="-11.5" />
+      <point x="615.0833333333334" y="256.0" />
+      <point x="596.7608901515151" y="256.0" />
+      <point x="8.25" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-fileserver-core">
+      <point x="-38.571428571428555" y="-11.5" />
+      <point x="375.4239380411255" y="349.0" />
+      <point x="188.5000000000001" y="349.0" />
+      <point x="27.5" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver-core" target="mdl-file">
+      <point x="0.0" y="-11.5" />
+      <point x="161.0000000000001" y="256.0" />
+      <point x="148.8442234848485" y="256.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-orgauth-core">
+      <point x="25.714285714285722" y="-11.5" />
+      <point x="439.7096523268398" y="379.0" />
+      <point x="615.0833333333334" y="379.0" />
+      <point x="-25.75" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-interfaces">
+      <point x="38.571428571428555" y="-11.5" />
+      <point x="452.5667951839826" y="389.0" />
+      <point x="882.5288487554112" y="389.0" />
+      <point x="-27.33333333333337" y="11.5" />
+    </edge>
+    <edge source="mdl-cloud-impl" target="mdl-common">
+      <point x="29.33333333333337" y="-11.5" />
+      <point x="962.3078666125541" y="419.0" />
+      <point x="983.0942234848485" y="419.0" />
+      <point x="983.0942234848485" y="43.0" />
+      <point x="571.0543154761906" y="43.0" />
+      <point x="36.09375" y="11.5" />
+    </edge>
+    <edge source="mdl-report" target="mdl-common">
+      <point x="15.75" y="-11.5" />
+      <point x="791.4953666125541" y="93.0" />
+      <point x="546.9918154761906" y="93.0" />
+      <point x="12.03125" y="11.5" />
+    </edge>
+    <edge source="mdl-quartz" target="mdl-dbplus">
+      <point x="15.75" y="-11.5" />
+      <point x="541.5833333333334" y="226.0" />
+      <point x="574.7608901515151" y="226.0" />
+      <point x="-13.75" y="11.5" />
+    </edge>
+    <edge source="mdl-orgauth" target="mdl-dbplus">
+      <point x="0.0" y="-11.5" />
+      <point x="722.7453666125541" y="349.0" />
+      <point x="702.8333333333334" y="349.0" />
+      <point x="702.8333333333334" y="246.0" />
+      <point x="602.2608901515151" y="246.0" />
+      <point x="13.75" y="11.5" />
+    </edge>
+    <edge source="mdl-platform" target="mdl-platform-core">
+      <point x="-25.33333333333337" y="-11.5" />
+      <point x="573.4120332792206" y="349.0" />
+      <point x="447.58333333333337" y="349.0" />
+      <point x="26.75" y="11.5" />
+    </edge>
+    <edge source="mdl-dbplus" target="mdl-common">
+      <point x="0.0" y="-11.5" />
+      <point x="588.5108901515151" y="113.0" />
+      <point x="537.3668154761906" y="113.0" />
+      <point x="2.40625" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver" target="mdl-file">
+      <point x="-9.875" y="-11.5" />
+      <point x="124.53703327922074" y="409.0" />
+      <point x="95.50000000000011" y="409.0" />
+      <point x="95.50000000000011" y="256.0" />
+      <point x="134.51089015151513" y="256.0" />
+      <point x="-14.333333333333371" y="11.5" />
+    </edge>
+    <edge source="mdl-gateway" target="mdl-common">
+      <point x="0.0" y="-11.5" />
+      <point x="37.0" y="53.0" />
+      <point x="498.8668154761906" y="53.0" />
+      <point x="-36.09375" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-common">
+      <point x="-12.857142857142833" y="-11.5" />
+      <point x="401.1382237554112" y="329.0" />
+      <point x="240.83333333333337" y="329.0" />
+      <point x="240.83333333333337" y="93.0" />
+      <point x="518.1168154761906" y="93.0" />
+      <point x="-16.84375" y="11.5" />
+    </edge>
+    <edge source="mdl-dashboards" target="mdl-dbplus">
+      <point x="24.0" y="-11.5" />
+      <point x="323.33333333333337" y="206.0" />
+      <point x="563.7608901515151" y="206.0" />
+      <point x="-24.75" y="11.5" />
+    </edge>
+    <edge source="mdl-platform-core" target="mdl-dbplus">
+      <point x="26.75" y="-11.5" />
+      <point x="447.58333333333337" y="216.0" />
+      <point x="569.2608901515151" y="216.0" />
+      <point x="-19.25" y="11.5" />
+    </edge>
+    <edge source="mdl-cloud-impl" target="mdl-dbplus">
+      <point x="-29.33333333333337" y="-11.5" />
+      <point x="903.6411999458874" y="349.0" />
+      <point x="733.7453666125541" y="349.0" />
+      <point x="733.7453666125541" y="226.0" />
+      <point x="613.2608901515151" y="226.0" />
+      <point x="24.75" y="11.5" />
+    </edge>
+    <edge source="mdl-report" target="mdl-dbplus">
+      <point x="-15.75" y="-11.5" />
+      <point x="759.9953666125541" y="216.0" />
+      <point x="618.7608901515151" y="216.0" />
+      <point x="30.25" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-platform-core">
+      <point x="0.0" y="-11.5" />
+      <point x="413.99536661255405" y="319.0" />
+      <point x="394.08333333333337" y="319.0" />
+      <point x="-26.75" y="11.5" />
+    </edge>
+    <edge source="mdl-platform" target="mdl-common">
+      <point x="25.33333333333337" y="-11.5" />
+      <point x="624.0786999458874" y="369.0" />
+      <point x="817.7453666125541" y="369.0" />
+      <point x="817.7453666125541" y="83.0" />
+      <point x="551.8043154761906" y="83.0" />
+      <point x="16.84375" y="11.5" />
+    </edge>
+    <edge source="mdl-orgauth" target="mdl-common">
+      <point x="24.0" y="-11.5" />
+      <point x="746.7453666125541" y="379.0" />
+      <point x="858.3621820887445" y="379.0" />
+      <point x="858.3621820887445" y="73.0" />
+      <point x="556.6168154761906" y="73.0" />
+      <point x="21.65625" y="11.5" />
+    </edge>
+    <edge source="mdl-cloud-impl" target="mdl-interfaces">
+      <point x="0.0" y="-11.5" />
+      <point x="932.9745332792207" y="399.0" />
+      <point x="937.195515422078" y="399.0" />
+      <point x="27.33333333333337" y="11.5" />
+    </edge>
+    <edge source="mdl-bpm" target="mdl-common">
+      <point x="17.66666666666663" y="-11.5" />
+      <point x="860.1411999458874" y="409.0" />
+      <point x="961.3621820887445" y="409.0" />
+      <point x="961.3621820887445" y="53.0" />
+      <point x="566.2418154761906" y="53.0" />
+      <point x="31.28125" y="11.5" />
+    </edge>
+    <edge source="mdl-file" target="mdl-common">
+      <point x="0.0" y="-11.5" />
+      <point x="148.8442234848485" y="83.0" />
+      <point x="513.3043154761906" y="83.0" />
+      <point x="-21.65625" y="11.5" />
+    </edge>
+    <edge source="mdl-dashboards" target="mdl-common">
+      <point x="-24.0" y="-11.5" />
+      <point x="275.33333333333337" y="103.0" />
+      <point x="522.9293154761906" y="103.0" />
+      <point x="-12.03125" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-file">
+      <point x="-25.714285714285722" y="-11.5" />
+      <point x="388.2810808982683" y="339.0" />
+      <point x="226.5000000000001" y="339.0" />
+      <point x="226.5000000000001" y="186.0" />
+      <point x="163.17755681818187" y="186.0" />
+      <point x="14.333333333333371" y="11.5" />
+    </edge>
+    <edge source="mdl-bpm" target="mdl-dbplus">
+      <point x="-17.66666666666663" y="-11.5" />
+      <point x="824.8078666125541" y="359.0" />
+      <point x="728.2453666125541" y="359.0" />
+      <point x="728.2453666125541" y="236.0" />
+      <point x="607.7608901515151" y="236.0" />
+      <point x="19.25" y="11.5" />
+    </edge>
+    <edge source="mdl-orgauth" target="mdl-orgauth-core">
+      <point x="-24.0" y="-11.5" />
+      <point x="698.7453666125541" y="359.0" />
+      <point x="666.5833333333334" y="359.0" />
+      <point x="25.75" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver-core" target="mdl-dbplus">
+      <point x="36.66666666666666" y="-11.5" />
+      <point x="197.66666666666674" y="196.0" />
+      <point x="558.2608901515151" y="196.0" />
+      <point x="-30.25" y="11.5" />
+    </edge>
+    <edge source="mdl-fileserver" target="mdl-common">
+      <point x="-29.625" y="-11.5" />
+      <point x="104.78703327922074" y="419.0" />
+      <point x="84.50000000000011" y="419.0" />
+      <point x="84.50000000000011" y="63.0" />
+      <point x="503.6793154761906" y="63.0" />
+      <point x="-31.28125" y="11.5" />
+    </edge>
+    <edge source="mdl-platform-core" target="mdl-common">
+      <point x="-26.75" y="-11.5" />
+      <point x="394.08333333333337" y="113.0" />
+      <point x="527.7418154761906" y="113.0" />
+      <point x="-7.21875" y="11.5" />
+    </edge>
+    <edge source="mdl-orgauth-core" target="mdl-common">
+      <point x="25.75" y="-11.5" />
+      <point x="666.5833333333334" y="256.0" />
+      <point x="679.0108901515151" y="256.0" />
+      <point x="679.0108901515151" y="103.0" />
+      <point x="542.1793154761906" y="103.0" />
+      <point x="7.21875" y="11.5" />
+    </edge>
+    <edge source="mdl-bpm" target="mdl-interfaces">
+      <point x="0.0" y="-11.5" />
+      <point x="842.4745332792207" y="399.0" />
+      <point x="909.8621820887445" y="399.0" />
+      <point x="0.0" y="11.5" />
+    </edge>
+    <edge source="mdl-platform" target="mdl-dbplus">
+      <point x="0.0" y="-11.5" />
+      <point x="598.7453666125541" y="369.0" />
+      <point x="578.8333333333334" y="369.0" />
+      <point x="578.8333333333334" y="256.0" />
+      <point x="591.2608901515151" y="256.0" />
+      <point x="2.75" y="11.5" />
+    </edge>
+    <edge source="mdl-mono-impl" target="mdl-dbplus">
+      <point x="12.857142857142833" y="-11.5" />
+      <point x="426.8525094696969" y="369.0" />
+      <point x="573.3333333333334" y="369.0" />
+      <point x="573.3333333333334" y="246.0" />
+      <point x="585.7608901515151" y="246.0" />
+      <point x="-2.75" y="11.5" />
+    </edge>
+    <edge source="mdl-quartz" target="mdl-common">
+      <point x="-15.75" y="-11.5" />
+      <point x="510.08333333333337" y="123.0" />
+      <point x="532.5543154761906" y="123.0" />
+      <point x="-2.40625" y="11.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7599601593625498" x="492.0" y="231.0" />
+  <SelectedNodes>
+    <node>mdl-fileserver-core</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Show Paths: Root -&gt; Selection</Category>
+    <Category>Show Neighbours of Selected Nodes</Category>
+    <Category>Borderless View</Category>
+  </Categories>
+</Diagram>
+

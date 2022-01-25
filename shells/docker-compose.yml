@@ -1,0 +1,98 @@
+#envs
+#NacosAddress nacos地址
+#GatewayOrNginxUrl 网关或者nginx的地址 给bff用
+#RedisHost redis地址
+
+version: '2'
+services:
+  platform:
+    image: platform
+    environment:
+      SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+      -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+    expose:
+      - "2110"
+    volumes:
+      - "/etc/localtime:/etc/localtime"
+      - "/opt/logs/platform/:/tmp"
+  gateway:
+      image: gateway
+      environment:
+        SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+        -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+        - "2100"
+      volumes:
+        - "/etc/localtime:/etc/localtime"
+        - "/opt/logs/gateway/:/tmp"
+  auth:
+      image: auth
+      environment:
+        SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+        -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+        - "2120"
+      volumes:
+        - "/etc/localtime:/etc/localtime"
+        - "/opt/logs/auth/:/tmp"
+  fileserver:
+      image: fileserver
+      environment:
+        SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+        -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+        - "2130"
+      volumes:
+        - "/etc/localtime:/etc/localtime"
+        - "/opt/files:/files"
+        - "/opt/logs/fileserver/:/tmp"
+  public:
+      image: public
+      environment:
+        SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+        -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+        - "2140"
+      volumes:
+        - "/etc/localtime:/etc/localtime"
+        - "/opt/logs/public/:/tmp"
+  webservice:
+      image: webservice
+      environment:
+          SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+          -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+          - "2190"
+      volumes:
+          - "/etc/localtime:/etc/localtime"
+          - "/opt/logs/webservice/:/tmp"
+  quartz:
+      image: quartz
+      environment:
+            SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+            -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+            - "2170"
+      volumes:
+            - "/etc/localtime:/etc/localtime"
+            - "/opt/logs/quartz/:/tmp"
+  dashboards:
+      image: dashboards
+      environment:
+            SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+            -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+            - "4200"
+      volumes:
+            - "/etc/localtime:/etc/localtime"
+            - "/opt/logs/dashboards/:/tmp"
+  report:
+      image: report
+      environment:
+            SPRING_OPTS: "-Dspring.redis.host={RedisHost} -Dspring.cloud.nacos.discovery.server-addr={NacosAddress}
+            -Dspring.cloud.nacos.config.server-addr={NacosAddress}"
+      expose:
+            - "4100"
+      volumes:
+            - "/etc/localtime:/etc/localtime"
+            - "/opt/logs/report/:/tmp"

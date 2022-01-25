@@ -1,0 +1,63 @@
+{
+  "platform": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2110",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/platform/:/tmp"
+    ]
+  },
+  "auth": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2120",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/auth/:/tmp"
+    ]
+  },
+  "gateway": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2100",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/gateway/:/tmp"
+    ]
+  },
+  "fileserver": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2130",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/fileserver/:/tmp",
+      "/opt/files:/files"
+    ]
+  },
+  "public": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2140",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/public/:/tmp"
+    ]
+  },
+  "quartz": {
+    "environment": [
+      "SPRING_OPTS='-Dspring.redis.host=RedisHost -Dspring.cloud.nacos.discovery.server-addr=NacosAddress-Dspring.cloud.nacos.config.server-addr=NacosAddress'"
+    ],
+    "expose": "2170",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/quartz/:/tmp"
+    ]
+  }
+}

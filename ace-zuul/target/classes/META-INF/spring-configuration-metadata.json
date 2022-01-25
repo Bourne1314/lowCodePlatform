@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "ace.config",
+      "type": "com.csicit.ace.zuul.config.PassProperties",
+      "sourceType": "com.csicit.ace.zuul.config.PassProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ace.config.pass-app-list",
+      "type": "java.util.List<java.lang.String>",
+      "description": "允许没有token就指定app的静态资源",
+      "sourceType": "com.csicit.ace.zuul.config.PassProperties"
+    },
+    {
+      "name": "ace.config.pass-url-list",
+      "type": "java.util.List<java.lang.String>",
+      "description": "允许没有token就请求的url",
+      "sourceType": "com.csicit.ace.zuul.config.PassProperties"
+    }
+  ],
+  "hints": []
+}

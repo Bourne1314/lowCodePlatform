@@ -1,0 +1,12 @@
+drop table WFI_FLOW_USER cascade;
+
+CREATE TABLE `WFI_DELIVER` (
+`ID`  varchar(50) NOT NULL COMMENT '主键' ,
+`DELIVER_INFO`  longtext NULL COMMENT '转交信息' ,
+`FLOW_ID`  varchar(50) NULL COMMENT '流程实例ID' ,
+PRIMARY KEY (`ID`),
+CONSTRAINT `FK_WFI_DELIVER_FLOW_ID` FOREIGN KEY (`FLOW_ID`) REFERENCES `wfi_flow` (`ID`) ON DELETE CASCADE
+)
+COMMENT='流程-转交信息'
+;
+

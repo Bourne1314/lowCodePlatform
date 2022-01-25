@@ -1,0 +1,142 @@
+<template>
+    <el-dialog
+            :title="isInserting ? '新增':'修改'"
+            :close-on-click-modal="false"
+            :visible.sync="visible"
+            width="900px"
+            append-to-body>
+        <el-form :model="dataForm" :rules="dataRule" ref="dataForm"
+                 @keyup.enter.native="dataFormSubmit()" label-width="120px">
+#foreach ($column in $columns)
+
+            <el-form-item label="$column.comments" prop="$column.attrname">
+    #if($column.attrType =='Integer')
+                <el-input-number v-model="dataForm.$column.attrname" placeholder="$column.comments"></el-input-number>
+    #elseif($column.attrType =='LocalDateTime')
+        <el-date-picker
+                v-model="dataForm.$column.attrname"
+                type="datetime"
+                format="yyyy-MM-dd HH:mm:ss"
+                value-format="yyyy-MM-dd HH:mm:ss"
+                placeholder="">
+        </el-date-picker>
+    #else
+        <el-input v-model="dataForm.$column.attrname" placeholder="$column.comments"></el-input>
+    #end
+            </el-form-item>
+#end
+            <el-form-item label="附件使用" v-if="${fileExist}===1">
+                <file-uploader
+                        :configuration-key="'test-file'"
+                        :form-id="dataForm.id"
+                        operationName="fileUpload"
+                        :allow-upload="true"
+                        :allow-delete="true"
+                        :allow-download="true"/>
+            </el-form-item>
+        </el-form>
+        <span slot="footer" class="dialog-footer">
+        <el-button @click="visible = false">取消</el-button>
+        <el-button type="primary" @click="dataFormSubmit()">确定</el-button>
+      </span>
+    </el-dialog>
+</template>
+
+<script>
+    import fileUploader from '@/platform/common/components/uploader/FileUploader'
+    import { Message } from 'element-ui';
+    export default {
+        name: "add-or-update",
+        data() {
+            return {
+                isInserting: true,
+                visible: false,
+                //message实例容器  用于关闭上一个message
+                messageBox: null,
+                dataForm: {
+#foreach ($column in $columns)
+    #if($column.attrType =='Integer')
+        $column.attrname:0,
+    #else
+    $column.attrname:'',
+    #end
+#end
+                },
+                dataRule: {
+                    id: [
+                        {required: true, message: '主键不能为空', trigger: 'blur'}
+                    ]
+                }
+            }
+        },
+        components: {
+            Message,fileUploader
+        },
+        methods: {
+            init(id) {
+                if (this.$refs['dataForm'] !== undefined) {
+                    this.$refs['dataForm'].resetFields()
+                }
+                this.isInserting = id === '' || id === undefined
+                this.dataForm.id = id
+                this.visible = true
+                // 新增
+                if (this.isInserting) {
+                    #foreach ($column in $columns)
+                        #if($column.columnName!='ID')
+                            #if($column.attrType =='Integer')
+                                this.dataForm.$column.attrname=0
+                            #else
+                                this.dataForm.$column.attrname=''
+                            #end
+                        #end
+                    #end
+
+                } else {
+                    // 修改
+                    let url='/${classname}/' +this.dataForm.id
+                    this.$http({
+                        url: this.$http.adornAppRequestUrl(url),
+                        methods: 'get'
+                    }).then(({data})=> {
+                        if (data && data.code === 40000) {
+                        #foreach ($column in $columns)
+                            #if($column.columnName!='ID')
+                            this.dataForm.$column.attrname=data.instance.$column.attrname
+                            #end
+                        #end
+                        }
+                    })
+                }
+            },
+            // 表单提交
+            dataFormSubmit() {
+                this.$refs['dataForm'].validate ((valid)=>{
+                    if (valid) {
+
+                        let dataForm=this.dataForm
+                        let url='/${classname}'
+                        this.$http({
+                            url: this.$http.adornAppRequestUrl(url),
+                            method: this.isInserting ? 'post' : 'put',
+                            data: this.$http.adornData(dataForm)
+                        }).then(({data})=> {
+                            if (data && data.code === 40000) {
+                            this.messageBox && this.messageBox.close();
+                            this.messageBox =Message.success( data.msg);
+                            this.visible = false;
+                            this.$emit('refreshDataList')
+                        } else {
+                            this.messageBox && this.messageBox.close();
+                            this.messageBox =Message.error( data.msg)
+                        }
+                    })
+
+                    }
+                })
+
+
+            }
+        }
+    }
+</script>

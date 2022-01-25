@@ -1,0 +1,97 @@
+spring:
+    cloud:
+      # 路由网关配置
+      gateway:
+        default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+        # 设置与服务注册发现组件结合，这样可以采用服务名的路由策略
+        discovery:
+          locator:
+            enabled: true
+        # 配置路由规则
+        routes:
+         - id: node
+           uri: lb://bff
+           order: 8000
+           predicates:
+           - Path=/api/**
+         - id: static
+           uri: lb://bff
+           order: 8000
+           predicates:
+           - Path=/**
+         - id: yyf
+           uri: http://192.168.19.93:9527
+           order: 6000
+           predicates:
+           - Path=/yyf/**
+           filters:
+           - StripPrefix=1
+         - id: lcf
+           uri: http://192.168.19.79:9527
+           order: 6000
+           predicates:
+           - Path=/lcf/**
+           filters:
+           - StripPrefix=1
+         - id: zxq
+           uri: http://192.168.19.96:9527
+           order: 6000
+           predicates:
+           - Path=/zxq/**
+           filters:
+           - StripPrefix=1
+ace:
+  config:
+     passAppList:
+       - ah-threeDesign
+       - ty-threeDesign
+     passUrlList:
+       - /ah-threeDesign/game/gameinfo/getGameInfo/gameIntroduction
+       - /ah-threeDesign/game/gameinfo/getGameInfo/gameRule
+       - /ah-threeDesign/game/gameinfo/getGameInfo/gameItem
+       - /ah-threeDesign/game/gameinfo/getGameInfo/relevantClause
+       - /ah-threeDesign/game/scoreStandard/getAllList
+       - /ah-threeDesign/RegisterController/add
+       - /ah-threeDesign/RegisterController/checkName
+       - /ah-threeDesign/threeDesign/myWorkInfo/getByWorkType
+       - /ah-threeDesign/threeDesign/expertInfo/list
+       - /ah-threeDesign/threeDesign/expertInfo/rankWorkScore
+       - /ah-threeDesign/RegisterController/getDictonary
+       - /ty-threeDesign/game/gameinfo/getGameInfo/gameIntroduction
+       - /ty-threeDesign/game/gameinfo/getGameInfo/gameRule
+       - /ty-threeDesign/game/gameinfo/getGameInfo/gameItem
+       - /ty-threeDesign/game/gameinfo/getGameInfo/relevantClause
+       - /ty-threeDesign/game/scoreStandard/getAllList
+       - /ty-threeDesign/RegisterController/add
+       - /ty-threeDesign/RegisterController/checkName
+       - /ty-threeDesign/threeDesign/myWorkInfo/getByWorkType
+       - /ty-threeDesign/threeDesign/expertInfo/list
+       - /ty-threeDesign/threeDesign/expertInfo/rankWorkScore
+       - /ah-threeDesign/threeDesign/myWorkInfo/listOne
+       - /hxy-ui
+       - /hxy-net
+spring:
+  cloud:
+    # 路由网关配置
+    gateway:
+      default-filters:
+      - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      # 设置与服务注册发现组件结合，这样可以采用服务名的路由策略
+      discovery:
+        locator:
+          enabled: true
+      # 配置路由规则
+      routes:
+       - id: static
+         uri: lb://platform
+         order: 10000
+         predicates:
+         - Path=/**
+       - id: lcf
+         uri: http://192.168.19.79:9527
+         order: 6000
+         predicates:
+         - Path=/appName/**
+         filters:
+         - StripPrefix=1

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "ace.objects",
+      "type": "com.csicit.ace.platform.core.service.impl.PersonIdTypeConfig",
+      "sourceType": "com.csicit.ace.platform.core.service.impl.PersonIdTypeConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ace.objects.person-id-types",
+      "type": "java.util.List<com.csicit.ace.common.pojo.domain.BdPersonIdTypeDO>",
+      "sourceType": "com.csicit.ace.platform.core.service.impl.PersonIdTypeConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--日志表-->
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log">
+        <createTable  remarks="系统审计日志表"  tableName="SYS_AUDIT_LOG">
+            <column name="ID" remarks="主键" type="VARCHAR(50)">
+            </column>
+            <column name="OP_NAME" remarks="操作员姓名" type="VARCHAR(50)"/>
+            <column name="OP_USERNAME" remarks="操作员用户名" type="VARCHAR(50)"/>
+            <column name="OP_TIME" remarks="操作时间" type="datetime(6)"/>
+            <column name="IP_ADDRESS" remarks="ip地址" type="VARCHAR(50)"/>
+            <column name="OP_CONTENT" remarks="操作内容" type="CLOB"/>
+            <column defaultValueNumeric="0" name="DATA_VERSION" remarks="数据版本" type="INT"/>
+            <column name="SIGN" remarks="签名" type="VARCHAR(1000)"/>
+            <column name="GROUP_ID" remarks="操作针对的集团" type="VARCHAR(50)"/>
+            <column name="APP_ID" remarks="操作针对的应用" type="VARCHAR(50)"/>
+            <column name="USER_TYPE" remarks="用户类型（0租户管理员,1集团管理员,2应用管理员,3普通用户）" type="VARCHAR(50)"/>
+            <column name="ROLE_ID" remarks="该操作人对应的管理员角色" type="VARCHAR(50)"/>
+            <column name="TYPE" remarks="操作类别" type="VARCHAR(50)"/>
+            <column name="TITLE" remarks="操作标题" type="VARCHAR(300)"/>
+            <column name="TYPE_TAG" remarks="操作类别标签" type="VARCHAR(50)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log_primary_key" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <addPrimaryKey columnNames="ID" constraintName="PK_SYS_AUDIT_LOG" tableName="SYS_AUDIT_LOG"/>
+    </changeSet>
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log_backup">
+        <createTable  remarks="系统审计日志表备份"  tableName="SYS_AUDIT_LOG_BACKUP">
+            <column name="ID" remarks="主键" type="VARCHAR(50)">
+            </column>
+            <column name="LID" remarks="日志id" type="VARCHAR(200)"/>
+            <column name="OP_CONTENT" remarks="日志内容" type="CLOB"/>
+            <column name="OP_NAME" remarks="操作员姓名" type="VARCHAR(200)"/>
+            <column name="OP_USERNAME" remarks="操作员用户名" type="VARCHAR(200)"/>
+            <column name="OP_TIME" remarks="操作时间" type="VARCHAR(500)"/>
+            <column name="IP_ADDRESS" remarks="ip地址" type="VARCHAR(500)"/>
+            <column defaultValueNumeric="0" name="DATA_VERSION" remarks="数据版本" type="INT"/>
+            <column name="SIGN" remarks="签名" type="VARCHAR(1000)"/>
+            <column name="USER_TYPE" remarks="用户类型（0租户管理员,1集团管理员,2应用管理员,3普通用户）" type="VARCHAR(100)"/>
+            <column name="ROLE_ID" remarks="该操作人对应的管理员角色" type="VARCHAR(200)"/>
+            <column name="GROUP_ID" remarks="集团ID" type="VARCHAR(200)"/>
+            <column name="APP_ID" remarks="应用ID" type="VARCHAR(200)"/>
+            <column name="TYPE" remarks="操作类别" type="VARCHAR(200)"/>
+            <column name="TITLE" remarks="操作标题" type="VARCHAR(300)"/>
+            <column name="TYPE_TAG" remarks="操作类别标签" type="VARCHAR(200)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log_backup_primary_key" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <addPrimaryKey columnNames="ID" constraintName="PK_SYS_AUDIT_LOG_BACKUP" tableName="SYS_AUDIT_LOG_BACKUP"/>
+    </changeSet>
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log_count">
+        <createTable  remarks="日志数量记录表"  tableName="SYS_AUDIT_LOG_COUNT">
+            <column name="ID" remarks="主键" type="VARCHAR(50)">
+            </column>
+            <column name="COUNT" remarks="日志记录数量" type="VARCHAR(100)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="HP (generated)" id="platform_need_table_create_sys_audit_log_count_primary_key" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <addPrimaryKey columnNames="ID" constraintName="PK_SYS_AUDIT_LOG_COUNT" tableName="SYS_AUDIT_LOG_COUNT"/>
+    </changeSet>
+</databaseChangeLog>

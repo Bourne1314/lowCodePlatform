@@ -1,0 +1,19 @@
+2021-11-03 09:27:37 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-11-03 09:27:38 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'liquibase' defined in class path resource [com/csicit/ace/dbplus/config/AppStartupConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appStartupConfig; factoryMethodName=liquibase; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/csicit/ace/dbplus/config/AppStartupConfig.class]] for bean 'liquibase': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=liquibaseConfig; factoryMethodName=liquibase; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/csicit/ace/zuul/config/LiquibaseConfig.class]] bound.
+2021-11-03 09:27:38 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:27:38 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'liquibase', defined in class path resource [com/csicit/ace/dbplus/config/AppStartupConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/csicit/ace/zuul/config/LiquibaseConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

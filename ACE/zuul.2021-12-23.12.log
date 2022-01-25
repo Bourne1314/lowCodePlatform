@@ -1,0 +1,19 @@
+2021-12-23 09:36:35 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-23 09:36:36 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'socketIOServer' defined in class path resource [io/seata/server/SeataServerAutoConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.seata.server.SeataServerAutoConfiguration; factoryMethodName=socketIOServer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/seata/server/SeataServerAutoConfiguration.class]] for bean 'socketIOServer': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=socketIoConfig; factoryMethodName=socketIOServer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/csicit/ace/data/persistent/messenger/config/SocketIoConfig.class]] bound.
+2021-12-23 09:36:36 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-23 09:36:36 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'socketIOServer', defined in class path resource [io/seata/server/SeataServerAutoConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/csicit/ace/data/persistent/messenger/config/SocketIoConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

@@ -1,0 +1,25 @@
+2021-09-09 14:38:19 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-09-09 14:38:21 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-09 14:38:21 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-09 14:38:21 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2021-09-09 14:38:21 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-09-09 14:38:21 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=21f55579-2ef4-36a7-9d07-01c65cd8379a
+2021-09-09 14:38:21 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b30d8ae0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 14:38:21 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$3f60c027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 14:38:21 [INFO] org.redisson.Version : Redisson 3.11.0
+2021-09-09 14:38:22 [INFO] org.redisson.connection.pool.MasterPubSubConnectionPool : 1 connections initialized for 192.168.19.8/192.168.19.8:6379
+2021-09-09 14:38:22 [INFO] org.redisson.connection.pool.MasterConnectionPool : 2 connections initialized for 192.168.19.8/192.168.19.8:6379
+2021-09-09 14:38:22 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 14:38:22 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 14:38:22 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf278ddd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-09 14:38:22 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-09-09 14:38:22 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-09-09 14:38:22 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-09-09 14:38:23 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-09 14:38:23 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-09-09 14:38:23 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3422 ms
+2021-09-09 14:38:23 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-09-09 14:38:23 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-09-09 14:38:23 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@301d84f6
+2021-09-09 14:38:23 [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-09-09 14:38:23 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited

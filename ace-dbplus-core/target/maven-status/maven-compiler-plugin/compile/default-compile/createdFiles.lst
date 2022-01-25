@@ -1,0 +1,15 @@
+com\csicit\ace\dbplus\service\impl\BaseServiceImpl.class
+com\csicit\ace\dbplus\service\IBaseService.class
+com\csicit\ace\dbplus\config\CloudAppStartupConfigImpl.class
+com\csicit\ace\dbplus\config\IAppStartupConfig.class
+com\csicit\ace\dbplus\config\IScanData.class
+com\csicit\ace\dbplus\config\BaseInitConfig.class
+com\csicit\ace\dbplus\MapWrapper.class
+com\csicit\ace\dbplus\config\MybatisPlusConfig.class
+com\csicit\ace\dbplus\config\AbstractAppStartupConfigImpl.class
+com\csicit\ace\dbplus\controller\CommonMethodsController.class
+com\csicit\ace\dbplus\config\SpringUtilForGroupApp.class
+com\csicit\ace\dbplus\DataSourceConfiguration.class
+com\csicit\ace\dbplus\config\CustomUpdateScriptImpl.class
+com\csicit\ace\dbplus\config\ICustomUpdateScript.class
+com\csicit\ace\dbplus\config\AppStartupConfig.class

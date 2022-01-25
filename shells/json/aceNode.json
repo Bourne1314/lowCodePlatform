@@ -1,0 +1,13 @@
+{
+  "bff": {
+    "environment": [
+      "NODE_NACOS_ADDRESS='NacosAddress'",
+      "NODE_GATEWAY_URL='GatewayOrNginxUrl'"
+    ],
+    "expose": "2060",
+    "volumes": [
+      "/etc/localtime:/etc/localtime",
+      "/opt/logs/bff/:/tmp/bff/"
+    ]
+  }
+}

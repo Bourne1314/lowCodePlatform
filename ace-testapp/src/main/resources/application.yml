@@ -1,0 +1,26 @@
+spring:
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+  jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+      default-property-inclusion: non_null
+  profiles:
+    active: dev
+  application:
+    name: dv-testapp-platform
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: info
+server:
+  port: 8812
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 50000
+        readTimeout: 50000

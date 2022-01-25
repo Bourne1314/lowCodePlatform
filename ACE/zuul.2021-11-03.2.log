@@ -1,0 +1,478 @@
+2021-11-03 09:09:04 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-11-03 09:09:06 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 09:09:06 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-03 09:09:06 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2021-11-03 09:09:06 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-11-03 09:09:06 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=43f4f57d-c0fe-3baa-b68a-2f46e995d120
+2021-11-03 09:09:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8f552f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 09:09:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIoConfig' of type [com.csicit.ace.data.persistent.messenger.config.SocketIoConfig$$EnhancerBySpringCGLIB$$7548883c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 09:09:06 [INFO] org.redisson.Version : Redisson 3.11.0
+2021-11-03 09:09:07 [INFO] org.redisson.connection.pool.MasterPubSubConnectionPool : 1 connections initialized for 192.168.19.8/192.168.19.8:6379
+2021-11-03 09:09:07 [INFO] org.redisson.connection.pool.MasterConnectionPool : 2 connections initialized for 192.168.19.8/192.168.19.8:6379
+2021-11-03 09:09:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'redissonClient' of type [org.redisson.Redisson] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 09:09:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 09:09:07 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$50f55f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 09:09:07 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 2100 (http)
+2021-11-03 09:09:07 [INFO] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2021-11-03 09:09:07 [INFO] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-11-03 09:09:07 [INFO] org.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-11-03 09:09:07 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2021-11-03 09:09:07 [INFO] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3089 ms
+2021-11-03 09:09:08 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-11-03 09:09:08 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 09:09:08 [INFO] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@103bcc9f
+2021-11-03 09:09:08 [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-11-03 09:09:08 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2021-11-03 09:09:16 [INFO] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-11-03 09:09:16 [INFO] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-11-03 09:09:16 [INFO] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.1 created.
+2021-11-03 09:09:16 [INFO] com.csicit.ace.quartz.core.plugins.AceJobConfigLoaderPlugin : Registering Quartz Job Initialization Plug-in.
+2021-11-03 09:09:16 [INFO] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'JariScheduler' with instanceId 'DESKTOP-A03RJ151635901756686'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-11-03 09:09:16 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'JariScheduler' initialized from an externally provided properties instance.
+2021-11-03 09:09:16 [INFO] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.1
+2021-11-03 09:09:16 [INFO] org.quartz.core.QuartzScheduler : JobFactory set to: com.csicit.ace.quartz.core.factory.MyJobFactory@2b6ff016
+2021-11-03 09:09:16 [WARN] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper : Warn: Could not find @TableId in Class: com.csicit.ace.common.pojo.vo.GrantAuthReciveVO.
+2021-11-03 09:09:17 [INFO] liquibase.integration.spring.SpringLiquibase : Liquibase did not run because 'shouldRun' property was set to false on liquibase Liquibase Spring bean.
+2021-11-03 09:09:18 [WARN] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2021-11-03 09:09:18 [INFO] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 09:09:18 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-03 09:09:18 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2021-11-03 09:09:19 [WARN] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-11-03 09:09:19 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Starting filter initializer
+2021-11-03 09:09:19 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 测试任务组.711HM
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 16 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: tt.xxx
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 2 jobs, 0 triggers.
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: urgeTask.催办提醒
+2021-11-03 09:09:19 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 催办提醒任务组.催办提醒
+2021-11-03 09:09:20 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Parsing XML from stream with systemId:  
+2021-11-03 09:09:20 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Adding 1 jobs, 1 triggers.
+2021-11-03 09:09:20 [INFO] org.quartz.xml.XMLSchedulingDataProcessor : Replacing job: 业务平台内部定时任务.大屏消息推送
+2021-11-03 09:09:20 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151635901756686 started.
+2021-11-03 09:09:20 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 2100 (http) with context path ''
+2021-11-03 09:09:20 [INFO] com.csicit.ace.zuul.ZuulStartApp : Started ZuulStartApp in 17.222 seconds (JVM running for 17.83)
+2021-11-03 09:09:20 [INFO] org.reflections.Reflections : Reflections took 29 ms to scan 1 urls, producing 17 keys and 26 values 
+2021-11-03 09:09:21 [INFO] com.corundumstudio.socketio.SocketIOServer : Session store / pubsub factory used: RedissonStoreFactory (distributed session store, distributed publish/subscribe)
+2021-11-03 09:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_消息服务已启动!
+2021-11-03 09:09:21 [INFO] com.corundumstudio.socketio.SocketIOServer : SocketIO server started at port: 5070
+2021-11-03 09:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:dv-testapp-platform
+2021-11-03 09:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:aa-test
+2021-11-03 09:09:21 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_创建命名空间:ei-service
+2021-11-03 09:09:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_建立连接：f6772b17-84e1-44c3-a2e1-6f1337f8ce9c
+2021-11-03 09:09:24 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_建立连接用户：46d0b4c6d26e462a9928f463f3378757
+2021-11-03 09:09:25 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_建立连接：96f2a539-fe1f-4090-b645-90fe2830c4ad
+2021-11-03 09:09:25 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_建立连接用户：46d0b4c6d26e462a9928f463f3378757
+2021-11-03 09:09:33 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 09:09:33 [INFO] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2021-11-03 09:09:33 [INFO] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 14 ms
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/borrowBooks, REQUEST_METHOD:PUT, REQUEST_IP:127.0.0.1
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   127.0.0.1
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73273--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73273--耗时 : 6
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73293--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73293--耗时 : 1
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/bpm/getInfoForDeliver, REQUEST_METHOD:POST, REQUEST_IP:127.0.0.1
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   127.0.0.1
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73337--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:09:33 [INFO] com.csicit.ace.common.log.AceLocalLogger :  73337--耗时 : 1
+2021-11-03 09:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74618--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74618--耗时 : 1
+2021-11-03 09:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74728--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600"],"key":["WFI_FLOW"]}
+2021-11-03 09:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74728--耗时 : 154
+2021-11-03 09:09:34 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74926--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  74926--耗时 : 182
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75654--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"d9506157904e4cb9ae7ca997e5d4a584\"]"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75654--耗时 : 21
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75690--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"8ae19f6869284437b3bb41b5b875e8cc\",\"085f6c4c45b14f1abdc2facdf75e3f82\"]"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75690--耗时 : 10
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75704--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"8ae19f6869284437b3bb41b5b875e8cc\",\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75704--耗时 : 9
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75717--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["all"],"ids":["[\"all\"]"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75717--耗时 : 19
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75749--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:09:35 [INFO] com.csicit.ace.common.log.AceLocalLogger :  75749--耗时 : 1
+2021-11-03 09:09:36 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:127.0.0.1
+2021-11-03 09:09:36 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   127.0.0.1
+2021-11-03 09:09:36 [INFO] com.csicit.ace.common.log.AceLocalLogger :  76907--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:09:37 [INFO] com.csicit.ace.common.log.AceLocalLogger :  76907--耗时 : 162
+2021-11-03 09:09:37 [INFO] com.csicit.ace.common.log.AceLocalLogger :  77444--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:09:37 [INFO] com.csicit.ace.common.log.AceLocalLogger :  77444--耗时 : 164
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78186--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"d9506157904e4cb9ae7ca997e5d4a584\"]"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78186--耗时 : 10
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78201--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"8ae19f6869284437b3bb41b5b875e8cc\",\"085f6c4c45b14f1abdc2facdf75e3f82\"]"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78201--耗时 : 9
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78214--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"8ae19f6869284437b3bb41b5b875e8cc\",\"46d0b4c6d26e462a9928f463f3378757\"]"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78214--耗时 : 8
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78225--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["all"],"ids":["[\"all\"]"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78225--耗时 : 14
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78248--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78248--耗时 : 1
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78252--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:09:38 [INFO] com.csicit.ace.common.log.AceLocalLogger :  78252--耗时 : 1
+2021-11-03 09:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  09:10:00 11/03/2021
+2021-11-03 09:10:00 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用platform不在线
+2021-11-03 09:10:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  09:10:00 11/03/2021 and reports: null
+2021-11-03 09:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:10:01 11/03/2021
+2021-11-03 09:10:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:10:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:10:01 11/03/2021 and reports: null
+2021-11-03 09:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:11:01 11/03/2021
+2021-11-03 09:11:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:11:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:11:01 11/03/2021 and reports: null
+2021-11-03 09:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:12:01 11/03/2021
+2021-11-03 09:12:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:12:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:12:01 11/03/2021 and reports: null
+2021-11-03 09:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:13:01 11/03/2021
+2021-11-03 09:13:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:13:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:13:01 11/03/2021 and reports: null
+2021-11-03 09:13:38 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-11-03 09:13:38 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Filter threw Exception
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:227)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.preRoute(FilterProcessor.java:133)
+	at com.netflix.zuul.ZuulRunner.preRoute(ZuulRunner.java:105)
+	at com.netflix.zuul.http.ZuulServlet.preRoute(ZuulServlet.java:125)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:74)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.csicit.ace.zuul.filter.FirstFilter.run(FirstFilter.java:305)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	... 65 common frames omitted
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27096--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27096--耗时 : 174
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27495--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27495--耗时 : 1
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27498--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27498--耗时 : 170
+2021-11-03 09:13:47 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27970--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600"],"key":["WFI_FLOW"]}
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  27970--耗时 : 183
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28158--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28158--耗时 : 166
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28607--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"fafc5551ffca4151a82f3b57cc0261e2\",\"8ae19f6869284437b3bb41b5b875e8cc\",\"085f6c4c45b14f1abdc2facdf75e3f82\",\"a4d23acd52d24bb2a7dec424080775a7\",\"d9506157904e4cb9ae7ca997e5d4a584\",\"90ff5a4ea03a4fbe8702b93a060109b3\",\"e1b1892879524bedab6c2ff94abca833\",\"df5db20f26d9440bb7ca15c005cdef9b\",\"5c25f921695e4d7ea0b1f34898633d87\",\"4355fa730d914e3b8904c50b1d88fa1a\",\"f4752a5fc70348f0b3ff8e48e8960fed\",\"e3059afc0a6548678cd63710080ac0b8\",\"23726a489be34a8497e4996090f24941\",\"6928945605624a99bdeea88d9b1519be\",\"8616c7900a554a6b89d34d285c3c5790\",\"6b3d8414b3a14ee38bc2f1081d94755b\",\"014802adfae64362863e88fc993b3a51\",\"aaaabb\",\"0f0d6383f22d4287970dea6b8ddc3679\",\"506e353ea200432eb01a6ef4c9ac0c0c\",\"8634f784c7ac4029b0123b306dbaa29b\",\"b931aac857ce461987154ebbd18d3c5a\",\"ea62c81d12d44aa4a179c4eb43f72c73\",\"919ea6cfb1c94a25925e61c7bc217147\",\"9f17c97be12946d48849e179fe850cff\",\"7f30ea4865b9428eb5c38aac95095349\",\"6da83a9f5ccc400f9e131f7006c8510a\",\"6e23a47d35004a01aff7f94c11835984\",\"94369d2d9b404555a563deb57bfd8594\",\"87d837bc5f1a48c5b7ef3a16e389f864\",\"f77c986bb0db4a5aac7a484cb4f691e2\",\"71004aef57484f45846188426d07ef2f\",\"811abc02839f482e99298e2b31ecf0c7\",\"3b1270c31bea454f945c3ccb6af3ed36\",\"10385a6a7f51473db7ff88f84400e32e\",\"f5d6d37948d3414e938343cb5ac96f21\",\"e54026e94f4646e9b3b4c60be9d1a471\",\"5ce3e5701e9d4f3c9bac7b9f81724d86\",\"5642b080f5c042cc916fc6ece16d1c7e\",\"c15d1e7f89ab40eda04b6ff55d89a7a2\"]"]}
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28607--耗时 : 29
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28642--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28642--耗时 : 1
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28646--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:13:48 [INFO] com.csicit.ace.common.log.AceLocalLogger :  28646--耗时 : 0
+2021-11-03 09:14:00 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-11-03 09:14:00 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-11-03 09:14:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40678--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:14:00 [INFO] com.csicit.ace.common.log.AceLocalLogger :  40678--耗时 : 180
+2021-11-03 09:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:14:01 11/03/2021
+2021-11-03 09:14:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:14:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:14:01 11/03/2021 and reports: null
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41078--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41078--耗时 : 166
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41501--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"fafc5551ffca4151a82f3b57cc0261e2\",\"8ae19f6869284437b3bb41b5b875e8cc\",\"085f6c4c45b14f1abdc2facdf75e3f82\",\"a4d23acd52d24bb2a7dec424080775a7\",\"d9506157904e4cb9ae7ca997e5d4a584\",\"90ff5a4ea03a4fbe8702b93a060109b3\",\"e1b1892879524bedab6c2ff94abca833\",\"df5db20f26d9440bb7ca15c005cdef9b\",\"5c25f921695e4d7ea0b1f34898633d87\",\"4355fa730d914e3b8904c50b1d88fa1a\",\"f4752a5fc70348f0b3ff8e48e8960fed\",\"e3059afc0a6548678cd63710080ac0b8\",\"23726a489be34a8497e4996090f24941\",\"6928945605624a99bdeea88d9b1519be\",\"8616c7900a554a6b89d34d285c3c5790\",\"6b3d8414b3a14ee38bc2f1081d94755b\",\"014802adfae64362863e88fc993b3a51\",\"aaaabb\",\"0f0d6383f22d4287970dea6b8ddc3679\",\"506e353ea200432eb01a6ef4c9ac0c0c\",\"8634f784c7ac4029b0123b306dbaa29b\",\"b931aac857ce461987154ebbd18d3c5a\",\"ea62c81d12d44aa4a179c4eb43f72c73\",\"919ea6cfb1c94a25925e61c7bc217147\",\"9f17c97be12946d48849e179fe850cff\",\"7f30ea4865b9428eb5c38aac95095349\",\"6da83a9f5ccc400f9e131f7006c8510a\",\"6e23a47d35004a01aff7f94c11835984\",\"94369d2d9b404555a563deb57bfd8594\",\"87d837bc5f1a48c5b7ef3a16e389f864\",\"f77c986bb0db4a5aac7a484cb4f691e2\",\"71004aef57484f45846188426d07ef2f\",\"811abc02839f482e99298e2b31ecf0c7\",\"3b1270c31bea454f945c3ccb6af3ed36\",\"10385a6a7f51473db7ff88f84400e32e\",\"f5d6d37948d3414e938343cb5ac96f21\",\"e54026e94f4646e9b3b4c60be9d1a471\",\"5ce3e5701e9d4f3c9bac7b9f81724d86\",\"5642b080f5c042cc916fc6ece16d1c7e\",\"c15d1e7f89ab40eda04b6ff55d89a7a2\"]"]}
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41501--耗时 : 25
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41531--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41531--耗时 : 1
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41535--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:14:01 [INFO] com.csicit.ace.common.log.AceLocalLogger :  41535--耗时 : 0
+2021-11-03 09:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  09:15:00 11/03/2021
+2021-11-03 09:15:00 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用platform不在线
+2021-11-03 09:15:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  09:15:00 11/03/2021 and reports: null
+2021-11-03 09:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:15:01 11/03/2021
+2021-11-03 09:15:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:15:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:15:01 11/03/2021 and reports: null
+2021-11-03 09:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:16:01 11/03/2021
+2021-11-03 09:16:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:16:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:16:01 11/03/2021 and reports: null
+2021-11-03 09:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:17:01 11/03/2021
+2021-11-03 09:17:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:17:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:17:01 11/03/2021 and reports: null
+2021-11-03 09:17:39 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-11-03 09:17:39 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-11-03 09:17:41 [WARN] org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter : Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter.handleException(SimpleHostRoutingFilter.java:246)
+	at org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter.run(SimpleHostRoutingFilter.java:226)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8083 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter.forwardRequest(SimpleHostRoutingFilter.java:396)
+	at org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter.forward(SimpleHostRoutingFilter.java:315)
+	at org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter.run(SimpleHostRoutingFilter.java:221)
+	... 67 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 77 common frames omitted
+2021-11-03 09:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:18:01 11/03/2021
+2021-11-03 09:18:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:18:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:18:01 11/03/2021 and reports: null
+2021-11-03 09:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:19:01 11/03/2021
+2021-11-03 09:19:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:19:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:19:01 11/03/2021 and reports: null
+2021-11-03 09:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  09:20:00 11/03/2021
+2021-11-03 09:20:00 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用platform不在线
+2021-11-03 09:20:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  09:20:00 11/03/2021 and reports: null
+2021-11-03 09:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:20:01 11/03/2021
+2021-11-03 09:20:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:20:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:20:01 11/03/2021 and reports: null
+2021-11-03 09:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:21:01 11/03/2021
+2021-11-03 09:21:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:21:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:21:01 11/03/2021 and reports: null
+2021-11-03 09:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:22:01 11/03/2021
+2021-11-03 09:22:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:22:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:22:01 11/03/2021 and reports: null
+2021-11-03 09:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:23:01 11/03/2021
+2021-11-03 09:23:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:23:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:23:01 11/03/2021 and reports: null
+2021-11-03 09:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:24:01 11/03/2021
+2021-11-03 09:24:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:24:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:24:01 11/03/2021 and reports: null
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86367--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm4_key"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86367--耗时 : 1
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86375--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_key_pair"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86375--耗时 : 1
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86379--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_private_key"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86379--耗时 : 2
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86384--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_sm2_public_key"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86384--耗时 : 0
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86656--请求地址: http://127.0.0.1:2100/orgauth/initHandler ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.InitScanDataHandlerController.saveInitScanData ,请求参数: {}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86656--耗时 : 90
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86754--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["2ucy_1-1CIKoDcOa_Ioji7hOVgj68lQxp8qGcHX7V4pgr5_kRQb2Z1ggL0IT1cGDN11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86754--耗时 : 1
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86773--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600000"],"key":["2ucy_1-1CIKoDcOa_Ioji7hOVgj68lQxp8qGcHX7V4pgr5_kRQb2Z1ggL0IT1cGDN11BY4N67G4GAX6GHq4i04A_CYEOY7_UijHyr8QkyKOfTCLGJSFKnJ9KDJdfrQTg"]}
+2021-11-03 09:24:46 [INFO] com.csicit.ace.common.log.AceLocalLogger :  86773--耗时 : 1
+2021-11-03 09:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 fired (by trigger 大屏消息推送$业务平台内部定时任务.每5分钟执行一次) at:  09:25:00 11/03/2021
+2021-11-03 09:25:00 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用platform不在线
+2021-11-03 09:25:00 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 业务平台内部定时任务.大屏消息推送 execution complete at  09:25:00 11/03/2021 and reports: null
+2021-11-03 09:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:25:01 11/03/2021
+2021-11-03 09:25:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:25:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:25:01 11/03/2021 and reports: null
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_URL:/dv-testapp-platform/wfiFlow/listdeliverDepartment, REQUEST_METHOD:GET, REQUEST_IP:192.168.20.136
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger : REQUEST_USER: hu11(胡11), REQUEST_IP:   192.168.20.136
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19901--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19901--耗时 : 1
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19916--请求地址: http://127.0.0.1:2100/ehcache/action/hasKey ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.hasKey ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19916--耗时 : 1
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19934--请求地址: http://127.0.0.1:2100/ehcache/action/setExpire ,HTTP_METHOD: POST ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.set ,请求参数: {"expire":["600"],"key":["WFI_FLOW"]}
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19934--耗时 : 8
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19975--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["WFI_FLOW"]}
+2021-11-03 09:25:19 [INFO] com.csicit.ace.common.log.AceLocalLogger :  19975--耗时 : 7
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20140--请求地址: http://127.0.0.1:2100/orgauth/sysUsers/action/getSomeUsers ,HTTP_METHOD: GET ,IP: 192.168.20.136 ,CLASS_METHOD: com.csicit.ace.orgauth.core.controller.SysUserControllerO.getSomeUsers ,请求参数: {"code":["user"],"ids":["[\"46d0b4c6d26e462a9928f463f3378757\",\"fafc5551ffca4151a82f3b57cc0261e2\",\"8ae19f6869284437b3bb41b5b875e8cc\",\"085f6c4c45b14f1abdc2facdf75e3f82\",\"a4d23acd52d24bb2a7dec424080775a7\",\"d9506157904e4cb9ae7ca997e5d4a584\",\"90ff5a4ea03a4fbe8702b93a060109b3\",\"e1b1892879524bedab6c2ff94abca833\",\"df5db20f26d9440bb7ca15c005cdef9b\",\"5c25f921695e4d7ea0b1f34898633d87\",\"4355fa730d914e3b8904c50b1d88fa1a\",\"f4752a5fc70348f0b3ff8e48e8960fed\",\"e3059afc0a6548678cd63710080ac0b8\",\"23726a489be34a8497e4996090f24941\",\"6928945605624a99bdeea88d9b1519be\",\"8616c7900a554a6b89d34d285c3c5790\",\"6b3d8414b3a14ee38bc2f1081d94755b\",\"014802adfae64362863e88fc993b3a51\",\"aaaabb\",\"0f0d6383f22d4287970dea6b8ddc3679\",\"506e353ea200432eb01a6ef4c9ac0c0c\",\"8634f784c7ac4029b0123b306dbaa29b\",\"b931aac857ce461987154ebbd18d3c5a\",\"ea62c81d12d44aa4a179c4eb43f72c73\",\"919ea6cfb1c94a25925e61c7bc217147\",\"9f17c97be12946d48849e179fe850cff\",\"7f30ea4865b9428eb5c38aac95095349\",\"6da83a9f5ccc400f9e131f7006c8510a\",\"6e23a47d35004a01aff7f94c11835984\",\"94369d2d9b404555a563deb57bfd8594\",\"87d837bc5f1a48c5b7ef3a16e389f864\",\"f77c986bb0db4a5aac7a484cb4f691e2\",\"71004aef57484f45846188426d07ef2f\",\"811abc02839f482e99298e2b31ecf0c7\",\"3b1270c31bea454f945c3ccb6af3ed36\",\"10385a6a7f51473db7ff88f84400e32e\",\"f5d6d37948d3414e938343cb5ac96f21\",\"e54026e94f4646e9b3b4c60be9d1a471\",\"5ce3e5701e9d4f3c9bac7b9f81724d86\",\"5642b080f5c042cc916fc6ece16d1c7e\",\"c15d1e7f89ab40eda04b6ff55d89a7a2\"]"]}
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20140--耗时 : 23
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20215--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20215--耗时 : 0
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20221--请求地址: http://127.0.0.1:2100/ehcache/action/get ,HTTP_METHOD: GET ,IP: 127.0.0.1 ,CLASS_METHOD: com.csicit.ace.zuul.controller.EhcacheHttpController.get ,请求参数: {"key":["platform_internationalization"]}
+2021-11-03 09:25:20 [INFO] com.csicit.ace.common.log.AceLocalLogger :  20221--耗时 : 1
+2021-11-03 09:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  09:26:01 11/03/2021
+2021-11-03 09:26:01 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-11-03 09:26:01 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  09:26:01 11/03/2021 and reports: null

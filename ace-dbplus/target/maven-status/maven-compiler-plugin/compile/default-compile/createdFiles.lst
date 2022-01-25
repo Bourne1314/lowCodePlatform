@@ -1,0 +1,5 @@
+com\csicit\ace\dbplus\commonUtils\SqlUtils.class
+com\csicit\ace\dbplus\mapper\DBHelperMapper.class
+com\csicit\ace\dbplus\mapper\DBHelperMapper$DaoProvider.class
+com\csicit\ace\dbplus\config\AceAppNotHasBpmConfig.class
+com\csicit\ace\dbplus\controller\AppCommonMethodsController.class

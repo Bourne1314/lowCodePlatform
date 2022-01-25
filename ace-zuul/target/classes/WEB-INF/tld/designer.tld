@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <short-name>acestiwebdesignerf</short-name>
+    <uri>http://stimulsoft.com/acewebdesigner</uri>
+    <tag>
+        <description>The Stimulsoft webdesigner</description>
+        <name>acewebdesigner</name>
+        <tag-class>com.csicit.ace.report.core.h5.AceStiWebDesignerTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>A webdesigner handler (Implements com.stimulsoft.webdesigner.StiWebDesigerHandler) for populate report data, save/load report. </description>
+            <name>handler</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.stimulsoft.webdesigner.StiWebDesigerHandler</type>
+        </attribute>
+        <attribute>
+            <description>A webdesigner opitions</description>
+            <name>options</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.stimulsoft.webdesigner.StiWebDesignerOptions</type>
+        </attribute>
+        <attribute>
+            <description>A webdesigner ID</description>
+            <name>designerID</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

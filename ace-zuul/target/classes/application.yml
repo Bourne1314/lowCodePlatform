@@ -1,0 +1,101 @@
+mybatis-plus:
+    mapper-locations: classpath*:mapper/**/*.xml
+    #实体扫描，多个package用逗号或者分号分隔
+    global-config:
+        #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+        id-type: 3
+        #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+        field-strategy: 2
+        #驼峰下划线转换
+        db-column-underline: true
+        #刷新mapper 调试神器
+        refresh-mapper: true
+        #数据库大写下划线转换
+        capital-mode: true
+    #序列接口实现类配置
+    configuration:
+        map-underscore-to-camel-case: true
+        cache-enabled: false
+        call-setters-on-nulls: true
+        jdbc-type-for-null: 'null'
+server:
+    port: 2100
+spring:
+    servlet:
+        multipart:
+            max-file-size: 1024000MB
+            max-request-size: 1024000MB
+    http:
+        encoding:
+            charset: utf-8
+            enabled: true
+            force: true
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+        default-property-inclusion: non_null
+    mvc:
+        throw-exception-if-no-handler-found: true
+        static-path-pattern: /static/**
+        view:
+            suffix: .jsp
+            prefix: /WEB-INF/jsp/
+    application:
+        name: ace-zuul
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: dm.jdbc.driver.DmDriver
+        url: jdbc:dm://192.168.19.9:5236:JARIACEPLAT
+        username: JARIACEPLAT
+        password: jarisoft11
+        initial-size: 10
+        max-active: 100
+        min-idle: 10
+        max-wait: 60000
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        druid:
+            validation-query: SELECT 1 FROM DUAL
+        stat-view-servlet:
+            enabled: true
+            url-pattern: /druid/*
+        filter:
+            stat:
+                log-slow-sql: true
+                slow-sql-millis: 1000
+                merge-sql: false
+            wall:
+                config:
+                    multi-statement-allow: true
+    profiles:
+        active: routes
+zuul:
+    routes:
+        ei-service:
+            path: /ei-service/**
+            url: http://127.0.0.1:8085/
+        dv-testapp-platform:
+            path: /dv-testapp-platform/**
+            url: http://127.0.0.1:8812/
+    sensitive-headers: Access-Control-Allow-Origin
+    ignored-headers: Access-Control-Allow-Origin
+    host:
+      connect-timeout-millis: 1000000000
+      socket-timeout-millis: 1000000000
+ace:
+    config:
+        zuul:
+            apps: ei-service,dv-testapp-platform
+        cache:
+            type: ehcache
+        openMongoDB: false
+        localRecord: true
+logging:
+    config: classpath:logback-spring-zuul.xml
+    level:
+        org.springframework.scheduling.quartz: error

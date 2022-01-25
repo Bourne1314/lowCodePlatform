@@ -1,0 +1,13 @@
+2021-12-03 08:04:23 [INFO] com.csicit.ace.common.log.AceLocalLogger : socketLog_断开连接：7efc2db2-4e4b-439e-a367-b587aec69bd4
+2021-12-03 08:04:23 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM fired (by trigger 711HM$测试任务组.每100毫秒发送一次) at:  08:04:23 12/03/2021
+2021-12-03 08:04:23 [WARN] com.csicit.ace.quartz.core.job.AgentJob : 任务执行失败，原因为：应用ah-csicpm不在线
+2021-12-03 08:04:23 [INFO] org.quartz.plugins.history.LoggingJobHistoryPlugin : Job 测试任务组.711HM execution complete at  08:04:23 12/03/2021 and reports: null
+2021-12-03 08:04:23 [INFO] com.csicit.ace.common.log.AceLocalLogger :  22996--耗时 : 44740264
+2021-12-03 08:04:23 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638444977178 paused.
+2021-12-03 08:04:23 [INFO] org.springframework.cloud.netflix.zuul.ZuulFilterInitializer : Stopping filter initializer
+2021-12-03 08:04:23 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-03 08:04:23 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler : Shutting down ExecutorService 'taskScheduler'
+2021-12-03 08:04:23 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638444977178 shutting down.
+2021-12-03 08:04:23 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638444977178 paused.
+2021-12-03 08:04:23 [INFO] org.quartz.core.QuartzScheduler : Scheduler JariScheduler_$_DESKTOP-A03RJ151638444977178 shutdown complete.
+2021-12-03 08:04:23 [INFO] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed

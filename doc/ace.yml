@@ -1,0 +1,39 @@
+#ace平台配置项说明
+ace:
+  config:
+    hasGeer: no
+    openCreateNpmMenu: false #启动创建工作流菜单 开关
+    openBindUserIp: false #普通用户登陆成功自动绑定ip
+    isDevState: 1 #开发模式 可以新增应用
+    openMongoDB: false #搭配MongoDB数据库使用 记录运行日志
+    localRecord: true #本地运行日志记录开关
+    multipleLogin: true #是否允许多点登陆
+    autoCreateThree: false #是否开启 自动创建三员
+    zuul:
+      ip: 127.0.0.1 #单体版ip
+      port: 2100  #单体版端口
+    file:
+      deleteRecycle: true #
+    sso:
+      openCreateUser: false #特殊登录自动创建关联用户
+      openGatewaySso: false #特殊登录网关开关
+      openPlatformSso: false #特殊登录平台开关
+      open: false #特殊登录开关
+      validateUrl: "" #特殊登录url
+      onlyOneApp: false #特殊登录是否指定app
+      appName: "" #特殊登录指定appName
+      targetAppName: "" #特殊登录跳转目标appName
+    cache:
+      type: redis #缓存类型 ehcacheHttp
+    test-open-flg: false # 单体测试开关 ,true为开
+  socket:
+    sharePort: 0 #共享socket端口，多个单体版实例
+    #sendAppType: 0 #消息发送类型，0只发送原本app，1，只发送目标app，2全部发送
+    #unReadApps: # 目标appId请求未读消息包含的app
+    #sendApps:      #目标appId
+    port: 5070 #socket端口
+    name: push #
+  license:
+    server:
+      port: 2222
+      ip: 127.0.0.1

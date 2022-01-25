@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.19.8:8848
+        shared-dataids: redis.yaml,datasource.yaml,gatewayconfig.yaml
+        #refreshable-dataids: redis.yaml,datasource.yaml,gatewayconfig.yaml
+        #file-extension: yaml

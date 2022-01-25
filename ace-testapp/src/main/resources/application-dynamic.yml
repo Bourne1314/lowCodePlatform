@@ -1,0 +1,39 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10485760B
+      max-request-size: 11534336B
+  autoconfigure:
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+  datasource:
+    dynamic:
+      enabled: true
+      p6spy: false
+      druid:
+        filters: stat
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      datasource:
+        ace:
+          driver-class-nsocketPortame: dm.jdbc.driver.DmDriver
+          url: jdbc:dm://192.168.19.9:5236:JARIACEPLAT
+          username: JARIACEPLAT
+          password: jarisoft11
+        master:
+          driver-class-name: dm.jdbc.driver.DmDriver
+          url: jdbc:dm://192.168.19.9:5236:JARITEMPREFER
+          username: JARITEMPREFER
+          password: jarisoft11
+ace:
+  config:
+    cache:
+      type: ehcache
+    sso:
+      #openPlatformSso: true
+      open: true
+      validateUrl: /sso/getUserName
+      onlyOneApp: true
+      appName: dv-testapp-platform
+      targetAppName: dv-testapp-platform
+feign:
+  httpclient:
+    enabled: true

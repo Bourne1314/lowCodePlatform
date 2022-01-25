@@ -1,0 +1,172 @@
+<template>
+    <el-form :model="dataForm" :rules="dataRule" ref="dataForm"
+             size="small" label-width="120px" style="padding-top: 15px">
+        #foreach ($column in $columns)
+            <el-form-item label="$column.comments" prop="$column.attrname">
+                #if($column.attrType =='Integer')
+                    <workflow-input-number v-model="dataForm.$column.attrname" :min="1"
+                                           placeholder="$column.comments"></workflow-input-number>
+                #elseif($column.attrType =='LocalDateTime')
+                    <workflow-date-picker v-model="dataForm.$column.attrname" type="datetime"
+                                          format="yyyy-MM-dd HH:mm:ss"
+                                          value-format="yyyy-MM-dd HH:mm:ss"></workflow-date-picker>
+                #else
+                    <workflow-input v-model="dataForm.$column.attrname" placeholder="$column.comments"></workflow-input>
+                #end
+            </el-form-item>
+        #end
+        <el-form-item label="附件使用" v-if="${fileExist}===1">
+            <file-uploader
+                    :configuration-key="'test-file'"
+                    :form-id="formId"
+                    operationName="fileUpload"
+                    :allow-upload="true"
+                    :allow-delete="true"
+                    :allow-download="true"/>
+        </el-form-item>
+        <el-form-item label="按钮">
+            <workflow-button type="primary" @click="">点击</workflow-button>
+        </el-form-item>
+    </el-form>
+</template>
+
+<script>
+    import fileUploader from '@/platform/common/components/ace-ui/WorkflowUpload'
+    import workflowInputNumber from '@/platform/common/components/ace-ui/WorkflowInputNumber'
+    import workflowInput from "@/platform/common/components/ace-ui/WorkflowInput"
+    import workflowDatePicker from '@/platform/common/components/ace-ui/WorkflowDatePicker'
+    import workflowButton from "@/platform/common/components/ace-ui/WorkflowButton"
+    import {Message} from 'element-ui';
+    import {getUUID} from '@/platform/utils/index';
+
+    export default {
+        name: "flow-add-or-update",
+        data() {
+            return {
+                //message实例容器  用于关闭上一个message
+                messageBox: null,
+                appId: '',
+                formId: '',
+                addFlg: 0,
+                userInfo: '',
+                dataForm: {
+            #foreach ($column in $columns)
+                #if($column.attrType =='Integer')
+                    $column.attrname:
+                    0,
+                #else
+                    $column.attrname:
+                    '',
+                #end
+            #end
+        },
+            dataRule: {
+                id: [
+                    {required: true, message: '主键不能为空', trigger: 'blur'}
+                ]
+            }
+        }
+        },
+        components: {
+            Message, fileUploader, workflowInputNumber, workflowInput, workflowDatePicker, workflowButton
+        },
+        inject: ["processShell"],
+        mounted() {
+            this.processShell.$on("beforeSave", this.dataFormSubmit);
+            this.processShell.$on("beforeUpdate", this.dataFormSubmit);
+            this.processShell.$on("beforeHandOver", this.beforeHandOver);
+            this.processShell.$on("beforeUpdate", this.beforeUpdate);
+        },
+        created() {
+            this.userInfo = JSON.parse(sessionStorage.getItem('userInfo'))
+            this.appId = this.$cookie.get("appName");
+            this.init()
+        },
+        methods: {
+            init() {
+                let formId = this.processShell.nodeInfo.flow.businessKey;
+                if (formId != undefined && formId != null && formId != '') {
+                    this.addFlg = 1
+                    this.formId = formId
+                    let url = '/${classname}/' + this.dataForm.id
+                    this.$http({
+                        url: this.$http.adornAppRequestUrl(url),
+                        methods: 'get'
+                    }).then(({data}) => {
+                        if(data && data.code === 40000
+                )
+                    {
+                        this.dataForm = data.instance
+                    }
+                })
+                } else {
+                    this.addFlg = 0
+                    this.dataForm.id = getUuid()
+                    this.formId = this.dataForm.id
+                    #foreach ($column in $columns)
+                        #if($column.columnName!='ID')
+                            #if($column.attrType =='Integer')
+                                this.dataForm.$column.attrname= 0
+                            #else
+                                this.dataForm.$column.attrname= ''
+                            #end
+                        #end
+                    #end
+                }
+            },
+            beforeUpdate(data, next) {
+                console.log('保存操作已被触发', data, next)
+            },
+            beforeHandOver(next){
+
+            },
+            // 表单提交
+            dataFormSubmit() {
+                this.$refs['dataForm'].validate ((valid) => {
+                    if(valid) {
+                        let dataForm = this.dataForm
+                        let url = '/${classname}'
+                        if (this.addFlg === 0) {
+                            this.$http({
+                                url: this.$http.adornAppRequestUrl(url),
+                                method: 'post',
+                                data: this.$http.adornData(dataForm)
+                            }).then(({data}) => {
+                                if(data && data.code === 40000){
+                                this.processShell.reloadPage({
+                                    formId: this.dataForm.id,
+                                    flowCode: 'borrowBookApplication'
+                                })
+                            } else {
+                                this.messageBox && this.messageBox.close();
+                                this.messageBox = Message.error(data.msg)
+                            }
+                            })
+                        }else{
+                            this.$http({
+                                url: this.$http.adornAppRequestUrl(url),
+                                method: 'put',
+                                data: this.$http.adornData(dataForm)
+                            }).then((request) => {
+                                if(request.data && request.data.code === 40000){
+                                this.messageBox && this.messageBox.close();
+                                this.messageBox = Message.success({
+                                    message: request.data.msg,
+                                    type: 'success',
+                                    duration: 1500
+                                });
+                            } else {
+                                this.messageBox && this.messageBox.close();
+                                this.messageBox = Message.error(request.data.msg)
+                            }
+                            })
+                        }
+                    }
+                }
+            )
+
+
+            }
+        }
+    }
+</script>

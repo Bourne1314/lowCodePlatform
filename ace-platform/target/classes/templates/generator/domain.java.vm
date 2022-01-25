@@ -1,0 +1,32 @@
+package ${package}.pojo;
+
+import com.csicit.ace.common.pojo.AbstractBaseRecordDomain;
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Data;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+/**
+ * ${comments} 实例对象类
+ *
+ * @author ${author}
+ * @date ${datetime}
+ * @version V1.0
+ */
+@Data
+@TableName("${tableName}")
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class ${className}DO extends AbstractBaseRecordDomain{
+
+#foreach ($column in $columns)
+	#if(!($column.attrname == 'id'||$column.attrname == 'remark'||$column.attrname == 'createUser'
+		||$column.attrname == 'createTime'||$column.attrname == 'updateTime'||$column.attrname == 'dataVersion'))
+        /**
+         * $column.comments
+         */
+        private $column.attrType $column.attrname;
+	#end
+#end
+
+}

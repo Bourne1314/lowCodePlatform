@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../plus/import.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //编辑表格
+            // $('#reportTable').bootstrapTable({
+            //     method: 'get',
+            //     editable:true,//开启编辑模式
+            //     clickToSelect: true,
+            //     columns: [
+            //         [
+            //             {field:"appId",title:"应用标识",align:"center"},
+            //             {field:"appName",title:"应用名称",align:"center"},
+            //             {field:"appName",title:"应用名称",align:"center"},
+            //             {field:"appName",title:"应用名称",align:"center"},
+            //             // {field:"count",title:"授权数量",align:"center"},
+            //             {field:"endDate",edit:{
+            //                     type:'date',//日期
+            //                     click:function(){
+            //
+            //                     }
+            //                 },title:"授权截止日期",align:"center"},
+            //             {title:"删除",align:"center",formatter:function(value,row,rowIndex){
+            //                     var strHtml = '<a href="javascript:void(0);" onclick="removeRow('+rowIndex+')">删除</a>';
+            //                     return strHtml;
+            //                 },edit:false}
+            //         ]
+            //     ]
+            // });
+            //
+            // $('#addRowbtn').click(function(){
+            //     var data = {
+            //     };
+            //     $('#reportTable').bootstrapTable('append',data);
+            // });
+            $('#commit').click(function () {
+                commitData();
+            });
+
+        });
+        // function removeRow(rowIndex){
+        //     $('#reportTable').bootstrapTable('removeRow',rowIndex);
+        // }
+
+        function commitData() {
+            var unitName = $('#unitName').val();
+            var type = $('#type').val();
+            var appId = $('#appId').val();
+            var appName = $('#appName').val();
+            var endDate = $('#endDate').val();
+            var json = {"unitName": unitName, "type": type, "appId": appId, "appName": appName, "endDate": endDate};
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                url: "/saveAloneLicense",
+                data: JSON.stringify(json),// 你的formid
+                error: function (request) {
+                    self.location = '/downloadFile/' + unitName;
+                },
+                success: function (data) {
+                    self.location = '/downloadFile/' + unitName;
+                }
+            });
+        }
+    </script>
+</head>
+
+<body class="container">
+<div class="with:80%" style="margin-top: 20px">
+    <form class="form-horizontal" method="post" th:object="${licenseInfo}">
+        <div class="form-group col-sm-10">
+            <label for="unitName" class="col-sm-2 control-label">单位名称</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="unitName" id="unitName" placeholder="单位名称"/>
+            </div>
+            <label for="type" class="col-sm-2 control-label">授权类型</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="type"  id="type" placeholder="授权类型" value="single" readonly/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <table id="reportTable" border="1" width="1000px">
+                    <tr>
+                        <td width="200px" height="50px" align="center">应用标识</td>
+                        <td width="200px" align="center">应用名称</td>
+                        <!--<td width="200px" align="center">授权数量</td>-->
+                        <td width="200px" align="center">主板序列号</td>
+                        <td width="200px" align="center">MAC地址</td>
+                        <td width="200px" align="center">授权截止日期</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" id="appId" name="appId"
+                                   th:value="${appId}" th:field="*{appId}"/>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" id="appName" name="appName"
+                                   th:value="${appName}" th:field="*{appName}"/>
+                        </td>
+                        <!--<td align="center">-->
+                            <!--<input type="number" class="form-control" id="count" name="count"-->
+                                   <!--value="1" min="1" max="1" readonly="true"/>-->
+                        <!--</td>-->
+                        <td align="center">
+                            <input type="text" class="form-control" id="motherBoardNum" name="motherBoardNum"
+                                   th:value="${motherBoardNum}" th:field="*{motherBoardNum}" readonly="true"/>
+                        </td>
+                        <td align="center">
+                            <input type="text" class="form-control" id="macAddress" name="macAddress"
+                                   th:value="${macAddress}" th:field="*{macAddress}" readonly="true"/>
+                        </td>
+                        <td align="center">
+                            <input id="endDate" name="endDate" type="date"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="button" value="提交" class="btn btn-info" id="commit"/>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

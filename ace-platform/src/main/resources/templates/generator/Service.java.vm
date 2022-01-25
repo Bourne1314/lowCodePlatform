@@ -1,0 +1,17 @@
+package ${package}.service;
+
+import ${package}.pojo.${className}DO;
+import IBaseService;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * ${comments} 实例对象访问接口
+ *
+ * @author ${author}
+ * @date ${datetime}
+ * @version V1.0
+ */
+@Transactional
+public interface ${className}Service extends IBaseService<${className}DO> {
+
+}

@@ -1,0 +1,8 @@
+2021-12-22 22:37:04 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-22 22:37:06 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-12-22 22:37:06 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=b805c33e-4e18-3e01-8416-7348bd0ee63a
+2021-12-22 22:37:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.alibaba.seata-com.alibaba.cloud.seata.SeataProperties' of type [com.alibaba.cloud.seata.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-22 22:37:06 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration' of type [com.alibaba.cloud.seata.GlobalTransactionAutoConfiguration$$EnhancerBySpringCGLIB$$fc5faac9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-22 22:37:06 [INFO] io.seata.config.FileConfiguration : The file name of the operation is registry
+2021-12-22 22:37:06 [INFO] io.seata.config.FileConfiguration : The configuration file used is /E:/%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83for%e5%b7%a5%e4%bd%9c%e6%b5%81/ace-server/ace-zuul/target/classes/registry.conf
+2021-12-22 22:37:06 [INFO] io.seata.config.ConfigurationFactory : load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb

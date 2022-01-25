@@ -1,0 +1,12 @@
+com\csicit\ace\zuul\ZuulStartApp.class
+com\csicit\ace\zuul\filter\FirstFilter.class
+com\csicit\ace\zuul\controller\ReportIndexZuulController.class
+com\csicit\ace\zuul\config\WebMvcConfig.class
+com\csicit\ace\zuul\controller\EhcacheHttpController.class
+com\csicit\ace\zuul\config\RedisStartConfig.class
+com\csicit\ace\zuul\config\TaskConfig.class
+com\csicit\ace\zuul\config\GlobalInterceptor.class
+com\csicit\ace\zuul\config\ZuulClientConfig.class
+com\csicit\ace\zuul\config\PassProperties.class
+com\csicit\ace\zuul\config\CorsConfig.class
+com\csicit\ace\zuul\controller\IndexController.class

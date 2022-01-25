@@ -1,0 +1,119 @@
+/**
+  2019/12/2
+ */
+ALTER TABLE `SYS_AUTH_SCOPE_APP` COMMENT '系统管理-应用三员-授权应用';
+
+ALTER TABLE `SYS_AUTH_SCOPE_ORG` COMMENT '系统管理-应用三员-授权组织';
+
+ALTER TABLE `SYS_AUTH_SCOPE_USER_GROUP` COMMENT '系统管理-应用三员-授权用户组';
+/**
+2019/12/5
+ */
+alter table SYS_AUDIT_LOG add (`TYPE` VARCHAR(50) comment '操作类别');
+
+alter table SYS_AUDIT_LOG add (`TITLE` VARCHAR(300) comment '操作标题');
+
+alter table SYS_AUDIT_LOG_BACKUP add (`TYPE` VARCHAR(200) comment '操作类别');
+
+alter table SYS_AUDIT_LOG_BACKUP add (`TITLE` VARCHAR(600) comment '操作标题');
+alter table SYS_AUDIT_LOG  MODIFY OP_CONTENT LONGTEXT ;
+alter table SYS_AUDIT_LOG_BACKUP  MODIFY OP_CONTENT LONGTEXT ;
+
+INSERT INTO SYS_MENU (`ID`, `NAME`, `PARENT_ID`, `APP_ID`, `PARENT_NAME`, `URL`, `TYPE`, `ICON`, `AUTH_ID`, `BTN_AUTH`, `IS_LEAF`, `SORT_INDEX`, `ALL_ORDER`, `SORT_PATH`, `OPEN_STYLE`, `CLOSE_NOTICE`, `CREATE_USER`, `CREATE_TIME`, `UPDATE_TIME`, `LEAF`, `MENU_AUTH`, `REMARK`, `DATA_VERSION`, `IS_IFRAME`)
+VALUES ('19ea2ad7ea4a4e54acdaff4c84bb8370', '应用审计日志', 'e3b15ac90286450fbe5a721c9f542451', 'platform', '系统管理',
+'auditLogManage/views/AppAuditLog', '1', 'fa fa-window-maximize', '19ea2ad7ea4a4e54acdaff4c84bb8370', NULL, NULL, 5, NULL, '00020005', NULL, NULL, 'dde891f1a0c34a12add515b3b3ab7763', NULL, NULL, NULL, NULL, NULL, '0', '0');
+
+
+insert into `SYS_AUTH` (`ID`,`NAME`,`APP_ID`,`REMARK`,`SORT_INDEX`,`PARENT_ID`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`SORT_PATH`,`IS_ORG_ADMIN`,`IS_USER_GROUP_ADMIN`,`CODE`,`DATA_VERSION`) values ('19ea2ad7ea4a4e54acdaff4c84bb8370', '平台运行日志', 'platform', null,5, 'e3b15ac90286450fbe5a721c9f542451', null, null, null, '00020005', 0, 0, 'workingLogManage.views.aceWorkingLog', 0);
+
+insert into `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) values ('29ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'sec', null, 0, null, null, null, null);
+
+insert into `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) values ('29ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'sec', null, 0, null, null, null, null, 'sec');
+
+insert into `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) values ('59ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'groupsec', null, 0, null, null, null, null);
+
+insert into `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) values ('59ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'groupsec', null, 0, null, null, null, null, 'groupsec');
+
+insert into `SYS_AUTH_ROLE` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`) values ('19ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'appsec', null, 0, null, null, null, null);
+
+insert into `SYS_AUTH_ROLE_V` (`ID`,`AUTH_ID`,`ROLE_ID`,`SIGN`,`IS_REVOKE`,`CREATE_USER`,`CREATE_TIME`,`UPDATE_TIME`,`REMARK`,`LV_ID`) values ('19ea2ad7ea4a4e54acdaff4c84bb8370', '19ea2ad7ea4a4e54acdaff4c84bb8370', 'appsec', null, 0, null, null, null, null, 'appsec');
+
+
+/**
+2019/12/9
+ */
+alter table SYS_AUDIT_LOG add (`TYPE_TAG` VARCHAR(50) comment '操作类别标签');
+alter table SYS_AUDIT_LOG_BACKUP add (`TYPE_TAG` VARCHAR(200) comment '操作类别标签');
+
+CREATE TABLE `SYS_APP_MENU_DISPLAY`(
+  `ID` VARCHAR(50) NOT NULL COMMENT '主键',
+  `APP_ID` VARCHAR(50) COMMENT '应用ID',
+  `MENU_ID` VARCHAR(50) COMMENT '菜单ID',
+  `USER_ID` VARCHAR(50) COMMENT '用户ID',
+  `MENU_ICON` VARCHAR(200) NOT NULL COMMENT '菜单图标',
+  `MENU_URL` VARCHAR(200) COMMENT '菜单URL',
+  `MENU_NAME` VARCHAR(50) COMMENT '菜单名称',
+  `MENU_SORT_INDEX` INT(10) COMMENT '菜单序号',
+  PRIMARY KEY (`ID`, `MENU_ICON`),
+  CONSTRAINT `FK_DISPLAY_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `SYS_GROUP_APP`(`ID`) ON DELETE CASCADE,
+  CONSTRAINT `FK_DISPLAY_MENU_ID` FOREIGN KEY (`MENU_ID`) REFERENCES `SYS_MENU`(`ID`) ON DELETE CASCADE,
+  CONSTRAINT `FK_DISPLAY_USER_ID` FOREIGN KEY (`USER_ID`) REFERENCES `SYS_USER`(`ID`) ON DELETE CASCADE
+)
+COMMENT='应用下菜单显示在平台管控台的信息表';
+
+
+/**
+2019/12/12
+ */
+CREATE TABLE `SYS_WAIT_GRANT_USER`(
+  `ID` VARCHAR(50) NOT NULL COMMENT '主键',
+  `USER_ID` VARCHAR(50) COMMENT '用户ID',
+  `APP_ID` VARCHAR(50) COMMENT '应用ID',
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_WAIT_GRANT_USER_ID` FOREIGN KEY (`USER_ID`) REFERENCES `sys_user`(`ID`),
+  CONSTRAINT `FK_WAIT_GRANT_APP_ID` FOREIGN KEY (`APP_ID`) REFERENCES `sys_group_app`(`ID`)
+)
+COMMENT='角色用户授予—待激活的用户表';
+
+ALTER TABLE `SYS_USER_ROLE` DROP COLUMN `IS_ACTIVATED`;
+
+ALTER TABLE `SYS_API_MIX`
+  ADD COLUMN `AUTH_ID` VARCHAR(50) NULL   COMMENT '权限ID',
+  ADD CONSTRAINT `FK_API_MIX_AUTH_ID` FOREIGN KEY (`AUTH_ID`) REFERENCES `SYS_AUTH`(`ID`);
+
+/**
+2019/12/18
+ */
+alter table `SYS_APP_MENU_DISPLAY` DROP foreign key FK_DISPLAY_MENU_ID;
+
+alter table `SYS_AUTH_SCOPE_APP` DROP foreign key FK_SYS_AUTH_SCOPE_APP_AUTH;
+
+alter table `SYS_AUTH_SCOPE_ORG` DROP foreign key FK_SYS_AUTH_SCOPE_ORG_AUTH_ID;
+
+alter table `SYS_AUTH_SCOPE_USER_GROUP` DROP foreign key FK_SYS_AUTH_SCOPE_UG_AUTH_ID;
+
+ALTER TABLE `SYS_AUTH_MIX`
+  ADD COLUMN `APP_ID` VARCHAR(50)  COMMENT '应用ID';
+
+ALTER TABLE `SYS_AUTH_MIX`
+  CHANGE `DATA_VERSION` `DATA_VERSION` INT(10) DEFAULT 0  NULL   COMMENT '数据版本';
+
+/**
+2019/12/19
+ */
+ALTER TABLE `SYS_API_MIX`
+  ADD COLUMN `APP_ID` VARCHAR(50)  COMMENT '应用ID';
+
+ALTER TABLE `SYS_API_MIX`
+  CHANGE `DATA_VERSION` `DATA_VERSION` INT(10) DEFAULT 0  NULL   COMMENT '数据版本';
+/**
+2019/12/24
+ */
+alter table `SYS_GROUP_APP` add COLUMN `IS_LOCK` INT(1) DEFAULT 0 COMMENT '应用是否被锁住 1是 0不是';
+alter table `SYS_GROUP_APP` add COLUMN `LOCK_TIME` DATE COMMENT '应用锁 操作时间';
+alter table `SYS_CONFIG` add COLUMN `UPDATE_TYPE` INT(1) DEFAULT 0 COMMENT '配置项更新策略 0立即更新 1重启更新';
+
+/**
+2019/12/25
+ */
+alter table `SYS_USER` modify  `IP_ADDRESS` varchar(1000);

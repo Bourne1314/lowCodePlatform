@@ -1,0 +1,62 @@
+2021-12-13 16:37:45 [INFO] com.csicit.ace.zuul.ZuulStartApp : The following profiles are active: routes
+2021-12-13 16:37:46 [WARN] org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-12-13 16:37:46 [INFO] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=51e55ef0-fdaa-39b5-83de-ac1d914645a4
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration$$EnhancerBySpringCGLIB$$4e40bed3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.alibaba.seata-io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'seata-io.seata.spring.boot.autoconfigure.properties.SeataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] io.seata.spring.boot.autoconfigure.SeataAutoConfiguration : Automatically configure Seata
+2021-12-13 16:37:47 [INFO] io.seata.config.FileConfiguration : The file name of the operation is registry
+2021-12-13 16:37:47 [INFO] io.seata.config.FileConfiguration : The configuration file used is /E:/%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83for%e5%b7%a5%e4%bd%9c%e6%b5%81/ace-server/ace-zuul/target/classes/registry.conf
+2021-12-13 16:37:47 [INFO] io.seata.config.ConfigurationFactory : load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'configProperties' of type [io.seata.spring.boot.autoconfigure.properties.config.ConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'configFileProperties' of type [io.seata.spring.boot.autoconfigure.properties.config.ConfigFileProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] io.seata.config.FileConfiguration : The file name of the operation is file.conf
+2021-12-13 16:37:47 [INFO] io.seata.config.FileConfiguration : The configuration file used is file.conf
+2021-12-13 16:37:47 [INFO] io.seata.config.ConfigurationFactory : load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'serviceProperties' of type [io.seata.spring.boot.autoconfigure.properties.client.ServiceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Initializing Global Transaction Clients ... 
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'threadFactoryProperties' of type [io.seata.spring.boot.autoconfigure.properties.client.ThreadFactoryProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'transportProperties' of type [io.seata.spring.boot.autoconfigure.properties.client.TransportProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-13 16:37:47 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Transaction Manager Client is initialized. applicationId[ace-zuul] txServiceGroup[aceFlow]
+2021-12-13 16:37:47 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'rmProperties' of type [io.seata.spring.boot.autoconfigure.properties.client.RmProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-13 16:37:47 [INFO] io.seata.rm.datasource.AsyncWorker : Async Commit Buffer Limit: 10000
+2021-12-13 16:37:47 [INFO] io.seata.rm.datasource.xa.ResourceManagerXA : ResourceManagerXA init ...
+2021-12-13 16:37:47 [INFO] io.seata.core.rpc.netty.NettyClientBootstrap : NettyClientBootstrap has started
+2021-12-13 16:37:47 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Resource Manager is initialized. applicationId[ace-zuul] txServiceGroup[aceFlow]
+2021-12-13 16:37:47 [INFO] io.seata.spring.annotation.GlobalTransactionScanner : Global Transaction Clients are initialized. 
+2021-12-13 16:37:47 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'seataAutoDataSourceProxyCreator' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator]: Factory method 'seataAutoDataSourceProxyCreator' threw exception; nested exception is java.lang.NoSuchMethodError: io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator.<init>(Z[Ljava/lang/String;)V
+2021-12-13 16:37:47 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-13 16:37:47 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    io.seata.spring.boot.autoconfigure.SeataAutoConfiguration.seataAutoDataSourceProxyCreator(SeataAutoConfiguration.java:74)
+
+The following method did not exist:
+
+    io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator.<init>(Z[Ljava/lang/String;)V
+
+The method's class, io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator, is available from the following locations:
+
+    jar:file:/D:/mavenRepo/io/seata/seata-all/1.5.0-SNAPSHOT/seata-all-1.5.0-SNAPSHOT.jar!/io/seata/spring/annotation/datasource/SeataAutoDataSourceProxyCreator.class
+
+It was loaded from the following location:
+
+    file:/D:/mavenRepo/io/seata/seata-all/1.5.0-SNAPSHOT/seata-all-1.5.0-SNAPSHOT.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of io.seata.spring.annotation.datasource.SeataAutoDataSourceProxyCreator
+

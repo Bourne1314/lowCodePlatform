@@ -1,0 +1,71 @@
+package
+
+    ${package}.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.csicit.ace.dbplus.service.impl.BaseServiceImpl;
+import ${package}.mapper.${className}Mapper;
+import ${package}.pojo.${className};
+import ${package}.service.${className}Service;
+import java.util.*;
+#if(${flowExist}==1)
+import com.csicit.ace.bpm.BpmManager;
+#end
+import com.csicit.ace.interfaces.service.*;
+import org.apache.commons.collections.CollectionUtils;
+
+/**
+ * ${comments} 实例对象访问接口实现
+ *
+ * @author ${author}
+ * @date ${datetime}
+ * @version V1.0
+ */
+@Service("${classname}Service" )
+public class ${className}ServiceImpl extends BaseServiceImpl<${className}Mapper, ${className}>
+        implements ${className}Service {
+
+    #if(${flowExist}==1)
+        @Autowired
+        BpmManager bpmManager;
+    #end
+
+    @Autowired
+    IAuditLog iAuditLog;
+
+
+    #if(${enableLog}==1)
+        @Override
+        public boolean save${className}(${className} instance) {
+            if (save(instance)) {
+                return iAuditLog.saveLog("新增${className}" , instance, "新增" );
+            }
+        #if(${flowExist}==1)
+            // 创建流程实例
+            // 'borrowBookApplication'为流程标识
+            bpmManager.createFlowInstanceByCode("borrowBookApplication", instance.getId());
+        #end
+            return false;
+        }
+
+        @Override
+        public boolean update${className}(${className} instance) {
+            if (updateById(instance)) {
+                return iAuditLog.saveLog("更新${className}" , instance, "更新" );
+            }
+            return false;
+        }
+
+        @Override
+        public boolean delete${className}s(List<String> ids) {
+            if(!CollectionUtils.isNotEmpty(ids)){
+                return false;
+            }
+            if (removeByIds(ids)) {
+                return iAuditLog.saveLog("删除${className}" , ids, "删除" );
+            }
+            return false;
+        }
+    #end
+}

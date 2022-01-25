@@ -1,0 +1,17 @@
+package ${package}.mapper;
+
+import ${package}.pojo.${className}DO;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * ${comments} 数据处理层
+ *
+ * @author ${author}
+ * @date ${datetime}
+ * @version V1.0
+ */
+@Mapper
+public interface ${className}Mapper extends BaseMapper<${className}DO> {
+
+}

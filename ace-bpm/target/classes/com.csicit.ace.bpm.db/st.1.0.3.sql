@@ -1,0 +1,2 @@
+alter table WFI_DELIVER add (USER_ID VARCHAR(50));
+alter table WFI_DELIVER add (DELIVER_TIME TIMESTAMP);
